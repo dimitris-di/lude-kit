@@ -7,16 +7,16 @@ Thanks for thinking about contributing. This library succeeds or fails on the qu
 1. Pick or propose a skill. Open a "new skill" issue first if it doesn't already exist in [`skills/README.md`](skills/README.md) or the roadmap.
 2. Copy [`shared/skill-template/SKILL.md`](shared/skill-template/SKILL.md) into the right category folder.
 3. Write to the bar defined in [`shared/style-guide.md`](shared/style-guide.md). No exceptions.
-4. Self-review against the §Quality bar section inside your own skill.
+4. Self review against the §Quality bar section inside your own skill.
 5. Open a PR using the template. One skill per PR.
 
 ## What belongs in this library
 
 A skill belongs here if it meets all of these:
 
-- **Reusable across organizations.** Skills that encode a single company's internal process don't belong; skills that encode an industry-standard role or capability do.
-- **Self-contained.** The skill produces value without depending on private APIs, vendor accounts, or proprietary data.
-- **Senior-grade.** The skill matches the judgement of a senior practitioner of that role, not a junior reading a checklist.
+- **Reusable across organizations.** Skills that encode a single company's internal process don't belong; skills that encode an industry standard role or capability do.
+- **Self contained.** The skill produces value without depending on private APIs, vendor accounts, or proprietary data.
+- **Senior grade.** The skill matches the judgement of a senior practitioner of that role, not a junior reading a checklist.
 - **Distinct.** No meaningful overlap with an existing skill. If the overlap is real, propose merging or splitting in an issue first.
 
 ## What does not belong
@@ -28,23 +28,23 @@ A skill belongs here if it meets all of these:
 
 ## Categories
 
-Skills live under one of three categories. Pick the one that fits best — when in doubt, open an issue.
+Skills live under one of three categories. Pick the one that fits best, when in doubt, open an issue.
 
 | Category | What it contains | Examples |
 |---|---|---|
-| `skills/personas/` | Senior-grade role-personas an orchestrator can dispatch to. | `staff-software-architect`, `senior-frontend-engineer` |
-| `skills/capabilities/` | Cross-role capabilities focused on a single job. | `code-reviewer`, `debugger`, `postmortem-author` |
-| `skills/stacks/` | Stack- or technology-specific experts. | `rails-expert`, `kubernetes-expert`, `terraform-expert` |
+| `skills/personas/` | Senior grade role personas an orchestrator can dispatch to. | `staff-software-architect`, `senior-frontend-engineer` |
+| `skills/capabilities/` | Cross role capabilities focused on a single job. | `code-reviewer`, `debugger`, `postmortem-author` |
+| `skills/stacks/` | Stack- or technology specific experts. | `rails-expert`, `kubernetes-expert`, `terraform-expert` |
 
 ## The bar
 
 Every skill must:
 
-1. Have a `SKILL.md` whose folder name matches the `name:` field exactly (lowercase-kebab, 1–64 chars, no leading/trailing/consecutive hyphens).
-2. Use only the portable frontmatter — `name`, `description`, `license`, `metadata`. Platform-specific config goes in sibling files (`agents/openai.yaml`, `agents/claude.yaml`), never in `SKILL.md`.
-3. Have a `description` that front-loads trigger phrases, names anti-triggers, and stays under 1024 characters.
+1. Have a `SKILL.md` whose folder name matches the `name:` field exactly (lowercase kebab, 1 to 64 chars, no leading/trailing/consecutive hyphens).
+2. Use only the portable frontmatter, `name`, `description`, `license`, `metadata`. Platform specific config goes in sibling files (`agents/openai.yaml`, `agents/claude.yaml`), never in `SKILL.md`.
+3. Have a `description` that front loads trigger phrases, names antitriggers, and stays under 1024 characters.
 4. Stay under 500 lines / ~5,000 tokens of body.
-5. Follow the 9-section structure: Role → When to invoke → Operating principles → Workflow → Deliverables → Quality bar → Anti-patterns → Handoffs → Quick reference.
+5. Follow the 9 section structure: Role → When to invoke → Operating principles → Workflow → Deliverables → Quality bar → Antipatterns → Handoffs → Quick reference.
 6. Name handoff partners by skill name in backticks so the library composes.
 
 Read [`shared/style-guide.md`](shared/style-guide.md) before claiming any of the above is done.
@@ -89,7 +89,7 @@ Allowed types: `feat`, `fix`, `docs`, `chore`, `refactor`, `test`, `style`.
 
 - One skill per PR. New category additions are a separate PR.
 - The PR description follows [`.github/PULL_REQUEST_TEMPLATE.md`](.github/PULL_REQUEST_TEMPLATE.md).
-- The PR author has self-verified against §Verification in the style guide.
+- The PR author has self verified against §Verification in the style guide.
 - The author has installed the skill locally and tried it in a real prompt at least once.
 - No reformatting of unrelated skills in the same PR.
 

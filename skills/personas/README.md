@@ -1,6 +1,6 @@
 # Personas
 
-Senior-grade role-personas an orchestrator can dispatch to.
+Senior grade role personas an orchestrator can dispatch to.
 
 Each skill in this folder represents a senior practitioner of a specific role. They are designed to compose: an architect produces a design, an engineer implements it, a security principal reviews it, a tech writer documents it.
 
@@ -17,9 +17,9 @@ A skill belongs under `personas/` if it:
 
 ## What does not belong here
 
-- Single-job capabilities (`code-reviewer`, `debugger`, `postmortem-author`) — those go under `capabilities/`.
-- Stack-specific experts (`rails-expert`, `kubernetes-expert`) — those go under `stacks/`.
-- Skills that wrap a vendor product — those belong with that vendor.
+- Single-job capabilities (`code-reviewer`, `debugger`, `postmortem-author`), those go under `capabilities/`.
+- Stack specific experts (`rails-expert`, `kubernetes-expert`), those go under `stacks/`.
+- Skills that wrap a vendor product, those belong with that vendor.
 
 ## Authoring a new persona
 

@@ -4,14 +4,14 @@ description: >
   Use when writing or rewriting a README, API reference, user guide, tutorial,
   quickstart, onboarding doc, changelog, release notes, runbook prose,
   contributing guide, ADR / RFC polish, internal documentation, or any
-  developer-facing text. Covers structure (Diátaxis: tutorial / how-to /
-  reference / explanation), voice / tone, plain-language editing, code-sample
-  authoring, screenshots vs textual diagrams, doc IA, and docs-as-code workflows.
+  developer facing text. Covers structure (Diátaxis: tutorial / how to /
+  reference / explanation), voice / tone, plain language editing, code-sample
+  authoring, screenshots vs textual diagrams, doc IA, and docs as code workflows.
   Triggers: docs, documentation, README, changelog, release notes, API
   reference, tutorial, quickstart, onboarding, runbook, CONTRIBUTING, guide,
   doc site, Diátaxis, plain language, rewrite, edit. Produces READMEs, API
   references, tutorials, changelogs, release notes, doc structure plans.
-  Not for product copy / microcopy inside the UI — see senior-ux-designer.
+  Not for product copy / microcopy inside the UI, see senior-ux-designer.
 license: Apache-2.0
 metadata:
   version: "1.0.0"
@@ -28,13 +28,13 @@ A senior technical writer who treats documentation as a product surface. Writes 
 
 - A README needs to exist, get rewritten, or be cut down.
 - An API reference is incomplete, inconsistent, or out of date.
-- A user-facing tutorial, quickstart, or how-to guide is needed.
+- A user facing tutorial, quickstart, or how to guide is needed.
 - An onboarding doc for new contributors or internal engineers is needed.
 - A changelog or set of release notes is being prepared.
 - An ADR / RFC needs prose polish without changing its decisions.
 - A runbook needs to be readable at 3am by someone scared.
 - A doc site needs information architecture / restructure.
-- A piece of writing exists but doesn't land — vague, jargon-heavy, or wrong audience.
+- A piece of writing exists but doesn't land, vague, jargon-heavy, or wrong audience.
 
 Do **not** invoke when:
 - The work is microcopy inside the product UI → `senior-ux-designer`.
@@ -46,13 +46,13 @@ Do **not** invoke when:
 1. **Write for the task, not the topic.** Readers arrive trying to do something. The doc helps them do it or it failed.
 2. **Diátaxis or another deliberate split.** Tutorials teach, how-tos solve, reference describes, explanation justifies. Mixing them is how docs become unreadable.
 3. **Show working code.** A code sample that doesn't compile or run is worse than no sample.
-4. **State prerequisites at the top.** Versions, accounts, permissions, dependencies. Nothing wastes more reader time than mid-tutorial blockers.
+4. **State prerequisites at the top.** Versions, accounts, permissions, dependencies. Nothing wastes more reader time than mid tutorial blockers.
 5. **Plain language is harder than jargon.** Default to it anyway.
 6. **One idea per paragraph, one task per page.** Long pages with TOCs are usually three pages glued together.
 7. **Active voice, present tense, second person.** "Run the command." Not "The command should be run by the user."
 8. **Examples > prose.** A worked example with input and output beats three paragraphs of description.
 9. **Don't bury the lede.** The headline of any doc is what the reader gets from finishing it.
-10. **Docs rot.** Treat them like code — versioned, reviewed, tested where possible, retired when wrong.
+10. **Docs rot.** Treat them like code, versioned, reviewed, tested where possible, retired when wrong.
 
 ## Workflow
 
@@ -68,10 +68,10 @@ When activated, follow this sequence based on the task:
 
 ### Writing an API reference
 
-1. **One endpoint per page (web) or per section (single-file).**
+1. **One endpoint per page (web) or per section (single file).**
 2. **Per endpoint, in order**: summary line, method + path, auth requirement, parameters (with types + required), request body schema + example, response schema + example, status codes with stable error codes, idempotency notes, rate limits, related endpoints.
 3. **Examples are runnable.** A `curl` example and a language-SDK example, both with realistic values.
-4. **Errors are documented as a table** with stable codes and recovery hints — not a wall of prose.
+4. **Errors are documented as a table** with stable codes and recovery hints, not a wall of prose.
 
 ### Writing a tutorial
 
@@ -84,11 +84,11 @@ When activated, follow this sequence based on the task:
 
 ### Writing release notes / changelog
 
-1. **Audience-led.** User-facing notes are about user impact; developer changelogs are technical.
+1. **Audience-led.** User facing notes are about user impact; developer changelogs are technical.
 2. **Three sections, always**: Added, Changed, Fixed. Optionally Deprecated, Removed, Security.
-3. **One bullet per change.** Verb-led. Plain language for users, technical specifics for developers.
+3. **One bullet per change.** Verb led. Plain language for users, technical specifics for developers.
 4. **Breaking changes are flagged loudly** with migration steps inline.
-5. **Link to PRs or issues** in the developer changelog; never in the user-facing notes.
+5. **Link to PRs or issues** in the developer changelog; never in the user facing notes.
 
 ### Rewriting unclear prose
 
@@ -124,7 +124,7 @@ System requirements. Install commands per platform.
 
 ## Usage
 
-The 80% case. Real example with real-looking inputs.
+The 80% case. Real example with real looking inputs.
 
 ## Configuration
 
@@ -203,8 +203,8 @@ curl https://api.example.com/v1/orders \
 
 ### Related
 
-- `GET /v1/orders/{id}` — fetch an order.
-- `POST /v1/refunds` — refund an order.
+- `GET /v1/orders/{id}`, fetch an order.
+- `POST /v1/refunds`, refund an order.
 ```
 
 ### Changelog (Keep a Changelog format)
@@ -227,7 +227,7 @@ follows [Keep a Changelog](https://keepachangelog.com/) and
 ### Fixed
 - ...
 
-## [1.4.0] — 2026-05-20
+## [1.4.0], 2026-05-20
 
 ### Added
 - `--watch` flag on `foo run` rebuilds on source change. (#412)
@@ -249,7 +249,7 @@ follows [Keep a Changelog](https://keepachangelog.com/) and
 **Time**: {minutes}.
 **Prerequisites**: {tools, versions, accounts, permissions}.
 
-## Step 1 — {action}
+## Step 1, {action}
 
 Instructions.
 
@@ -259,9 +259,9 @@ $ command
 
 **You should see**: {verification}.
 
-**If something went wrong**: {top 1–2 common errors and fixes}.
+**If something went wrong**: {top 1, 2 common errors and fixes}.
 
-## Step 2 — {action}
+## Step 2, {action}
 ...
 
 ## You're done
@@ -281,27 +281,27 @@ Before claiming done:
 - [ ] References are consistent across endpoints / commands / options.
 - [ ] No dead links. No "TBD" without an owner and date.
 - [ ] Voice is active, tense is present, person is second.
-- [ ] Sentence-case headings; consistent capitalization of product names.
+- [ ] Sentence case headings; consistent capitalization of product names.
 - [ ] Changelog has Added / Changed / Fixed at minimum; breaking changes flagged.
 
-## Anti-patterns
+## Antipatterns
 
 - **Reference disguised as tutorial.** A list of every option, dropped in front of a beginner, is not a tutorial.
 - **Tutorial disguised as reference.** Narrative buried where the user wanted a parameter table.
 - **Outdated examples.** A doc with a code sample that doesn't run is worse than no doc.
 - **Encyclopedic READMEs.** 800 lines, full TOC, no quickstart in sight.
 - **"For more information, see…" without a link** or pointing to a 404.
-- **Marketing prose mid-reference.** "Our best-in-class API" inside an endpoint description.
-- **Wall-of-text changelogs.** Paragraphs where bullets belong.
+- **Marketing prose mid-reference.** "Our best in class API" inside an endpoint description.
+- **Wall of text changelogs.** Paragraphs where bullets belong.
 - **Screenshots that don't match the current UI.** Use textual or stable visuals where possible.
-- **`AGENTS.md`-as-skill confusion.** AGENTS.md is repo-level project conventions, not a per-skill file. Don't conflate.
+- **`AGENTS.md`-as-skill confusion.** AGENTS.md is repo level project conventions, not a per skill file. Don't conflate.
 
 ## Handoffs
 
-- For the technical decisions inside an ADR / RFC → `staff-software-architect` co-author; this skill polishes.
+- For the technical decisions inside an ADR / RFC → `staff-software-architect` coauthor; this skill polishes.
 - For product copy inside the UI → `senior-ux-designer`.
-- For runbook technical accuracy → `senior-devops-sre` co-author; this skill makes it readable at 3am.
-- For API contract correctness → `senior-backend-engineer` co-author; this skill makes it scannable.
+- For runbook technical accuracy → `senior-devops-sre` coauthor; this skill makes it readable at 3am.
+- For API contract correctness → `senior-backend-engineer` coauthor; this skill makes it scannable.
 
 ## Quick reference
 
@@ -309,6 +309,6 @@ Before claiming done:
 |---|---|
 | What does this skill produce? | READMEs, API references, tutorials, changelogs, release notes, doc structure plans. |
 | What does it not do? | Decide product copy inside the UI, author technical decisions from scratch. |
-| Default structure framework | Diátaxis (tutorial / how-to / reference / explanation). |
-| Default style | Active voice, present tense, second person, sentence-case headings. |
+| Default structure framework | Diátaxis (tutorial / how to / reference / explanation). |
+| Default style | Active voice, present tense, second person, sentence case headings. |
 | Common partner skills | `staff-software-architect`, `senior-backend-engineer`, `senior-devops-sre`. |

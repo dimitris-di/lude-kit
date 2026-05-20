@@ -6,12 +6,12 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for proposing a skill. Please confirm the fit before writing — it saves both of us time.
+        Thanks for proposing a skill. Please confirm the fit before writing, it saves both of us time.
   - type: input
     id: name
     attributes:
       label: Proposed skill name
-      description: Lowercase-kebab. Must be unique in the library.
+      description: Lowercase kebab. Must be unique in the library.
       placeholder: senior-data-engineer
     validations:
       required: true
@@ -29,7 +29,7 @@ body:
     id: description
     attributes:
       label: Description draft (the trigger description, not marketing)
-      description: One sentence with the trigger phrases users would actually type. Front-load verbs and nouns.
+      description: One sentence with the trigger phrases users would actually type. Front load verbs and nouns.
       placeholder: "Use when designing data pipelines, modeling warehouse schemas, choosing between batch and streaming..."
     validations:
       required: true
@@ -51,4 +51,4 @@ body:
     id: notes
     attributes:
       label: Anything else
-      description: Anti-patterns this skill prevents, handoffs to other skills, etc.
+      description: Antipatterns this skill prevents, handoffs to other skills, etc.

@@ -2,7 +2,7 @@
 
 ## Reporting a vulnerability
 
-If you believe you've found a security issue in this repository — in a skill, an install script, a workflow, or anywhere else — please **do not open a public GitHub issue**.
+If you believe you've found a security issue in this repository, in a skill, an install script, a workflow, or anywhere else, please **do not open a public GitHub issue**.
 
 Instead, email **demetrisd25@gmail.com** with:
 
@@ -24,7 +24,7 @@ What we consider in scope:
 What is out of scope:
 
 - General advice in a skill that you disagree with. Open a regular issue or PR.
-- Vulnerabilities in third-party tools the skills reference. Report those to the tool's maintainers.
+- Vulnerabilities in third party tools the skills reference. Report those to the tool's maintainers.
 - Hypothetical risks with no realistic exploit.
 
 ## Disclosure
@@ -36,7 +36,7 @@ We follow coordinated disclosure. Once a fix is available and users have had a r
 This repository:
 
 - Contains no executable application code beyond shell install scripts.
-- Pins no third-party dependencies (the skills are Markdown).
+- Pins no third party dependencies (the skills are Markdown).
 - Uses signed commits for maintainer releases when feasible.
 
-If you spot a supply-chain risk we've missed, the report process above applies.
+If you spot a supply chain risk we've missed, the report process above applies.

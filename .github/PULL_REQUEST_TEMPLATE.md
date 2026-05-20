@@ -14,12 +14,12 @@ One skill per PR. Read CONTRIBUTING.md if you haven't.
 - [ ] Repo / tooling change
 - [ ] Docs
 
-## Self-review
+## Self review
 
 Confirm each item that applies. Don't tick what isn't true.
 
-- [ ] I read `shared/style-guide.md` and followed the 9-section structure.
-- [ ] The `description` front-loads trigger phrases and is under 1024 chars.
+- [ ] I read `shared/style-guide.md` and followed the 9 section structure.
+- [ ] The `description` front loads trigger phrases and is under 1024 chars.
 - [ ] The folder name matches the `name:` field exactly.
 - [ ] Frontmatter contains only `name`, `description`, `license`, `metadata`.
 - [ ] Body is under 500 lines.
@@ -33,12 +33,12 @@ Confirm each item that applies. Don't tick what isn't true.
 <paste a prompt a user might type that should activate this skill>
 ```
 
-## Sample prompt that should NOT trigger this skill (anti-trigger)
+## Sample prompt that should NOT trigger this skill (antitrigger)
 
 ```
-<paste a prompt that's adjacent but belongs to a different skill — name the right one>
+<paste a prompt that's adjacent but belongs to a different skill, name the right one>
 ```
 
 ## Notes for the reviewer
 
-<!-- Optional. Trade-offs, alternatives considered, open questions. -->
+<!-- Optional. Tradeoffs, alternatives considered, open questions. -->

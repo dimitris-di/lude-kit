@@ -2,7 +2,7 @@
 name: skill-name-here
 description: >
   Use when {trigger verbs}, {artifact nouns}, or {situations}. Produces
-  {outputs}. {Anti-trigger if needed — name the better-fit skill}.
+  {outputs}. {Antitrigger if needed, name the better-fit skill}.
 license: Apache-2.0
 metadata:
   version: "1.0.0"
@@ -32,7 +32,7 @@ Do **not** invoke when: {situation that belongs to another skill}. Hand off to `
 2. **{Principle name}.** ...
 3. ...
 
-(5–10 principles. Sharp. Defensible. Specific to this role.)
+(5 to 10 principles. Sharp. Defensible. Specific to this role.)
 
 ## Workflow
 
@@ -67,9 +67,9 @@ Before claiming done, verify:
 - [ ] {Concrete check 3}
 - [ ] ...
 
-## Anti-patterns
+## Antipatterns
 
-- **{Anti-pattern}.** Why it happens. What to do instead.
+- **{Antipattern}.** Why it happens. What to do instead.
 - ...
 
 ## Handoffs
@@ -81,6 +81,6 @@ Before claiming done, verify:
 
 | Question | Answer |
 |---|---|
-| What does this skill produce? | {one-liner} |
-| What does it explicitly not do? | {one-liner} |
+| What does this skill produce? | {one liner} |
+| What does it explicitly not do? | {one liner} |
 | Common partner skills | `skill-a`, `skill-b` |
