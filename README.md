@@ -15,29 +15,37 @@
 
 ---
 
-## What is this
+## The pitch in 30 seconds
 
-LudeSkills is a curated, opinionated set of **Agent Skills**, folders of Markdown that turn a general purpose AI agent into a senior specialist on demand. Drop the library into your environment and the right skill activates automatically when its triggers match the work in front of you.
+General purpose AI coding agents are competent at everything and excellent at nothing. They read a lot but never shipped a feature. **LudeSkills fixes that.** Every skill is one role or one job, written to the bar of a senior practitioner, with a precise trigger description that activates it only when relevant.
 
-Each skill is one role or one job, written to the bar of a senior practitioner. They're designed to be composed: an architect produces a design, an engineer implements it, a security principal reviews it, a tech writer documents it, all in the same multi agent session.
+Install the library once, and the right specialist shows up automatically:
 
-The library follows the open [Agent Skills specification](https://agentskills.io/specification), so the same folder runs on **Claude Code** and **OpenAI Codex** with no per platform duplication.
+```
+> "Help me design a billing system that handles refunds and chargebacks."
+  → staff-software-architect + fintech-engineer activate.
 
-## Why
+> "This Postgres query is slow. EXPLAIN ANALYZE attached."
+  → postgres-expert + senior-performance-engineer activate.
 
-General purpose AI coding agents are competent at everything and excellent at nothing. They behave like a smart generalist who has read a lot but never shipped a feature. Skills change that. A skill is a small, focused brief that pulls the agent into the mindset, opinions, and deliverables of a specific role, for the duration of the task, and only when it's relevant.
+> "We had a sev2 yesterday. Need the postmortem by Friday."
+  → postmortem-author + incident-commander activate.
 
-LudeSkills gives you:
+> "Build a RAG pipeline over our docs with a real eval set."
+  → senior-rag-engineer + senior-eval-engineer activate.
+```
 
-- **A team in a folder.** Ten senior roles spanning the SDLC; more coming.
-- **Multi agent ready.** Each skill names its handoff partners, so orchestrators can dispatch the right one at the right time.
-- **Cross platform.** Same files work on Claude Code and Codex. Install once, use anywhere.
-- **Opinionated, not generic.** Every skill encodes specific, defensible practices a senior engineer would defend in a review.
-- **Compose, don't bloat.** Triggers are precise. Skills load only when relevant. No prompt bloat from unused capabilities.
+Compose them into multi agent flows and your orchestrator hands the work to the right person at every step. No prompt bloat, no generic answers, no role confusion.
+
+## Why this exists
+
+A modern AI agent is a generalist who needs a senior on the team. Without one, you get answers that are technically correct but operationally naive: code that works in dev and burns in prod, designs that look good on a whiteboard and fall over at scale, security advice that's textbook and theatre. The fix is not a longer prompt. The fix is the right specialist on demand.
+
+LudeSkills is that bench. Seventy senior practitioners, each focused on one role or one job, each with strong opinions about how that work is done well. Drop them into your environment and the work gets better immediately.
 
 ## Status
 
-**Private alpha.** First 10 skills landed; review and refinement in progress. The library will be open sourced under Apache-2.0 once the first 100 skills land and stabilize.
+**Private alpha.** Seventy of a planned one hundred skills landed. The library will be open sourced under Apache-2.0 once batch 10 ships and the bar holds across the full catalog.
 
 ## Quickstart
 
@@ -52,7 +60,7 @@ cd LudeSkills
 ./install/install-codex.sh
 ```
 
-The scripts symlink, so future `git pull`s update your installed skills without rerunning anything.
+The scripts symlink, so future `git pull`s update your installed skills without reinstalling.
 
 Custom install location:
 
@@ -61,137 +69,51 @@ CLAUDE_SKILLS_DIR=/path/to/claude/skills ./install/install-claude.sh
 CODEX_SKILLS_DIR=/path/to/agents/skills  ./install/install-codex.sh
 ```
 
-Try it out:
-
-```
-> "Help me design the database schema for a multi-tenant SaaS billing system"
-  → senior-backend-engineer activates.
-
-> "I need to break this epic into tickets for the team this sprint"
-  → engineering-team-lead activates.
-
-> "Review this auth flow for IDOR and CSRF risk"
-  → principal-security-engineer activates.
-```
+That's it. Start a conversation and the matchers pull the right skill when its triggers fire.
 
 ## What's in the library
+
+**Seventy skills across three categories**, organized so an orchestrator can scan and dispatch.
 
 | Category | Count | What it contains |
 |---|---|---|
 | [`personas/`](skills/personas/) | 40 | Senior grade role personas an orchestrator can dispatch to. |
 | [`capabilities/`](skills/capabilities/) | 10 | Cross role capabilities focused on a single job. |
-| [`stacks/`](skills/stacks/) | 20 | Stack specific experts (Rails, Django, Next.js, K8s, Terraform, Postgres, Redis, AWS, GCP, iOS, Go, Rust, Python, TS, Java, .NET, Flutter, RN, Tailwind, Playwright). |
+| [`stacks/`](skills/stacks/) | 20 | Stack and technology specific experts. |
 
-Full catalog with descriptions and links: **[`skills/README.md`](skills/README.md)**.
+Full catalog with one liners and links: **[`skills/README.md`](skills/README.md)**.
 
-### Batch 1 (shipped): the SDLC personas
+### The personas (40)
 
-A 10 skill team spanning the software development lifecycle:
+**SDLC team** (the people you'd staff a feature with): architect, tech lead, PM, UX, frontend, backend, DevOps/SRE, QA, security, tech writer.
 
-- **[`staff-software-architect`](skills/personas/staff-software-architect/SKILL.md)**, system design, tech selection, ADRs, build vs buy.
-- **[`engineering-team-lead`](skills/personas/engineering-team-lead/SKILL.md)**, sprint planning, ticket breakdown, unblocking, delegation.
-- **[`senior-product-manager`](skills/personas/senior-product-manager/SKILL.md)**, PRDs, prioritization, user stories, launch plans.
-- **[`senior-ux-designer`](skills/personas/senior-ux-designer/SKILL.md)**, flows, IA, wireframe critique, microcopy, usability.
-- **[`senior-frontend-engineer`](skills/personas/senior-frontend-engineer/SKILL.md)**, React/Next/Vue/Svelte, a11y, performance, design systems.
-- **[`senior-backend-engineer`](skills/personas/senior-backend-engineer/SKILL.md)**, APIs, data modeling, queues, idempotency, migrations.
-- **[`senior-devops-sre`](skills/personas/senior-devops-sre/SKILL.md)**, CI/CD, IaC, observability, on call & incident response.
-- **[`senior-qa-test-engineer`](skills/personas/senior-qa-test-engineer/SKILL.md)**, test strategy, pyramid, regression, flake hunting.
-- **[`principal-security-engineer`](skills/personas/principal-security-engineer/SKILL.md)**, threat modeling, secure review, OWASP, secrets.
-- **[`senior-technical-writer`](skills/personas/senior-technical-writer/SKILL.md)**, READMEs, API refs, changelogs, onboarding docs.
+**Specialty roles**: data engineer, ML engineer, data scientist, MLOps, mobile, embedded, game, blockchain, platform, developer advocate.
 
-### Batch 2 (shipped): capability skills
+**Industry verticals**: fintech, healthcare, gov tech, edtech, ecommerce, media streaming, IoT fleet, automotive, compliance, logistics.
 
-Ten cross role capabilities a persona can reach for when the job is narrow:
+**AI engineering**: LLM app, AI agent, RAG, eval, fine tuning, voice AI, computer vision, recommender, model router, AI safety.
 
-- **[`senior-code-reviewer`](skills/capabilities/senior-code-reviewer/SKILL.md)**, severity labeled PR review (blocking, strong suggestion, nit).
-- **[`senior-debugger`](skills/capabilities/senior-debugger/SKILL.md)**, root cause diagnosis; reproduce first, no guessing.
-- **[`senior-refactorer`](skills/capabilities/senior-refactorer/SKILL.md)**, behavior preserving structural change in small commits.
-- **[`senior-performance-engineer`](skills/capabilities/senior-performance-engineer/SKILL.md)**, latency / throughput / memory; measure, fix the dominant cost, validate.
-- **[`incident-commander`](skills/capabilities/incident-commander/SKILL.md)**, realtime IC; roles, comms, mitigation, all clear.
-- **[`api-contract-designer`](skills/capabilities/api-contract-designer/SKILL.md)**, contract first REST / GraphQL / gRPC.
-- **[`data-modeler`](skills/capabilities/data-modeler/SKILL.md)**, schema, indexes, identifiers, lifecycle; access patterns first.
-- **[`migration-planner`](skills/capabilities/migration-planner/SKILL.md)**, expand / dual write / shadow read / cutover / contract phasing.
-- **[`dependency-auditor`](skills/capabilities/dependency-auditor/SKILL.md)**, supply chain and CVE review.
-- **[`postmortem-author`](skills/capabilities/postmortem-author/SKILL.md)**, blameless postmortems with tracked action items.
+### The capabilities (10)
 
-### Batch 3 (shipped): stack experts
+Cross role power tools: code review, debugging, refactoring, performance engineering, incident command, API contract design, data modeling, migration planning, dependency auditing, postmortem authoring.
 
-Ten technology specific experts that complement the personas with deep dialect knowledge:
+### The stacks (20)
 
-- **[`rails-expert`](skills/stacks/rails-expert/SKILL.md)**, Rails 7/8 idioms; ActiveRecord, Hotwire, Sidekiq / Solid Queue.
-- **[`django-expert`](skills/stacks/django-expert/SKILL.md)**, Django 5 ORM, DRF, signals discipline, async, Celery.
-- **[`nextjs-expert`](skills/stacks/nextjs-expert/SKILL.md)**, App Router, RSC, Server Actions, Cache Components, Fluid Compute.
-- **[`kubernetes-expert`](skills/stacks/kubernetes-expert/SKILL.md)**, manifests, probes, PDB, RBAC, NetworkPolicy, GitOps.
-- **[`terraform-expert`](skills/stacks/terraform-expert/SKILL.md)**, modules, state, providers, drift, OIDC for CI.
-- **[`postgres-expert`](skills/stacks/postgres-expert/SKILL.md)**, EXPLAIN ANALYZE, indexing, autovacuum, partitioning, replication.
-- **[`redis-expert`](skills/stacks/redis-expert/SKILL.md)**, data structures, persistence, eviction, Cluster, hot keys.
-- **[`aws-expert`](skills/stacks/aws-expert/SKILL.md)**, IAM, VPC, service selection, Organizations, OIDC, cost footguns.
-- **[`gcp-expert`](skills/stacks/gcp-expert/SKILL.md)**, projects, Workload Identity Federation, VPC Service Controls, Cloud Run.
-- **[`swift-ios-expert`](skills/stacks/swift-ios-expert/SKILL.md)**, SwiftUI, Swift Concurrency, SwiftData, App Store submission.
+**Frameworks and platforms**: Rails, Django, Next.js, Kubernetes, Terraform.
 
-### Batch 4 (shipped): specialty personas
+**Datastores**: Postgres, Redis.
 
-Ten domain specialist personas that complement the SDLC team with deep practice in narrow areas:
+**Clouds**: AWS, GCP.
 
-- **[`senior-data-engineer`](skills/personas/senior-data-engineer/SKILL.md)**, pipelines, warehouses, lakehouses; idempotency, freshness, lineage.
-- **[`senior-ml-engineer`](skills/personas/senior-ml-engineer/SKILL.md)**, ships models to production; eval, drift, train serve parity.
-- **[`senior-data-scientist`](skills/personas/senior-data-scientist/SKILL.md)**, experiment design, causal inference, A/B tests, power.
-- **[`senior-mlops-engineer`](skills/personas/senior-mlops-engineer/SKILL.md)**, registry, feature store, drift monitoring, governance.
-- **[`senior-mobile-engineer`](skills/personas/senior-mobile-engineer/SKILL.md)**, cross platform mobile decisions; offline, push, store mechanics.
-- **[`senior-embedded-engineer`](skills/personas/senior-embedded-engineer/SKILL.md)**, MCU, RTOS, OTA, low power, hardware in the loop.
-- **[`senior-game-engineer`](skills/personas/senior-game-engineer/SKILL.md)**, frame budgets, ECS, netcode, save versioning.
-- **[`senior-blockchain-engineer`](skills/personas/senior-blockchain-engineer/SKILL.md)**, smart contracts; audits, oracles, immutability.
-- **[`senior-platform-engineer`](skills/personas/senior-platform-engineer/SKILL.md)**, internal developer platforms; paved roads, golden paths.
-- **[`senior-developer-advocate`](skills/personas/senior-developer-advocate/SKILL.md)**, DevRel; sample apps, tutorials, community signal.
+**Mobile**: Swift/iOS, Flutter, React Native.
 
-### Batch 5 (shipped): industry vertical personas
+**Languages**: Go, Rust, Python, TypeScript, Java, C#/.NET.
 
-Ten domain personas for the most common regulated and operationally distinct verticals:
+**UI and testing**: Tailwind, Playwright.
 
-- **[`fintech-engineer`](skills/personas/fintech-engineer/SKILL.md)**, payments, ledgers; PCI DSS, KYC/AML, reconciliation.
-- **[`healthcare-engineer`](skills/personas/healthcare-engineer/SKILL.md)**, EHR, FHIR, HL7; HIPAA, clinical safety.
-- **[`gov-tech-engineer`](skills/personas/gov-tech-engineer/SKILL.md)**, public services; accessibility, plain language, FedRAMP.
-- **[`edtech-engineer`](skills/personas/edtech-engineer/SKILL.md)**, LMS, LTI 1.3, OneRoster; FERPA, COPPA.
-- **[`ecommerce-engineer`](skills/personas/ecommerce-engineer/SKILL.md)**, catalog, cart, checkout, inventory, peak readiness.
-- **[`media-streaming-engineer`](skills/personas/media-streaming-engineer/SKILL.md)**, HLS/DASH, ABR, DRM, QoE, CDN cost.
-- **[`iot-fleet-engineer`](skills/personas/iot-fleet-engineer/SKILL.md)**, fleet identity, MQTT, OTA at scale, telemetry.
-- **[`automotive-engineer`](skills/personas/automotive-engineer/SKILL.md)**, AUTOSAR, ISO 26262/21434, UDS, UN R156 OTA.
-- **[`compliance-engineer`](skills/personas/compliance-engineer/SKILL.md)**, SOC 2, ISO 27001, PCI, HIPAA, GDPR programs.
-- **[`logistics-engineer`](skills/personas/logistics-engineer/SKILL.md)**, last mile, VRP routing, ETA, WMS, carrier integration.
+## How a skill works
 
-### Batch 6 (shipped): AI engineering personas
-
-Ten AI specialty personas covering the modern AI/LLM production stack:
-
-- **[`senior-llm-app-engineer`](skills/personas/senior-llm-app-engineer/SKILL.md)**, production LLM apps; prompts as code, eval driven.
-- **[`senior-ai-agent-engineer`](skills/personas/senior-ai-agent-engineer/SKILL.md)**, agent loops; tools, state, budgets, observability.
-- **[`senior-rag-engineer`](skills/personas/senior-rag-engineer/SKILL.md)**, retrieval, chunking, hybrid search, reranking, citation.
-- **[`senior-eval-engineer`](skills/personas/senior-eval-engineer/SKILL.md)**, eval harnesses; gold sets, judges, regression gates.
-- **[`senior-fine-tuning-engineer`](skills/personas/senior-fine-tuning-engineer/SKILL.md)**, SFT, DPO, LoRA; data curation, decontamination.
-- **[`senior-voice-ai-engineer`](skills/personas/senior-voice-ai-engineer/SKILL.md)**, STT/TTS, barge in, sub second latency.
-- **[`senior-cv-engineer`](skills/personas/senior-cv-engineer/SKILL.md)**, vision; eval on the actual deployment distribution.
-- **[`senior-recommender-engineer`](skills/personas/senior-recommender-engineer/SKILL.md)**, two stage retrieval + ranking; multi objective.
-- **[`senior-model-router-engineer`](skills/personas/senior-model-router-engineer/SKILL.md)**, AI gateway; provider routing, cost, ZDR.
-- **[`senior-ai-safety-engineer`](skills/personas/senior-ai-safety-engineer/SKILL.md)**, prompt injection, jailbreak defense, EU AI Act.
-
-### Batch 7 (shipped): language and framework stack experts
-
-Ten more stack experts covering the most common languages and UI / testing frameworks:
-
-- **[`golang-expert`](skills/stacks/golang-expert/SKILL.md)**, Go 1.22+ idioms: errors as values, context, slog, generics.
-- **[`rust-expert`](skills/stacks/rust-expert/SKILL.md)**, ownership, async on tokio, thiserror + anyhow.
-- **[`python-expert`](skills/stacks/python-expert/SKILL.md)**, Python 3.12+: type hints, asyncio, uv, ruff.
-- **[`typescript-expert`](skills/stacks/typescript-expert/SKILL.md)**, type system depth: narrowing, generics, branded types.
-- **[`java-expert`](skills/stacks/java-expert/SKILL.md)**, Java 21+: records, sealed, virtual threads, Spring Boot 3.
-- **[`csharp-dotnet-expert`](skills/stacks/csharp-dotnet-expert/SKILL.md)**, .NET 9: minimal APIs, EF Core, AOT.
-- **[`flutter-expert`](skills/stacks/flutter-expert/SKILL.md)**, Flutter 3.24+: Riverpod, Impeller, go_router.
-- **[`react-native-expert`](skills/stacks/react-native-expert/SKILL.md)**, RN New Arch, Expo + EAS, Reanimated 3.
-- **[`tailwind-expert`](skills/stacks/tailwind-expert/SKILL.md)**, Tailwind v4: `@theme`, OKLCH, container queries.
-- **[`playwright-expert`](skills/stacks/playwright-expert/SKILL.md)**, e2e with user-visible locators, traces, sharding.
-
-## How it works
-
-Each skill is a folder containing a single `SKILL.md` with YAML frontmatter and a Markdown body. The frontmatter holds the metadata that matchers use to decide when to activate the skill; the body holds the brief that loads only on activation. This is **progressive disclosure**, your context window stays cheap until the skill is actually needed.
+Each skill is a folder containing a single `SKILL.md` with YAML frontmatter and a Markdown body. The frontmatter holds the trigger description that matchers preload at startup. The body holds the brief that loads only when the description matches the user's intent. This is **progressive disclosure**, your context window stays cheap until the skill is actually needed.
 
 ```
 skills/personas/staff-software-architect/
@@ -203,9 +125,12 @@ skills/personas/staff-software-architect/
 name: staff-software-architect
 description: >
   Use when designing a system, choosing a database / framework / cloud /
-  message bus, writing an ADR or RFC, deciding build vs buy, planning capacity
-  or scaling, reviewing an architecture diagram or proposal, sequencing a
-  migration, or weighing technical trade-offs at the CTO level.
+  message bus, writing an ADR or RFC, deciding build vs buy, planning
+  capacity or scaling, reviewing an architecture diagram or proposal,
+  sequencing a migration, or weighing technical trade-offs at the CTO
+  level. Produces ADRs, RFCs, system diagrams, capacity plans. Not for
+  implementation work, hands off to senior-backend-engineer /
+  senior-frontend-engineer.
 license: Apache-2.0
 metadata:
   version: "1.0.0"
@@ -218,16 +143,18 @@ metadata:
 ...
 ```
 
-Every skill in this library follows the same nine section structure, Role → When to invoke → Operating principles → Workflow → Deliverables → Quality bar → Antipatterns → Handoffs → Quick reference, so an orchestrator can scan many of them quickly and so reviewers know exactly what's missing.
+Every skill in this library follows the same nine section structure (Role → When to invoke → Operating principles → Workflow → Deliverables → Quality bar → Antipatterns → Handoffs → Quick reference) so an orchestrator can scan many of them quickly and reviewers know exactly what's missing.
+
+The format follows the open [Agent Skills specification](https://agentskills.io/specification), so the same folder runs on Claude Code and OpenAI Codex with no per platform duplication.
 
 ## Multi agent composition
 
-LudeSkills is designed for orchestrator-style setups where a coordinating agent spawns subagents with specific roles. Every skill ends with a **Handoffs** section that names the partner skills for adjacent work, so the library composes:
+LudeSkills is designed for orchestrator style setups where a coordinating agent spawns subagents with specific roles. Every skill ends with a **Handoffs** section that names the partner skills for adjacent work, so the library composes:
 
 ```
 User: "We want to add team SSO to the dashboard."
 
-→ senior-product-manager       writes the one-pager + success metric
+→ senior-product-manager       writes the one pager + success metric
 → staff-software-architect     picks SAML vs OIDC, writes the ADR
 → principal-security-engineer  threat models the auth flow
 → senior-ux-designer           flows sign in + invite + role switch
@@ -238,36 +165,43 @@ User: "We want to add team SSO to the dashboard."
 → senior-technical-writer      writes admin doc + release notes
 ```
 
+Each skill knows which skill to hand off to next. The library is a graph, not a list.
+
 ## Roadmap
 
 | Batch | Theme | Status |
 |---|---|---|
 | 1 | SDLC personas (architect → writer) | ✅ shipped |
 | 2 | Capability skills (review, debug, refactor, perf, postmortem, …) | ✅ shipped |
-| 3 | Stack experts (Rails, Django, Next.js, K8s, Postgres, Terraform, …) | ✅ shipped |
-| 4 | Specialty roles (data, ML, MLOps, mobile, embedded, game, blockchain, platform, devrel) | ✅ shipped |
+| 3 | Stack experts (Rails, Django, Next.js, K8s, Postgres, Terraform, Redis, AWS, GCP, iOS) | ✅ shipped |
+| 4 | Specialty personas (data, ML, MLOps, mobile, embedded, game, blockchain, platform, devrel) | ✅ shipped |
 | 5 | Industry verticals (fintech, healthcare, gov, edtech, ecommerce, streaming, IoT, automotive, compliance, logistics) | ✅ shipped |
 | 6 | AI engineering (LLM apps, agents, RAG, eval, fine tuning, voice, CV, recommender, gateway, safety) | ✅ shipped |
 | 7 | Language and framework stacks (Go, Rust, Python, TS, Java, .NET, Flutter, RN, Tailwind, Playwright) | ✅ shipped |
+| 8 | More capabilities (a11y, i18n, feature flags, chaos, FinOps, modernization, releases, on call, DX, docs) | planned |
+| 9 | AI infra (vector db, GPU infra, serving) + more verticals | planned |
+| 10 | Hardening pass: cross skill review, polish, public release prep | planned |
 
-Target: **100 skills** before the public open source release. Want to shape what comes next? Open a [new-skill issue](.github/ISSUE_TEMPLATE/new-skill.yml).
+**Target: 100 skills, then public release.** Want to shape what comes next? Open a [new-skill issue](.github/ISSUE_TEMPLATE/new-skill.yml).
 
 ## Contributing
 
-PRs welcome once the repo is public. The bar is high and the process is opinionated, read [`CONTRIBUTING.md`](CONTRIBUTING.md) before opening one. Quick links:
+PRs welcome once the repo is public. The bar is high and the process is opinionated. Read [`CONTRIBUTING.md`](CONTRIBUTING.md) before opening one.
 
-- [Contribution guide](CONTRIBUTING.md), workflow, structure, commit style.
-- [Style guide](shared/style-guide.md), the authoring bar.
-- [Trigger vocabulary](shared/trigger-vocabulary.md), house-style for descriptions.
-- [Skill template](shared/skill-template/SKILL.md), copy-paste starting point.
+Quick links:
+
+- [Contributing guide](CONTRIBUTING.md) — workflow, structure, commit style.
+- [Style guide](shared/style-guide.md) — the authoring bar.
+- [Trigger vocabulary](shared/trigger-vocabulary.md) — house style for descriptions.
+- [Skill template](shared/skill-template/SKILL.md) — copy paste starting point.
 - [Code of Conduct](CODE_OF_CONDUCT.md).
 - [Security policy](SECURITY.md).
 
+Every skill in this repo is hand written, reviewed against the style guide, and verified against real prompts before merging. No autogenerated filler. If you submit a skill that does not change behavior in a useful way when activated, it will be declined with notes.
+
 ## Who's behind this
 
-Built and maintained by **Dimitris Dimitriou** ([@dimitris-di](https://github.com/dimitris-di)). The library is hand-written, reviewed, and battle tested in real engineering workflows before it ships.
-
-Questions, ideas, or pushback? Open a [Discussion](https://github.com/dimitris-di/LudeSkills/discussions) (once the repo is public) or reach out at **demetrisd25@gmail.com**.
+Built and maintained by **Dimitris Dimitriou** ([@dimitris-di](https://github.com/dimitris-di)). Questions, ideas, or pushback: open a [Discussion](https://github.com/dimitris-di/LudeSkills/discussions) (once the repo is public) or reach out at **demetrisd25@gmail.com**.
 
 ## Acknowledgments
 
