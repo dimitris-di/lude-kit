@@ -7,7 +7,7 @@
 *Drop in a whole engineering org. Dispatch the right specialist when you need them.*
 
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
-[![Skills](https://img.shields.io/badge/skills-50-brightgreen.svg)](skills/README.md)
+[![Skills](https://img.shields.io/badge/skills-60-brightgreen.svg)](skills/README.md)
 [![Spec](https://img.shields.io/badge/spec-Agent%20Skills-purple.svg)](https://agentskills.io/specification)
 [![Status](https://img.shields.io/badge/status-private%20alpha-orange.svg)](#status)
 
@@ -78,7 +78,7 @@ Try it out:
 
 | Category | Count | What it contains |
 |---|---|---|
-| [`personas/`](skills/personas/) | 30 | Senior grade role personas an orchestrator can dispatch to. |
+| [`personas/`](skills/personas/) | 40 | Senior grade role personas an orchestrator can dispatch to. |
 | [`capabilities/`](skills/capabilities/) | 10 | Cross role capabilities focused on a single job. |
 | [`stacks/`](skills/stacks/) | 10 | Stack specific experts (Rails, Django, Next.js, K8s, Terraform, Postgres, Redis, AWS, GCP, iOS). |
 
@@ -159,6 +159,21 @@ Ten domain personas for the most common regulated and operationally distinct ver
 - **[`compliance-engineer`](skills/personas/compliance-engineer/SKILL.md)**, SOC 2, ISO 27001, PCI, HIPAA, GDPR programs.
 - **[`logistics-engineer`](skills/personas/logistics-engineer/SKILL.md)**, last mile, VRP routing, ETA, WMS, carrier integration.
 
+### Batch 6 (shipped): AI engineering personas
+
+Ten AI specialty personas covering the modern AI/LLM production stack:
+
+- **[`senior-llm-app-engineer`](skills/personas/senior-llm-app-engineer/SKILL.md)**, production LLM apps; prompts as code, eval driven.
+- **[`senior-ai-agent-engineer`](skills/personas/senior-ai-agent-engineer/SKILL.md)**, agent loops; tools, state, budgets, observability.
+- **[`senior-rag-engineer`](skills/personas/senior-rag-engineer/SKILL.md)**, retrieval, chunking, hybrid search, reranking, citation.
+- **[`senior-eval-engineer`](skills/personas/senior-eval-engineer/SKILL.md)**, eval harnesses; gold sets, judges, regression gates.
+- **[`senior-fine-tuning-engineer`](skills/personas/senior-fine-tuning-engineer/SKILL.md)**, SFT, DPO, LoRA; data curation, decontamination.
+- **[`senior-voice-ai-engineer`](skills/personas/senior-voice-ai-engineer/SKILL.md)**, STT/TTS, barge in, sub second latency.
+- **[`senior-cv-engineer`](skills/personas/senior-cv-engineer/SKILL.md)**, vision; eval on the actual deployment distribution.
+- **[`senior-recommender-engineer`](skills/personas/senior-recommender-engineer/SKILL.md)**, two stage retrieval + ranking; multi objective.
+- **[`senior-model-router-engineer`](skills/personas/senior-model-router-engineer/SKILL.md)**, AI gateway; provider routing, cost, ZDR.
+- **[`senior-ai-safety-engineer`](skills/personas/senior-ai-safety-engineer/SKILL.md)**, prompt injection, jailbreak defense, EU AI Act.
+
 ## How it works
 
 Each skill is a folder containing a single `SKILL.md` with YAML frontmatter and a Markdown body. The frontmatter holds the metadata that matchers use to decide when to activate the skill; the body holds the brief that loads only on activation. This is **progressive disclosure**, your context window stays cheap until the skill is actually needed.
@@ -217,6 +232,7 @@ User: "We want to add team SSO to the dashboard."
 | 3 | Stack experts (Rails, Django, Next.js, K8s, Postgres, Terraform, …) | ✅ shipped |
 | 4 | Specialty roles (data, ML, MLOps, mobile, embedded, game, blockchain, platform, devrel) | ✅ shipped |
 | 5 | Industry verticals (fintech, healthcare, gov, edtech, ecommerce, streaming, IoT, automotive, compliance, logistics) | ✅ shipped |
+| 6 | AI engineering (LLM apps, agents, RAG, eval, fine tuning, voice, CV, recommender, gateway, safety) | ✅ shipped |
 
 Target: **100 skills** before the public open source release. Want to shape what comes next? Open a [new-skill issue](.github/ISSUE_TEMPLATE/new-skill.yml).
 

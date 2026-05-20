@@ -55,6 +55,21 @@ Senior grade role personas an orchestrator can dispatch to. Treat them like the 
 | [`compliance-engineer`](personas/compliance-engineer/SKILL.md) | SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR; control mapping, evidence automation. |
 | [`logistics-engineer`](personas/logistics-engineer/SKILL.md) | Last mile, routing (VRP), ETA, WMS, carrier integration, exceptions. |
 
+### AI engineering personas (batch 6)
+
+| Skill | Job in one line |
+|---|---|
+| [`senior-llm-app-engineer`](personas/senior-llm-app-engineer/SKILL.md) | Production LLM apps; prompts as code, structured output, eval driven dev. |
+| [`senior-ai-agent-engineer`](personas/senior-ai-agent-engineer/SKILL.md) | Agent loops; tool surface, state, budgets, observability, human in the loop. |
+| [`senior-rag-engineer`](personas/senior-rag-engineer/SKILL.md) | Retrieval, chunking, embeddings, hybrid search, reranking, citation. |
+| [`senior-eval-engineer`](personas/senior-eval-engineer/SKILL.md) | Eval harnesses; gold sets, LLM as judge, slices, regression gates. |
+| [`senior-fine-tuning-engineer`](personas/senior-fine-tuning-engineer/SKILL.md) | SFT, DPO, LoRA, distillation; data curation, decontamination, retraining. |
+| [`senior-voice-ai-engineer`](personas/senior-voice-ai-engineer/SKILL.md) | STT, TTS, barge in, turn taking; sub second latency budgets. |
+| [`senior-cv-engineer`](personas/senior-cv-engineer/SKILL.md) | Detection, segmentation, OCR, video; eval on the deployment distribution. |
+| [`senior-recommender-engineer`](personas/senior-recommender-engineer/SKILL.md) | Two stage retrieval plus ranking; multi objective, exploration, position bias. |
+| [`senior-model-router-engineer`](personas/senior-model-router-engineer/SKILL.md) | AI gateway; provider routing, fallback, cost tracking, semantic cache, ZDR. |
+| [`senior-ai-safety-engineer`](personas/senior-ai-safety-engineer/SKILL.md) | Prompt injection, output safety, jailbreak defense, EU AI Act, NIST AI RMF. |
+
 ## Capabilities
 
 Cross role capabilities focused on a single job. Personas reach for these the way a person reaches for a power tool.
