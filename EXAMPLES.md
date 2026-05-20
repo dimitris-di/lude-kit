@@ -233,6 +233,52 @@ Subagents return artifacts to the calling conversation. Chain them by feeding on
 
 ---
 
+## Slash commands
+
+The fastest way to run a full multi agent review is a pre written slash command. Each one dispatches the right subagents in parallel and synthesizes a verdict.
+
+```
+/review-macos-app
+   → 10 subagents in parallel for a macOS app review.
+   → Verdict, top 5 blockers, OSS readiness, next 5 commits.
+
+/review-website
+   → Detects framework, dispatches stack expert plus generalists.
+   → Verdict plus Core Web Vitals snapshot.
+
+/review-api-service
+   → Contract, schema, auth, observability, perf, supply chain.
+   → API quality score per dimension.
+
+/review-mobile-app
+   → Native, RN, Flutter, KMP. Detects and dispatches.
+   → Store submission readiness per platform.
+
+/review-cli-tool
+   → UX, exit codes, signal handling, distribution channels.
+
+/prep-oss-release
+   → Sweep for LICENSE, README, SECURITY, CI, secrets, attributions.
+   → Go / no go verdict plus blocker list.
+
+/security-audit
+   → STRIDE threat model plus secure code review plus supply chain.
+   → Defensive only.
+
+/perf-audit
+   → Measure first, find dominant cost, propose budget + regression guard.
+
+/a11y-audit
+   → WCAG 2.1 AA pass on any UI surface.
+
+/lude-style
+   → Apply Lude Kit prose rules. Em dash sweep, hyphen sweep, identifiers preserved.
+```
+
+Use them in any repo. They write the orchestration prompt for you.
+
+---
+
 ## Skill chaining patterns
 
 Three patterns that cover most multi step work.

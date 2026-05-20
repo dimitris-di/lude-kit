@@ -11,17 +11,17 @@ Run a focused security audit. Defensive only: own repos, authorized review. Refu
 
 ## Agents to dispatch in parallel
 
-1. `security-reviewer` — primary lead. Threat model the surface area using STRIDE. Walk inputs from edge to sink. Auth and authz boundaries. Secrets handling. Findings with severity (critical / high / medium / low / informational).
+1. `security-reviewer`, primary lead. Threat model the surface area using STRIDE. Walk inputs from edge to sink. Auth and authz boundaries. Secrets handling. Findings with severity (critical / high / medium / low / informational).
 
-2. `dependency-auditor` — supply chain pass: lockfile diff, CVE alerts, postinstall scripts, license review, transitive risk, CI runner permissions, OIDC vs static keys.
+2. `dependency-auditor`, supply chain pass: lockfile diff, CVE alerts, postinstall scripts, license review, transitive risk, CI runner permissions, OIDC vs static keys.
 
-3. `code-reviewer` — secure code review of the diff or whole tree. Look for: input parsing at boundaries, output encoding at sinks, IDOR, SSRF, deserialization, injection, hard coded credentials, log lines that leak secrets.
+3. `code-reviewer`, secure code review of the diff or whole tree. Look for: input parsing at boundaries, output encoding at sinks, IDOR, SSRF, deserialization, injection, hard coded credentials, log lines that leak secrets.
 
-4. `senior-ai-safety-engineer` skill (only if the repo has LLM / agent surface) — prompt injection, output safety, tool authorization, training data leakage, jailbreak surface, EU AI Act / NIST AI RMF classification.
+4. `senior-ai-safety-engineer` skill (only if the repo has LLM / agent surface), prompt injection, output safety, tool authorization, training data leakage, jailbreak surface, EU AI Act / NIST AI RMF classification.
 
-5. `compliance-engineer` — applicable regimes (SOC 2, ISO 27001, HIPAA, PCI DSS, GDPR, FedRAMP) and which controls this repo intersects.
+5. `compliance-engineer`, applicable regimes (SOC 2, ISO 27001, HIPAA, PCI DSS, GDPR, FedRAMP) and which controls this repo intersects.
 
-6. `senior-devops-sre` skill — CI / infra security: long lived static credentials, secrets in env vars, branch protection, code signing on releases, container image hygiene.
+6. `senior-devops-sre` skill, CI / infra security: long lived static credentials, secrets in env vars, branch protection, code signing on releases, container image hygiene.
 
 ## Output format
 

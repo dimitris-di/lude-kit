@@ -14,11 +14,14 @@ The roadmap is a living document. Priorities shift with community signal and wit
 | Capabilities | 10 |
 | Stacks | 20 |
 | Subagents shipped | 30 |
+| Slash commands shipped | 10 |
 | Status | Public alpha, 70 of 100 skills, already open sourced under `Apache-2.0`. Pushing to one hundred. |
 | 1.0 milestone | At 100 skills (after batch 10) |
 | License | `Apache-2.0` |
 
 The 30 subagents split into 10 specialists (named entry points around the highest leverage skills), 10 orchestrators (multi skill flows like feature build, incident response, migration, launch), and 10 library maintenance agents (skill author, reviewer, deduplicator, trigger tightener, catalog updater, eval runner, and similar).
+
+The 10 slash commands wrap common multi agent reviews into one keystroke each: `/review-macos-app`, `/review-website`, `/review-api-service`, `/review-mobile-app`, `/review-cli-tool`, `/prep-oss-release`, `/security-audit`, `/perf-audit`, `/a11y-audit`, `/lude-style`. They install into `~/.claude/commands/` and `~/.codex/prompts/`.
 
 ## Shipped (batches 1 to 7)
 

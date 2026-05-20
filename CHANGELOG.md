@@ -6,7 +6,12 @@ The format follows [Keep a Changelog](https://keepachangelog.com/) and the proje
 
 ## Unreleased
 
-_Nothing yet._
+**Added**
+- 10 slash commands under `commands/`: `/review-macos-app`, `/review-website`, `/review-api-service`, `/review-mobile-app`, `/review-cli-tool`, `/prep-oss-release`, `/security-audit`, `/perf-audit`, `/a11y-audit`, `/lude-style`. Each command dispatches the right specialist subagents in parallel and synthesizes a single verdict.
+- `install/install-claude-commands.sh` symlinks commands into `~/.claude/commands/`.
+- `install/install-codex-commands.sh` symlinks commands into `~/.codex/prompts/`.
+- `install/install-codex-subagents.sh` wraps every Lude Kit subagent as a Codex skill folder under `~/.agents/skills/<name>/SKILL.md` so subagents auto activate via description match on the Codex side too.
+- README sections for Subagents and Slash commands; new install steps in Quickstart.
 
 ## 2026-05-21 Public release
 

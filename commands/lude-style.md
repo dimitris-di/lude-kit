@@ -7,7 +7,7 @@ argument-hint: "[optional: path to repo, defaults to current directory]"
 
 Target: $ARGUMENTS (defaults to the current directory if blank).
 
-Apply Lude Kit prose style to every Markdown and YAML file in the target. Remove em dashes (—) and remove hyphens between English words in prose. Preserve identifiers, code, URLs, file paths, license names, model names, and standard tech tokens.
+Apply Lude Kit prose style to every Markdown and YAML file in the target. Remove em dashes (,) and remove hyphens between English words in prose. Preserve identifiers, code, URLs, file paths, license names, model names, and standard tech tokens.
 
 ## What to remove (in prose only)
 
@@ -55,7 +55,7 @@ python3 <path-to-lude-kit>/scripts/validate-skills.py  # this lints, not strips;
 
 If running standalone, write a one off Python script that walks `*.md`, `*.yml`, `*.yaml` in the target directory and:
 1. Splits each file into prose vs fenced code blocks (only edit prose).
-2. Replaces ` — ` (em dash with surrounding spaces) with `, `.
+2. Replaces `, ` (em dash with surrounding spaces) with `, `.
 3. Applies the compound hyphen substitutions above as word boundary regex.
 4. Skips files inside `.git/`, `node_modules/`, `vendor/`, build outputs.
 
@@ -74,6 +74,6 @@ Three before / after snippets so the reviewer can sanity check the style.
 A list of identifiers / tokens you intentionally left hyphenated, so the reviewer can confirm the call.
 
 ### Next step
-After the sweep, run the validator if available, or grep for any remaining em dashes (`grep -rn "—" --include='*.md' .`).
+After the sweep, run the validator if available, or grep for any remaining em dashes (`grep -rn "," --include='*.md' .`).
 
 Cite no agent. This is a mechanical pass.

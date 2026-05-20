@@ -50,6 +50,14 @@ No. After running `./install/install-claude.sh` or `./install/install-codex.sh` 
 
 Delete the symlink for that skill from your install directory, for example `rm ~/.claude/skills/<skill-name>`. The source folder under `skills/` stays untouched, and a future `git pull` will not resurrect the symlink unless you rerun the install script. If you want a permanent local override, fork the repo and remove the skill folder.
 
+### What are the slash commands?
+
+Pre written prompts you invoke as `/<name>` inside Claude Code or Codex. They live in [`commands/`](commands/) and ship 10 of them: `/review-macos-app`, `/review-website`, `/review-api-service`, `/review-mobile-app`, `/review-cli-tool`, `/prep-oss-release`, `/security-audit`, `/perf-audit`, `/a11y-audit`, `/lude-style`. Each one dispatches the right specialist subagents in parallel and synthesizes a verdict. Install with `./install/install-claude-commands.sh` and `./install/install-codex-commands.sh`. Then in your session, type the command and the orchestration runs.
+
+### Can I add my own slash commands?
+
+Yes. Drop a Markdown file with YAML frontmatter (`description`, optional `argument-hint`) into [`commands/`](commands/) following the same shape as the existing ones, then rerun the install scripts. The body becomes the prompt that runs when you type `/<name>`. Project local commands live under `.claude/commands/` in any repo and take precedence over user level ones.
+
 ## Skills vs subagents
 
 ### What is the difference?

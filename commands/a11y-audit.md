@@ -16,15 +16,15 @@ Run a WCAG 2.1 AA accessibility audit on the UI surface. Works for web, mobile, 
 
 ## Agents to dispatch in parallel
 
-1. `senior-ux-designer` skill — primary lead. Walk Nielsen heuristics plus WCAG 2.1 AA. Findings with severity (cosmetic / minor / major / catastrophic).
+1. `senior-ux-designer` skill, primary lead. Walk Nielsen heuristics plus WCAG 2.1 AA. Findings with severity (cosmetic / minor / major / catastrophic).
 
-2. `senior-frontend-engineer` skill (for web) OR matched stack expert (for native) — semantic HTML / native control usage, focus management, ARIA only when justified, keyboard navigation, screen reader names, target sizes (44 by 44 on touch), color contrast, motion reduced variants, dark mode.
+2. `senior-frontend-engineer` skill (for web) OR matched stack expert (for native), semantic HTML / native control usage, focus management, ARIA only when justified, keyboard navigation, screen reader names, target sizes (44 by 44 on touch), color contrast, motion reduced variants, dark mode.
 
-3. `code-reviewer` — code level a11y issues: divs with onClick, placeholder as label, alt text missing, color only signaling, focus traps in modals, missing language attributes, dynamic content without aria-live.
+3. `code-reviewer`, code level a11y issues: divs with onClick, placeholder as label, alt text missing, color only signaling, focus traps in modals, missing language attributes, dynamic content without aria-live.
 
-4. `test-engineer` — a11y test coverage: axe-core / Pa11y integration for web, accessibility inspector use for native, keyboard only test passes.
+4. `test-engineer`, a11y test coverage: axe-core / Pa11y integration for web, accessibility inspector use for native, keyboard only test passes.
 
-5. `senior-technical-writer` skill — microcopy review: button labels are verbs, error messages plain language and actionable, empty states explain what goes here.
+5. `senior-technical-writer` skill, microcopy review: button labels are verbs, error messages plain language and actionable, empty states explain what goes here.
 
 ## What to walk (WCAG 2.1 AA quick list)
 
