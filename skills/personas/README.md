@@ -4,6 +4,11 @@ Senior grade role personas an orchestrator can dispatch to.
 
 Each skill in this folder represents a senior practitioner of a specific role. They are designed to compose: an architect produces a design, an engineer implements it, a security principal reviews it, a tech writer documents it.
 
+Two subgroups currently live here:
+
+- **SDLC personas** (batch 1): architect, tech lead, PM, UX, frontend, backend, devops/SRE, QA, security, tech writer.
+- **Specialty personas** (batch 4): data engineer, ML engineer, data scientist, MLOps, mobile, embedded, game, blockchain, platform, developer advocate.
+
 See the [full catalog](../README.md) for the list and links.
 
 ## What makes a skill belong here

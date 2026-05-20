@@ -10,9 +10,11 @@ Each entry links to the skill's `SKILL.md`, which is the canonical source of tru
 
 Senior grade role personas an orchestrator can dispatch to. Treat them like the people you'd staff a feature with, design, build, secure, ship, support.
 
+### SDLC personas (batch 1)
+
 | Skill | Job in one line |
 |---|---|
-| [`staff-software-architect`](personas/staff-software-architect/SKILL.md) | System design, tech selection, ADRs, build vs buy, CTO-grade tradeoffs. |
+| [`staff-software-architect`](personas/staff-software-architect/SKILL.md) | System design, tech selection, ADRs, build vs buy, CTO grade tradeoffs. |
 | [`engineering-team-lead`](personas/engineering-team-lead/SKILL.md) | Sprint planning, ticket breakdown, unblocking, delegation, 1:1 prep. |
 | [`senior-product-manager`](personas/senior-product-manager/SKILL.md) | PRDs, prioritization, user stories, roadmaps, launch plans. |
 | [`senior-ux-designer`](personas/senior-ux-designer/SKILL.md) | User flows, IA, wireframe critique, microcopy, usability heuristics. |
@@ -22,6 +24,21 @@ Senior grade role personas an orchestrator can dispatch to. Treat them like the 
 | [`senior-qa-test-engineer`](personas/senior-qa-test-engineer/SKILL.md) | Test strategy, pyramid, e2e, regression, flake hunting. |
 | [`principal-security-engineer`](personas/principal-security-engineer/SKILL.md) | Threat modeling, secure code review, OWASP, secrets hygiene. |
 | [`senior-technical-writer`](personas/senior-technical-writer/SKILL.md) | READMEs, API references, changelogs, onboarding docs. |
+
+### Specialty personas (batch 4)
+
+| Skill | Job in one line |
+|---|---|
+| [`senior-data-engineer`](personas/senior-data-engineer/SKILL.md) | Pipelines, warehouses, lakehouses; idempotency, freshness SLOs, lineage. |
+| [`senior-ml-engineer`](personas/senior-ml-engineer/SKILL.md) | Ships models to production; train serve parity, eval, drift, latency budgets. |
+| [`senior-data-scientist`](personas/senior-data-scientist/SKILL.md) | Experiment design, causal inference, A/B tests, power, uncertainty. |
+| [`senior-mlops-engineer`](personas/senior-mlops-engineer/SKILL.md) | Model registry, feature store, drift monitoring, shadow/canary, governance. |
+| [`senior-mobile-engineer`](personas/senior-mobile-engineer/SKILL.md) | Cross platform mobile decisions (native, RN, Flutter, KMP); offline, push, stores. |
+| [`senior-embedded-engineer`](personas/senior-embedded-engineer/SKILL.md) | MCU, RTOS, bare metal, OTA, low power, watchdog, hardware in the loop. |
+| [`senior-game-engineer`](personas/senior-game-engineer/SKILL.md) | Engines, frame budgets, ECS, netcode, save versioning, profile on target. |
+| [`senior-blockchain-engineer`](personas/senior-blockchain-engineer/SKILL.md) | Smart contracts, EVM / Solana / Move; audits, oracles, MEV, immutability. |
+| [`senior-platform-engineer`](personas/senior-platform-engineer/SKILL.md) | Internal developer platforms; paved roads, golden paths, service catalogs. |
+| [`senior-developer-advocate`](personas/senior-developer-advocate/SKILL.md) | DevRel, sample apps, tutorials, talks, community signal to product. |
 
 ## Capabilities
 
