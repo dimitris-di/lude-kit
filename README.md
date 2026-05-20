@@ -7,7 +7,7 @@
 *Drop in a whole engineering org. Dispatch the right specialist when you need them.*
 
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
-[![Skills](https://img.shields.io/badge/skills-10-brightgreen.svg)](skills/README.md)
+[![Skills](https://img.shields.io/badge/skills-20-brightgreen.svg)](skills/README.md)
 [![Spec](https://img.shields.io/badge/spec-Agent%20Skills-purple.svg)](https://agentskills.io/specification)
 [![Status](https://img.shields.io/badge/status-private%20alpha-orange.svg)](#status)
 
@@ -79,7 +79,7 @@ Try it out:
 | Category | Count | What it contains |
 |---|---|---|
 | [`personas/`](skills/personas/) | 10 | Senior grade role personas an orchestrator can dispatch to. |
-| [`capabilities/`](skills/capabilities/) | 0 | Cross role capabilities focused on a single job. *Planned: batch 2.* |
+| [`capabilities/`](skills/capabilities/) | 10 | Cross role capabilities focused on a single job. |
 | [`stacks/`](skills/stacks/) | 0 | Stack specific experts (Rails, Kubernetes, Postgres, …). *Planned: batch 3.* |
 
 Full catalog with descriptions and links: **[`skills/README.md`](skills/README.md)**.
@@ -98,6 +98,21 @@ A 10 skill team spanning the software development lifecycle:
 - **[`senior-qa-test-engineer`](skills/personas/senior-qa-test-engineer/SKILL.md)**, test strategy, pyramid, regression, flake hunting.
 - **[`principal-security-engineer`](skills/personas/principal-security-engineer/SKILL.md)**, threat modeling, secure review, OWASP, secrets.
 - **[`senior-technical-writer`](skills/personas/senior-technical-writer/SKILL.md)**, READMEs, API refs, changelogs, onboarding docs.
+
+### Batch 2 (shipped): capability skills
+
+Ten cross role capabilities a persona can reach for when the job is narrow:
+
+- **[`senior-code-reviewer`](skills/capabilities/senior-code-reviewer/SKILL.md)**, severity labeled PR review (blocking, strong suggestion, nit).
+- **[`senior-debugger`](skills/capabilities/senior-debugger/SKILL.md)**, root cause diagnosis; reproduce first, no guessing.
+- **[`senior-refactorer`](skills/capabilities/senior-refactorer/SKILL.md)**, behavior preserving structural change in small commits.
+- **[`senior-performance-engineer`](skills/capabilities/senior-performance-engineer/SKILL.md)**, latency / throughput / memory; measure, fix the dominant cost, validate.
+- **[`incident-commander`](skills/capabilities/incident-commander/SKILL.md)**, realtime IC; roles, comms, mitigation, all clear.
+- **[`api-contract-designer`](skills/capabilities/api-contract-designer/SKILL.md)**, contract first REST / GraphQL / gRPC.
+- **[`data-modeler`](skills/capabilities/data-modeler/SKILL.md)**, schema, indexes, identifiers, lifecycle; access patterns first.
+- **[`migration-planner`](skills/capabilities/migration-planner/SKILL.md)**, expand / dual write / shadow read / cutover / contract phasing.
+- **[`dependency-auditor`](skills/capabilities/dependency-auditor/SKILL.md)**, supply chain and CVE review.
+- **[`postmortem-author`](skills/capabilities/postmortem-author/SKILL.md)**, blameless postmortems with tracked action items.
 
 ## How it works
 
@@ -153,7 +168,7 @@ User: "We want to add team SSO to the dashboard."
 | Batch | Theme | Status |
 |---|---|---|
 | 1 | SDLC personas (architect → writer) | ✅ shipped |
-| 2 | Capability skills (review, debug, refactor, perf, postmortem, …) | planned |
+| 2 | Capability skills (review, debug, refactor, perf, postmortem, …) | ✅ shipped |
 | 3 | Stack experts (Rails, Django, Next.js, K8s, Postgres, Terraform, …) | planned |
 | 4 | Specialty roles (data engineer, ML engineer, mobile, embedded) | planned |
 | 5 | Industry verticals (fintech, healthcare, gov, edu) | planned |

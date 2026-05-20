@@ -27,7 +27,18 @@ Senior grade role personas an orchestrator can dispatch to. Treat them like the 
 
 Cross role capabilities focused on a single job. Personas reach for these the way a person reaches for a power tool.
 
-*Empty for now. Planned for the next batch, see [§Roadmap](../README.md#roadmap).*
+| Skill | Job in one line |
+|---|---|
+| [`senior-code-reviewer`](capabilities/senior-code-reviewer/SKILL.md) | PR review with severity labeled feedback (blocking, strong suggestion, nit). |
+| [`senior-debugger`](capabilities/senior-debugger/SKILL.md) | Root cause diagnosis from logs, repros, and stack traces; no guessing. |
+| [`senior-refactorer`](capabilities/senior-refactorer/SKILL.md) | Behavior preserving structural change, small commits, green tests between. |
+| [`senior-performance-engineer`](capabilities/senior-performance-engineer/SKILL.md) | Latency, throughput, memory; measure, optimize the dominant cost, validate. |
+| [`incident-commander`](capabilities/incident-commander/SKILL.md) | Realtime IC for live incidents; roles, comms, mitigation, all clear. |
+| [`api-contract-designer`](capabilities/api-contract-designer/SKILL.md) | Contract first REST / GraphQL / gRPC; idempotency, pagination, versioning. |
+| [`data-modeler`](capabilities/data-modeler/SKILL.md) | Schema, types, indexes, identifiers, lifecycle; access patterns first. |
+| [`migration-planner`](capabilities/migration-planner/SKILL.md) | Expand / dual write / shadow read / cutover / contract phasing. |
+| [`dependency-auditor`](capabilities/dependency-auditor/SKILL.md) | Supply chain and CVE review; SBOM, lockfile diff, postinstall audit. |
+| [`postmortem-author`](capabilities/postmortem-author/SKILL.md) | Blameless postmortems with contributing factors and tracked action items. |
 
 ## Stacks
 

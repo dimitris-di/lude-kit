@@ -4,20 +4,20 @@ Cross role capabilities focused on a single job. Personas reach for these the wa
 
 A capability skill is narrower than a persona and broader than a vendor wrapper. It encodes one job, review this PR, debug this stack trace, write this postmortem, and does it excellently regardless of the surrounding role.
 
-## Planned (batch 2)
+## Shipped (batch 2)
 
-- `senior-code-reviewer`, PR review with severity-labeled, blocking-grade feedback.
-- `senior-debugger`, root-cause diagnosis from logs / repros / stack traces.
-- `senior-refactorer`, incremental, behavior-preserving structural change.
-- `senior-performance-engineer`, find and fix latency / throughput / memory regressions.
-- `incident-commander`, coordinate live incident response.
-- `api-contract-designer`, design REST / GraphQL / gRPC contracts before code.
-- `data-modeler`, schema design, normalization, indexing.
-- `migration-planner`, sequence destructive changes safely.
-- `dependency-auditor`, supply chain and CVE review.
-- `postmortem-author`, blameless postmortems with action items.
+- [`senior-code-reviewer`](senior-code-reviewer/SKILL.md), PR review with severity labeled feedback (blocking, strong suggestion, nit).
+- [`senior-debugger`](senior-debugger/SKILL.md), root cause diagnosis from logs, repros, and stack traces; no guessing.
+- [`senior-refactorer`](senior-refactorer/SKILL.md), behavior preserving structural change in small commits with green tests between.
+- [`senior-performance-engineer`](senior-performance-engineer/SKILL.md), latency, throughput, memory; measure first, optimize the dominant cost, validate.
+- [`incident-commander`](incident-commander/SKILL.md), realtime IC for live incidents; roles, comms, mitigation, all clear.
+- [`api-contract-designer`](api-contract-designer/SKILL.md), contract first REST / GraphQL / gRPC; idempotency, pagination, versioning.
+- [`data-modeler`](data-modeler/SKILL.md), schema, types, indexes, identifiers, lifecycle; access patterns first.
+- [`migration-planner`](migration-planner/SKILL.md), expand / dual write / shadow read / cutover / contract phasing.
+- [`dependency-auditor`](dependency-auditor/SKILL.md), supply chain and CVE review; SBOM, lockfile diff, postinstall audit.
+- [`postmortem-author`](postmortem-author/SKILL.md), blameless postmortems with contributing factors and tracked action items.
 
-See the [open roadmap issues](https://github.com/dimitris-di/LudeSkills/issues?q=is%3Aissue+label%3Anew-skill) for current proposals.
+See the [open roadmap issues](https://github.com/dimitris-di/LudeSkills/issues?q=is%3Aissue+label%3Anew-skill) for proposals beyond batch 2.
 
 ## Authoring a capability
 
