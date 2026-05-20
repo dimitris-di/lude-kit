@@ -64,6 +64,10 @@ cd lude-kit
 
 # OpenAI Codex subagents as skills (~/.agents/skills/)
 ./install/install-codex-subagents.sh
+
+# Slash commands (~/.claude/commands/ and ~/.codex/prompts/)
+./install/install-claude-commands.sh
+./install/install-codex-commands.sh
 ```
 
 The scripts symlink, so future `git pull`s update your installed skills and subagents without reinstalling.
@@ -137,6 +141,25 @@ Lude Kit ships 30 curated subagents in [`subagents/`](subagents/), grouped three
 Install them with `./install/install-claude-agents.sh`. After installation, dispatch with `Agent(subagent_type: "architect", prompt: "design the billing service")` and the subagent spawns with the right tools, model, and skill pre loaded.
 
 Codex has no native subagent primitive equivalent to Claude Code's named dispatchable types. Each subagent is functionally a skill (description + system prompt), so `./install/install-codex-subagents.sh` wraps every subagent as a Codex skill folder under `~/.agents/skills/<name>/SKILL.md`. They auto activate via description matching on the Codex side instead of explicit dispatch.
+
+## Slash commands (10)
+
+Pre written prompts you invoke with `/<name>` inside Claude Code or Codex. Each one dispatches the right specialist subagents in parallel and returns a synthesized verdict, so you do not have to retype the orchestration logic every time.
+
+| Command | What it does |
+|---|---|
+| `/review-macos-app` | Deep parallel review of a macOS app (Swift, sandboxing, perf, UX, App Store, OSS readiness). |
+| `/review-website` | Web app review (perf, a11y, security, SEO, framework idioms). |
+| `/review-api-service` | Backend API review (contract, schema, auth, observability, OSS readiness). |
+| `/review-mobile-app` | iOS / Android review (cross platform decisions, offline, push, store policies). |
+| `/review-cli-tool` | CLI review (UX, exit codes, signal handling, distribution channels). |
+| `/prep-oss-release` | OSS readiness sweep (LICENSE, README, SECURITY, CI, secrets check). |
+| `/security-audit` | Focused threat model + secure code review + supply chain. |
+| `/perf-audit` | Measure first, find dominant cost, propose budget and regression guard. |
+| `/a11y-audit` | WCAG 2.1 AA pass on any UI surface (web, native, mobile). |
+| `/lude-style` | Apply Lude Kit prose rules (em dash + hyphen sweep), identifiers preserved. |
+
+Install once with `./install/install-claude-commands.sh` and `./install/install-codex-commands.sh`. Then in a Claude Code or Codex session, type `/review-macos-app` (or any other) and the orchestration runs.
 
 ## How a skill works
 
