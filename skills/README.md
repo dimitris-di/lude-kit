@@ -103,6 +103,16 @@ Stack specific experts that complement the personas with technology depth.
 | [`aws-expert`](stacks/aws-expert/SKILL.md) | IAM, VPC, service selection, Organizations, OIDC, cost footguns. |
 | [`gcp-expert`](stacks/gcp-expert/SKILL.md) | Projects, Workload Identity Federation, VPC Service Controls, Cloud Run, BigQuery. |
 | [`swift-ios-expert`](stacks/swift-ios-expert/SKILL.md) | SwiftUI, Swift Concurrency, SwiftData, BGTaskScheduler, App Store submission. |
+| [`golang-expert`](stacks/golang-expert/SKILL.md) | Go 1.22+ idioms: errors as values, context, slog, generics, race detector. |
+| [`rust-expert`](stacks/rust-expert/SKILL.md) | Ownership, lifetimes, async on tokio, error design with thiserror + anyhow. |
+| [`python-expert`](stacks/python-expert/SKILL.md) | Modern Python 3.12+: type hints, asyncio, uv, ruff, mypy strict. |
+| [`typescript-expert`](stacks/typescript-expert/SKILL.md) | Type system depth: narrowing, generics, branded types, `satisfies`, strict tsconfig. |
+| [`java-expert`](stacks/java-expert/SKILL.md) | Java 21+: records, sealed, pattern matching, virtual threads, Spring Boot 3. |
+| [`csharp-dotnet-expert`](stacks/csharp-dotnet-expert/SKILL.md) | .NET 9: minimal APIs, EF Core, AOT, records, primary constructors. |
+| [`flutter-expert`](stacks/flutter-expert/SKILL.md) | Flutter 3.24+: Riverpod, Impeller, go_router, golden tests. |
+| [`react-native-expert`](stacks/react-native-expert/SKILL.md) | RN New Arch (Fabric, TurboModules), Expo + EAS, Reanimated 3. |
+| [`tailwind-expert`](stacks/tailwind-expert/SKILL.md) | Tailwind v4: `@theme`, OKLCH, container queries, CVA, tailwind-merge. |
+| [`playwright-expert`](stacks/playwright-expert/SKILL.md) | e2e with user-visible locators, auto-wait, fixtures, trace viewer, sharding. |
 
 ---
 

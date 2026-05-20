@@ -17,7 +17,20 @@ A stack skill knows the idioms, traps, and best practices of one technology, its
 - [`gcp-expert`](gcp-expert/SKILL.md), projects, Workload Identity Federation, VPC Service Controls, Cloud Run, BigQuery.
 - [`swift-ios-expert`](swift-ios-expert/SKILL.md), SwiftUI, Swift Concurrency, SwiftData, BGTaskScheduler, App Store submission.
 
-See the [open roadmap issues](https://github.com/dimitris-di/LudeSkills/issues?q=is%3Aissue+label%3Anew-skill) for proposals beyond batch 3.
+## Shipped (batch 7)
+
+- [`golang-expert`](golang-expert/SKILL.md), Go 1.22+ idioms: errors as values, context, slog, generics, race detector.
+- [`rust-expert`](rust-expert/SKILL.md), ownership, lifetimes, async on tokio, error design with thiserror + anyhow.
+- [`python-expert`](python-expert/SKILL.md), modern Python 3.12+: type hints, asyncio, uv, ruff, mypy strict.
+- [`typescript-expert`](typescript-expert/SKILL.md), type system: narrowing, generics, branded types, `satisfies`, strict tsconfig.
+- [`java-expert`](java-expert/SKILL.md), Java 21+: records, sealed, pattern matching, virtual threads, Spring Boot 3.
+- [`csharp-dotnet-expert`](csharp-dotnet-expert/SKILL.md), .NET 9: minimal APIs, EF Core, AOT, records.
+- [`flutter-expert`](flutter-expert/SKILL.md), Flutter 3.24+: Riverpod, Impeller, go_router, golden tests.
+- [`react-native-expert`](react-native-expert/SKILL.md), RN New Arch (Fabric, TurboModules), Expo + EAS, Reanimated 3.
+- [`tailwind-expert`](tailwind-expert/SKILL.md), Tailwind v4: `@theme`, OKLCH, container queries, CVA, tailwind-merge.
+- [`playwright-expert`](playwright-expert/SKILL.md), e2e with user-visible locators, auto-wait, fixtures, trace viewer.
+
+See the [open roadmap issues](https://github.com/dimitris-di/LudeSkills/issues?q=is%3Aissue+label%3Anew-skill) for proposals beyond batch 7.
 
 ## Authoring a stack expert
 
