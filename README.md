@@ -1,6 +1,6 @@
 <div align="center">
 
-# LudeSkills
+# Lude Kit
 
 **A library of senior grade Agent Skills for Claude Code and OpenAI Codex.**
 
@@ -17,7 +17,7 @@
 
 ## The pitch in 30 seconds
 
-General purpose AI coding agents are competent at everything and excellent at nothing. They read a lot but never shipped a feature. **LudeSkills fixes that.** Every skill is one role or one job, written to the bar of a senior practitioner, with a precise trigger description that activates it only when relevant.
+General purpose AI coding agents are competent at everything and excellent at nothing. They read a lot but never shipped a feature. **Lude Kit fixes that.** Every skill is one role or one job, written to the bar of a senior practitioner, with a precise trigger description that activates it only when relevant.
 
 Install the library once, and the right specialist shows up automatically:
 
@@ -41,7 +41,7 @@ Compose them into multi agent flows and your orchestrator hands the work to the 
 
 A modern AI agent is a generalist who needs a senior on the team. Without one, you get answers that are technically correct but operationally naive: code that works in dev and burns in prod, designs that look good on a whiteboard and fall over at scale, security advice that's textbook and theatre. The fix is not a longer prompt. The fix is the right specialist on demand.
 
-LudeSkills is that bench. Seventy senior practitioners, each focused on one role or one job, each with strong opinions about how that work is done well. Drop them into your environment and the work gets better immediately.
+Lude Kit is that bench. Seventy senior practitioners, each focused on one role or one job, each with strong opinions about how that work is done well. Drop them into your environment and the work gets better immediately.
 
 ## Status
 
@@ -50,8 +50,8 @@ LudeSkills is that bench. Seventy senior practitioners, each focused on one role
 ## Quickstart
 
 ```bash
-git clone git@github.com:dimitris-di/LudeSkills.git
-cd LudeSkills
+git clone git@github.com:dimitris-di/lude-kit.git
+cd lude-kit
 
 # Claude Code skills (~/.claude/skills/)
 ./install/install-claude.sh
@@ -119,7 +119,7 @@ Cross role power tools: code review, debugging, refactoring, performance enginee
 
 Skills load on demand inside a conversation when their triggers match. **Subagents** are named entry points you (or an orchestrator) explicitly dispatch via the `Agent` tool. They restrict tools, pin a model where it matters, and carry a system prompt that locks the right skill into the spawned conversation.
 
-LudeSkills ships 30 curated subagents in [`subagents/`](subagents/), grouped three ways:
+Lude Kit ships 30 curated subagents in [`subagents/`](subagents/), grouped three ways:
 
 **Specialists (10)** mirror the highest leverage skills:
 `architect`, `code-reviewer`, `security-reviewer`, `debugger`, `refactorer`, `perf-investigator`, `test-engineer`, `tech-writer`, `ic-coordinator`, `postmortem-writer`.
@@ -170,7 +170,7 @@ The format follows the open [Agent Skills specification](https://agentskills.io/
 
 ## Multi agent composition
 
-LudeSkills is designed for orchestrator style setups where a coordinating agent spawns subagents with specific roles. Every skill ends with a **Handoffs** section that names the partner skills for adjacent work, so the library composes:
+Lude Kit is designed for orchestrator style setups where a coordinating agent spawns subagents with specific roles. Every skill ends with a **Handoffs** section that names the partner skills for adjacent work, so the library composes:
 
 ```
 User: "We want to add team SSO to the dashboard."
@@ -238,7 +238,7 @@ Every skill in this repo is hand written, reviewed against the style guide, and 
 
 ## Who's behind this
 
-Built and maintained by **Dimitris Dimitriou** ([@dimitris-di](https://github.com/dimitris-di)). Questions, ideas, or pushback: open a [Discussion](https://github.com/dimitris-di/LudeSkills/discussions) (once the repo is public) or reach out at **demetrisd25@gmail.com**.
+Built and maintained by **Dimitris Dimitriou** ([@dimitris-di](https://github.com/dimitris-di)). Questions, ideas, or pushback: open a [Discussion](https://github.com/dimitris-di/lude-kit/discussions) (once the repo is public) or reach out at **demetrisd25@gmail.com**.
 
 ## Acknowledgments
 

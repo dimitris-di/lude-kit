@@ -1,12 +1,12 @@
 # FAQ
 
-Answers to the questions a new visitor or contributor is most likely to ask. If something is missing, open a [Discussion](https://github.com/dimitris-di/LudeSkills/discussions) once the repo is public, or email **demetrisd25@gmail.com**.
+Answers to the questions a new visitor or contributor is most likely to ask. If something is missing, open a [Discussion](https://github.com/dimitris-di/lude-kit/discussions) once the repo is public, or email **demetrisd25@gmail.com**.
 
 ## What is this?
 
-### What is LudeSkills?
+### What is Lude Kit?
 
-LudeSkills is a curated library of senior grade Agent Skills for Claude Code and OpenAI Codex. Every skill encodes one role or one job at the bar of a senior practitioner, with a precise `description` that activates it only when the user's intent matches. The library currently ships seventy skills across personas, capabilities, and stack experts, with one hundred as the target before public release. Install once and the right specialist shows up automatically when triggers fire in a real prompt. See the [README](README.md) for the pitch and the full catalog at [`skills/README.md`](skills/README.md).
+Lude Kit is a curated library of senior grade Agent Skills for Claude Code and OpenAI Codex. Every skill encodes one role or one job at the bar of a senior practitioner, with a precise `description` that activates it only when the user's intent matches. The library currently ships seventy skills across personas, capabilities, and stack experts, with one hundred as the target before public release. Install once and the right specialist shows up automatically when triggers fire in a real prompt. See the [README](README.md) for the pitch and the full catalog at [`skills/README.md`](skills/README.md).
 
 ### What is an Agent Skill?
 
@@ -22,7 +22,7 @@ An MCP server exposes tools, resources, and data to a model. A skill is instruct
 
 ### How does it differ from frameworks like AutoGPT, CrewAI, LangChain agents?
 
-Those frameworks are runtimes. They orchestrate loops, tool calls, and memory. LudeSkills is content, the role briefs that any runtime can route to. The skills format is platform native to Claude Code and Codex; you do not write Python glue to use them, you drop the folder and the host handles dispatch. If you build your own orchestrator on top of Claude or Codex, the same skills compose into your flow.
+Those frameworks are runtimes. They orchestrate loops, tool calls, and memory. Lude Kit is content, the role briefs that any runtime can route to. The skills format is platform native to Claude Code and Codex; you do not write Python glue to use them, you drop the folder and the host handles dispatch. If you build your own orchestrator on top of Claude or Codex, the same skills compose into your flow.
 
 ## Using the library
 

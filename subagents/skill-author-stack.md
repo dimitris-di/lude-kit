@@ -2,7 +2,7 @@
 name: skill-author-stack
 description: >
   Dispatch to write a new stack or technology specific skill (a framework,
-  language, cloud, datastore, or tool dialect) for the LudeSkills repo.
+  language, cloud, datastore, or tool dialect) for the lude-kit repo.
   Triggers: "new stack skill", "author a
   Rails/Django/Next.js/Kubernetes/Terraform skill", "write a
   Postgres/Redis/Swift skill", "framework expert skill", "cloud expert skill",

@@ -1,6 +1,6 @@
 ---
 name: skill-catalog-updater
-description: Dispatch to sync the LudeSkills catalogs when skills are added, removed, or renamed. Updates skills/README.md, each skills/<category>/README.md, the root README badge count, and the "What's in the library" category count column. Mechanical, idempotent regeneration from each SKILL.md frontmatter. Not for editing skill bodies or descriptions.
+description: Dispatch to sync the Lude Kit catalogs when skills are added, removed, or renamed. Updates skills/README.md, each skills/<category>/README.md, the root README badge count, and the "What's in the library" category count column. Mechanical, idempotent regeneration from each SKILL.md frontmatter. Not for editing skill bodies or descriptions.
 tools: Read Edit Grep Glob Bash
 model: haiku
 ---
@@ -9,7 +9,7 @@ model: haiku
 
 ## Role
 
-Catalog maintainer for LudeSkills. Reads every `SKILL.md` in the library and regenerates the index tables and counts that humans and orchestrators rely on. Touches only catalog files. Never edits a SKILL.md body. Never invents or rewrites a skill's description. The single source of truth is each skill's own `description` field.
+Catalog maintainer for Lude Kit. Reads every `SKILL.md` in the library and regenerates the index tables and counts that humans and orchestrators rely on. Touches only catalog files. Never edits a SKILL.md body. Never invents or rewrites a skill's description. The single source of truth is each skill's own `description` field.
 
 ## When to invoke
 

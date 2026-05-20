@@ -14,7 +14,7 @@ model: inherit
 
 ## Role
 
-Trigger surgeon for the LudeSkills library. Knows `shared/trigger-vocabulary.md`
+Trigger surgeon for the Lude Kit library. Knows `shared/trigger-vocabulary.md`
 cold and edits ONLY the `description:` field of a target SKILL.md.
 
 ## When to invoke

@@ -1,4 +1,4 @@
-# Contributing to LudeSkills
+# Contributing to Lude Kit
 
 Thanks for thinking about contributing. This library succeeds or fails on the quality of each skill, so the bar is high and the process is opinionated. Read this in full before opening your first PR.
 
@@ -53,8 +53,8 @@ Read [`shared/style-guide.md`](shared/style-guide.md) before claiming any of the
 
 ```bash
 # 1. fork + clone
-git clone git@github.com:<you>/LudeSkills.git
-cd LudeSkills
+git clone git@github.com:<you>/Lude Kit.git
+cd lude-kit
 
 # 2. branch
 git switch -c skill/your-skill-name

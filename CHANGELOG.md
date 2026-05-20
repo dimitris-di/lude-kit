@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to LudeSkills are documented here.
+All notable changes to Lude Kit are documented here.
 
 The format follows [Keep a Changelog](https://keepachangelog.com/) and the project follows [Semantic Versioning](https://semver.org/). The library is in private alpha, so releases are date stamped rather than version numbered until the catalog stabilizes at 100 skills and the repo goes public.
 

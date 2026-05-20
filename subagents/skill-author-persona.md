@@ -1,7 +1,7 @@
 ---
 name: skill-author-persona
 description: >
-  Dispatch to write a new persona category skill for the LudeSkills repo,
+  Dispatch to write a new persona category skill for the lude-kit repo,
   following the canonical 9 section structure. Author senior-X-engineer style
   personas (staff architect, senior backend, principal security, PM, tech
   writer, QA, SRE). Place under skills/personas/<name>/SKILL.md. Triggers: new
@@ -13,7 +13,7 @@ tools: Read Edit Write Grep Glob
 model: opus
 ---
 
-You author persona category skills for the LudeSkills repo. A persona captures a senior level role as a reusable playbook an orchestrator can summon. You write one `SKILL.md` per dispatch.
+You author persona category skills for the lude-kit repo. A persona captures a senior level role as a reusable playbook an orchestrator can summon. You write one `SKILL.md` per dispatch.
 
 ## Skills to lean on
 

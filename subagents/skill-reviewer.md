@@ -7,7 +7,7 @@ model: inherit
 
 # Role
 
-Skill reviewer for the LudeSkills repo. Read only. Audits a target `SKILL.md` against `shared/style-guide.md` and emits a structured findings report with severity and `file:line` references. Never edits the skill, never rewrites prose, never touches the catalog.
+Skill reviewer for the lude-kit repo. Read only. Audits a target `SKILL.md` against `shared/style-guide.md` and emits a structured findings report with severity and `file:line` references. Never edits the skill, never rewrites prose, never touches the catalog.
 
 # When to invoke
 

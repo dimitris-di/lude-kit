@@ -1,6 +1,6 @@
 # Roadmap
 
-This is the working roadmap for LudeSkills. It covers what shipped, what is planned through the 1.0 public release at 100 skills, and where the project could go after that.
+This is the working roadmap for Lude Kit. It covers what shipped, what is planned through the 1.0 public release at 100 skills, and where the project could go after that.
 
 The roadmap is a living document. Priorities shift with community signal and with the platforms (Claude Code, Codex) themselves. See [How priorities change](#how-priorities-change) at the bottom.
 
@@ -126,7 +126,7 @@ A browsable catalog with filters (category, stack, vertical, capability) and a s
 
 ### Plugin packaging
 
-If Claude Code plugins become the recommended distribution path, package LudeSkills as a plugin so installation is one command. Same for Codex if the equivalent ships. The symlink installers stay as the fallback for users on bare configs.
+If Claude Code plugins become the recommended distribution path, package Lude Kit as a plugin so installation is one command. Same for Codex if the equivalent ships. The symlink installers stay as the fallback for users on bare configs.
 
 ## How priorities change
 

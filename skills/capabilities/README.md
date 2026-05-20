@@ -17,7 +17,7 @@ A capability skill is narrower than a persona and broader than a vendor wrapper.
 - [`dependency-auditor`](dependency-auditor/SKILL.md), supply chain and CVE review; SBOM, lockfile diff, postinstall audit.
 - [`postmortem-author`](postmortem-author/SKILL.md), blameless postmortems with contributing factors and tracked action items.
 
-See the [open roadmap issues](https://github.com/dimitris-di/LudeSkills/issues?q=is%3Aissue+label%3Anew-skill) for proposals beyond batch 2.
+See the [open roadmap issues](https://github.com/dimitris-di/lude-kit/issues?q=is%3Aissue+label%3Anew-skill) for proposals beyond batch 2.
 
 ## Authoring a capability
 
