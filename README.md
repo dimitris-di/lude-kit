@@ -53,23 +53,27 @@ LudeSkills is that bench. Seventy senior practitioners, each focused on one role
 git clone git@github.com:dimitris-di/LudeSkills.git
 cd LudeSkills
 
-# Claude Code (symlinks into ~/.claude/skills/)
+# Claude Code skills (~/.claude/skills/)
 ./install/install-claude.sh
 
-# OpenAI Codex (symlinks into ~/.agents/skills/)
+# Claude Code subagents (~/.claude/agents/)
+./install/install-claude-agents.sh
+
+# OpenAI Codex skills (~/.agents/skills/)
 ./install/install-codex.sh
 ```
 
-The scripts symlink, so future `git pull`s update your installed skills without reinstalling.
+The scripts symlink, so future `git pull`s update your installed skills and subagents without reinstalling.
 
 Custom install location:
 
 ```bash
 CLAUDE_SKILLS_DIR=/path/to/claude/skills ./install/install-claude.sh
+CLAUDE_AGENTS_DIR=/path/to/claude/agents ./install/install-claude-agents.sh
 CODEX_SKILLS_DIR=/path/to/agents/skills  ./install/install-codex.sh
 ```
 
-That's it. Start a conversation and the matchers pull the right skill when its triggers fire.
+That's it. Start a conversation and the matchers pull the right skill when its triggers fire. Spawn named subagents with `Agent(subagent_type: "architect", ...)` and similar.
 
 ## What's in the library
 
@@ -110,6 +114,23 @@ Cross role power tools: code review, debugging, refactoring, performance enginee
 **Languages**: Go, Rust, Python, TypeScript, Java, C#/.NET.
 
 **UI and testing**: Tailwind, Playwright.
+
+## Subagents (30)
+
+Skills load on demand inside a conversation when their triggers match. **Subagents** are named entry points you (or an orchestrator) explicitly dispatch via the `Agent` tool. They restrict tools, pin a model where it matters, and carry a system prompt that locks the right skill into the spawned conversation.
+
+LudeSkills ships 30 curated subagents in [`subagents/`](subagents/), grouped three ways:
+
+**Specialists (10)** mirror the highest leverage skills:
+`architect`, `code-reviewer`, `security-reviewer`, `debugger`, `refactorer`, `perf-investigator`, `test-engineer`, `tech-writer`, `ic-coordinator`, `postmortem-writer`.
+
+**Orchestrators (10)** plan and dispatch multi skill flows:
+`orchestrate-feature-build`, `orchestrate-incident-response`, `orchestrate-migration`, `orchestrate-launch`, `orchestrate-security-review`, `orchestrate-perf-investigation`, `orchestrate-refactor`, `orchestrate-ai-feature`, `orchestrate-new-service`, `orchestrate-bug-fix`.
+
+**Library maintenance (10)** keep the skill library healthy:
+`skill-author-persona`, `skill-author-capability`, `skill-author-stack`, `skill-reviewer`, `skill-trigger-tightener`, `skill-deduplicator`, `skill-handoff-auditor`, `skill-freshness-checker`, `skill-catalog-updater`, `skill-eval-runner`.
+
+Install them with `./install/install-claude-agents.sh`. After installation, dispatch with `Agent(subagent_type: "architect", prompt: "design the billing service")` and the subagent spawns with the right tools, model, and skill pre loaded.
 
 ## How a skill works
 
