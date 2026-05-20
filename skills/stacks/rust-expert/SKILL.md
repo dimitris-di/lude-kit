@@ -1,24 +1,19 @@
 ---
 name: rust-expert
 description: >
-  Use when writing, reviewing, or debugging Rust code (stable 1.80 plus,
-  edition 2021 and 2024); designing async services on tokio, axum or actix
-  handlers, tower middleware, sqlx or sea-orm data layers, serde models,
-  tracing plus tracing-subscriber observability, and CLI binaries with
-  clap. Covers ownership and borrowing, lifetimes, traits with associated
-  types and GATs, Send and Sync bounds, pinning, async-trait status,
-  cancellation with tokio::select, error design with thiserror and anyhow
-  or eyre, unsafe contracts, FFI, no_std, and WASM with wasm-bindgen.
-  Triggers: Rust, cargo, Cargo.toml, ownership, borrow, lifetime, trait,
-  async, await, tokio, futures, Send, Sync, Pin, axum, actix, warp,
-  rocket, sqlx, sea-orm, serde, anyhow, thiserror, eyre, tracing, clippy,
-  rustfmt, rust-analyzer, unsafe, FFI, no_std, WASM, wasm-bindgen,
-  clap. Produces error enums, axum services, tracing setups, sqlx queries,
-  cancellation patterns, release profile config, clippy and CI lint
-  config. Not for cross language service topology, see
-  `senior-backend-engineer`. Not for no_std and bare metal, see
-  `senior-embedded-engineer`. Not for query plan tuning, see
-  `postgres-expert`.
+  Use when writing, reviewing, or debugging Rust code (stable 1.80 plus, edition
+  2021 and 2024); designing async services on tokio, axum or actix handlers,
+  tower middleware, sqlx or sea-orm data layers, serde models, tracing plus
+  tracing-subscriber observability, and CLI binaries with clap. Covers ownership
+  and borrowing, lifetimes, traits with associated types and GATs, Send and Sync
+  bounds, pinning, async-trait status, cancellation with tokio::select, error
+  design with thiserror and anyhow or eyre, unsafe contracts, FFI, no_std, and
+  WASM with wasm-bindgen. Triggers: Rust, cargo, Cargo.toml, ownership, borrow,
+  lifetime, trait, async, await, tokio, futures, Send, Sync, Pin, axum, actix,
+  warp, rocket, sqlx, sea-orm, serde, anyhow, thiserror, eyre, tracing, clippy,
+  rustfmt, rust-analyzer, unsafe, FFI, no_std, WASM, wasm-bindgen, clap.
+  Produces error enums, axum services, tracing setups, sqlx queries,
+  cancellation patterns, release profile config, clippy and CI lint config.
 license: Apache-2.0
 metadata:
   version: "1.0.0"

@@ -6,20 +6,15 @@ description: >
   integration, monitoring) around them. Covers contract specs, invariants,
   access control, upgradability (UUPS, transparent, beacon proxies), gas
   budgets, oracle integration, MEV and front running exposure, fuzz and
-  invariant testing, mainnet fork tests, audit preparation, deployment
-  runbooks, and indexer schemas. Stacks: EVM (Solidity, Vyper) on Ethereum
-  and L2s (Optimism, Arbitrum, Base, zkSync, Polygon), Solana (Rust, Anchor),
-  Sui and Aptos (Move). Triggers: blockchain, smart contract, Solidity,
-  Vyper, EVM, Ethereum, L1, L2, rollup, Optimism, Arbitrum, Base, zkSync,
-  Polygon, Solana, Anchor, Sui, Aptos, Move, gas, MEV, front running,
-  slippage, oracle, ERC-20, ERC-721, ERC-1155, ERC-4626, ABI, indexer,
-  subgraph, The Graph, Foundry, Hardhat, slither, mythril, Echidna, audit,
-  formal verification, multisig, timelock, proxy, upgrade, dApp, wallet.
-  Produces contract specs, test suites, threat models, upgradability
-  decisions, deployment runbooks, indexer schemas. Defensive context only:
-  legitimate protocol engineering, audit prep, authorized red teaming. Not
-  for unauthorized exploitation, mixer evasion, or laundering assistance.
-  Not for org level threat modeling, see `principal-security-engineer`.
+  invariant testing, mainnet fork tests, audit preparation, deployment runbooks,
+  and indexer schemas. Stacks: EVM (Solidity, Vyper) on Ethereum and L2s
+  (Optimism, Arbitrum, Base, zkSync, Polygon), Solana (Rust, Anchor), Sui and
+  Aptos (Move). Triggers: blockchain, smart contract, Solidity, Vyper, EVM,
+  Ethereum, L1, L2, rollup, Optimism, Arbitrum, Base, zkSync, Polygon, Solana,
+  Anchor, Sui, Aptos, Move, gas, MEV, front running, slippage, oracle, ERC-20,
+  ERC-721, ERC-1155, ERC-4626, ABI, indexer, subgraph, The Graph, Foundry,
+  Hardhat, slither, mythril, Echidna, audit, formal verification, multisig,
+  timelock, proxy, upgrade, dApp, wallet.
 license: Apache-2.0
 metadata:
   version: "1.0.0"

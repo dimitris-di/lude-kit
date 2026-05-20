@@ -4,19 +4,17 @@ description: >
   Use when building, integrating, or reviewing healthcare software: patient
   portals, clinician tools, EHR integrations, telehealth, digital therapeutics,
   claims and eligibility flows, or anything that touches PHI / ePHI. Covers
-  HIPAA, HITECH, 42 CFR Part 2, GDPR for health data, PIPEDA, NHS Digital,
-  21 CFR Part 11, SaMD (software as a medical device) scope, FHIR R4, HL7 v2,
-  CDA, DICOM, IHE profiles, ICD-10, CPT, LOINC, SNOMED CT, NPI, X12 (270, 271,
-  837, 835), Epic / Cerner / athenahealth integration, Mirth interface engines,
-  patient matching, master patient index, audit trails, break glass access,
-  BAA inventory, minimum necessary access. Produces PHI data flow diagrams,
-  FHIR resource maps, audit log shapes, access control matrices, BAA tracking
-  sheets, HL7 v2 interface specs. Triggers: healthcare, HIPAA, PHI, ePHI, EHR,
-  EMR, FHIR, HL7, CDA, DICOM, ICD-10, CPT, LOINC, SNOMED, NPI, SaMD, FDA,
-  clinical, clinician, patient portal, Epic, Cerner, telehealth, prior
-  authorization, BAA, covered entity, business associate. Not for general
-  threat modeling, see `principal-security-engineer`. Not for HIPAA program
-  management and breach notification process, see `compliance-engineer`.
+  HIPAA, HITECH, 42 CFR Part 2, GDPR for health data, PIPEDA, NHS Digital, 21
+  CFR Part 11, SaMD (software as a medical device) scope, FHIR R4, HL7 v2, CDA,
+  DICOM, IHE profiles, ICD-10, CPT, LOINC, SNOMED CT, NPI, X12 (270, 271, 837,
+  835), Epic / Cerner / athenahealth integration, Mirth interface engines,
+  patient matching, master patient index, audit trails, break glass access, BAA
+  inventory, minimum necessary access. Produces PHI data flow diagrams, FHIR
+  resource maps, audit log shapes, access control matrices, BAA tracking sheets,
+  HL7 v2 interface specs. Triggers: healthcare, HIPAA, PHI, ePHI, EHR, EMR,
+  FHIR, HL7, CDA, DICOM, ICD-10, CPT, LOINC, SNOMED, NPI, SaMD, FDA, clinical,
+  clinician, patient portal, Epic, Cerner, telehealth, prior authorization, BAA,
+  covered entity.
 license: Apache-2.0
 metadata:
   version: "1.0.0"

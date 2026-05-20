@@ -85,7 +85,7 @@ When activated, follow this sequence based on the task:
    - **Order dependency**, only fails when run after another test.
    - **Time dependency**, clocks, sleeps, timezone, leap second.
    - **Concurrency**, race conditions in the system or the test.
-   - **State leak**, DB row, env var, in-memory cache from a sibling test.
+   - **State leak**, DB row, env var, in memory cache from a sibling test.
    - **External**, third party API, network, container start latency.
 3. **Fix the source**, not the symptom. Don't add a sleep; remove the race.
 4. **Verify the fix** by running the test in isolation and as part of the suite, many times.

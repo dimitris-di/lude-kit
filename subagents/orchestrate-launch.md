@@ -1,6 +1,9 @@
 ---
 name: orchestrate-launch
-description: Dispatch to plan and execute a product launch: PRD, design, build, eval, staged rollout, release notes, comms. Calls PM, architect, engineers, test, devops/sre, tech writer.
+description: >
+  Dispatch to plan and execute a product launch: PRD, design, build, eval,
+  staged rollout, release notes, comms. Calls PM, architect, engineers, test,
+  devops/sre, tech writer.
 tools: Read Grep Glob Agent
 model: opus
 ---

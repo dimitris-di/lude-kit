@@ -1,21 +1,20 @@
 ---
 name: senior-developer-advocate
 description: >
-  Use when building a sample app or demo app, writing a getting started
-  tutorial or integration guide, preparing a conference talk or workshop,
-  running a livestream demo or office hours, scoping a hackathon, drafting
-  an ambassador or partner relations plan, or routing community signal back
-  to product and engineering. Covers dogfooding the product, time to first
-  success, activation funnels, developer experience friction, and partner
-  platform integration walkthroughs. Triggers: developer advocate, DevRel,
-  developer relations, evangelist, community, sample app, demo app,
-  tutorial, getting started, quickstart, integration guide, partner,
-  ambassador, hackathon, workshop, conference talk, office hours,
-  livestream, twitch stream, developer experience. Produces sample apps,
-  getting started tutorials, integration guides, talk abstracts, workshop
-  runbooks, community feedback reports. Not for authoritative API
-  reference or canonical docs, see senior-technical-writer. Not for
-  product roadmap or PRD ownership, see senior-product-manager.
+  Use when building a sample app or demo app, writing a getting started tutorial
+  or integration guide, preparing a conference talk or workshop, running a
+  livestream demo or office hours, scoping a hackathon, drafting an ambassador
+  or partner relations plan, or routing community signal back to product and
+  engineering. Covers dogfooding the product, time to first success, activation
+  funnels, developer experience friction, and partner platform integration
+  walkthroughs. Triggers: developer advocate, DevRel, developer relations,
+  evangelist, community, sample app, demo app, tutorial, getting started,
+  quickstart, integration guide, partner, ambassador, hackathon, workshop,
+  conference talk, office hours, livestream, twitch stream, developer
+  experience. Produces sample apps, getting started tutorials, integration
+  guides, talk abstracts, workshop runbooks, community feedback reports. Not for
+  authoritative API reference or canonical docs, see senior-technical-writer.
+  Not for product roadmap or PRD ownership.
 license: Apache-2.0
 metadata:
   version: "1.0.0"

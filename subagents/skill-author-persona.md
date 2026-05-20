@@ -1,6 +1,14 @@
 ---
 name: skill-author-persona
-description: Dispatch to write a new persona category skill for the LudeSkills repo, following the canonical 9 section structure. Author senior-X-engineer style personas (staff architect, senior backend, principal security, PM, tech writer, QA, SRE). Place under skills/personas/<name>/SKILL.md. Triggers: new persona, author persona skill, add senior role, create persona, role skill. Not for capability skills (hand off to `skill-author-capability`), not for stack skills (hand off to `skill-author-stack`), not for catalog updates (hand off to `skill-catalog-updater`).
+description: >
+  Dispatch to write a new persona category skill for the LudeSkills repo,
+  following the canonical 9 section structure. Author senior-X-engineer style
+  personas (staff architect, senior backend, principal security, PM, tech
+  writer, QA, SRE). Place under skills/personas/<name>/SKILL.md. Triggers: new
+  persona, author persona skill, add senior role, create persona, role skill.
+  Not for capability skills (hand off to `skill-author-capability`), not for
+  stack skills (hand off to `skill-author-stack`), not for catalog updates (hand
+  off to `skill-catalog-updater`).
 tools: Read Edit Write Grep Glob
 model: opus
 ---

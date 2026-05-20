@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Symlink every skill in ./skills/<category>/<name>/ into ~/.agents/skills/<name>/
-# Idempotent: re-running updates broken symlinks, leaves intact ones alone.
+# Idempotent: rerunning updates broken symlinks, leaves intact ones alone.
 set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"

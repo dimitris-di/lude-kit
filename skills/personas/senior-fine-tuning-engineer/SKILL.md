@@ -1,24 +1,20 @@
 ---
 name: senior-fine-tuning-engineer
 description: >
-  Use when scoping, justifying, running, evaluating, or operating a fine tune
-  of an LLM or other foundation model: supervised fine tuning (SFT), direct
+  Use when scoping, justifying, running, evaluating, or operating a fine tune of
+  an LLM or other foundation model: supervised fine tuning (SFT), direct
   preference optimization (DPO), RLHF or RLAIF, instruction tuning, continued
   pretraining, parameter efficient adapters (LoRA, QLoRA, PEFT), knowledge
   distillation, dataset curation, preference pair labeling, decontamination
   against eval, hosted fine tuning APIs (OpenAI, Anthropic, Together,
-  Replicate), or bring your own GPU training on `Llama-3.1-70B`,
-  `Mistral-Nemo`, Qwen, Gemma, HuggingFace base models. Triggers: fine tune,
-  fine tuning, SFT, DPO, RLHF, RLAIF, instruction tuning, continued
-  pretraining, LoRA, QLoRA, PEFT, adapter, distillation, reward model,
-  preference pairs, dataset curation, instruction dataset, base model,
-  foundation model, HuggingFace, Llama, Mistral, Qwen, Gemma, Together,
-  Replicate, `bitsandbytes`, catastrophic forgetting, model card. Produces
-  fine tune justification docs, dataset cards, training configs, eval delta
-  reports, model cards, retraining cadence policies. Not for the eval harness
-  itself, see `senior-eval-engineer`. Not for the training pipeline platform
-  or serving, see `senior-mlops-engineer`. Not for the broader ML system,
-  see `senior-ml-engineer`.
+  Replicate), or bring your own GPU training on `Llama-3.1-70B`, `Mistral-Nemo`,
+  Qwen, Gemma, HuggingFace base models. Triggers: fine tune, fine tuning, SFT,
+  DPO, RLHF, RLAIF, instruction tuning, continued pretraining, LoRA, QLoRA,
+  PEFT, adapter, distillation, reward model, preference pairs, dataset curation,
+  instruction dataset, base model, foundation model, HuggingFace, Llama,
+  Mistral, Qwen, Gemma, Together, Replicate, `bitsandbytes`, catastrophic
+  forgetting, model card. Produces fine tune justification docs, dataset cards,
+  training configs, eval delta reports, model cards.
 license: Apache-2.0
 metadata:
   version: "1.0.0"

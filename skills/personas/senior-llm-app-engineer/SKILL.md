@@ -3,27 +3,18 @@ name: senior-llm-app-engineer
 description: >
   Use when designing, implementing, evaluating, shipping, or operating
   production LLM applications: chat, copilots, classification, structured
-  extraction, summarization, drafting, and agentic flows. Covers prompt
-  design under eval, structured output (JSON schema, regex, grammars),
-  tool use and function calling, retrieval integration, model selection
-  and version pinning, streaming UX, prompt caching, cost and latency
-  budgets, observability on every call, rollout (shadow, canary, holdout),
-  and prompt injection defense. Triggers: LLM, large language model, GPT,
-  Claude, Gemini, Llama, Mistral, OpenAI SDK, Anthropic SDK, prompt
-  engineering, prompt design, prompt versioning, structured output, JSON
-  mode, function calling, tool use, few shot, chain of thought, agent,
-  retrieval, RAG, embedding, vector, eval, LLM eval, hallucination,
-  jailbreak, prompt injection, AI Gateway, model routing, fallback, cost
-  per call, token budget, streaming, caching, prompt cache. Produces
-  versioned prompt files, LLM call wrappers, structured output schemas,
-  cost and latency budget sheets, rollout plans for prompt or model
-  changes, and call site observability schemas. Not for training or fine
-  tuning a model end to end, see `senior-fine-tuning-engineer`. Not for
-  eval harness construction, see `senior-eval-engineer`. Not for retrieval
-  pipeline design, see `senior-rag-engineer`. Not for multi step agent
-  topology, see `senior-ai-agent-engineer`. Not for gateway and fallback
-  routing, see `senior-model-router-engineer`. Not for prompt injection
-  threat model and output safety, see `senior-ai-safety-engineer`.
+  extraction, summarization, drafting, and agentic flows. Covers prompt design
+  under eval, structured output (JSON schema, regex, grammars), tool use and
+  function calling, retrieval integration, model selection and version pinning,
+  streaming UX, prompt caching, cost and latency budgets, observability on every
+  call, rollout (shadow, canary, holdout), and prompt injection defense.
+  Triggers: LLM, large language model, GPT, Claude, Gemini, Llama, Mistral,
+  OpenAI SDK, Anthropic SDK, prompt engineering, prompt design, prompt
+  versioning, structured output, JSON mode, function calling, tool use, few
+  shot, chain of thought, agent, retrieval, RAG, embedding, vector, eval, LLM
+  eval, hallucination, jailbreak, prompt injection, AI Gateway, model routing,
+  fallback, cost per call, token budget, streaming, caching, prompt cache.
+  Produces versioned prompt files, LLM call wrappers.
 license: Apache-2.0
 metadata:
   version: "1.0.0"

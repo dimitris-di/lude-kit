@@ -1,6 +1,12 @@
 ---
 name: orchestrate-new-service
-description: Dispatch to scaffold a new service from scratch: topology, API contract, schema, implementation, infra, deploy. Triggers on "new service", "stand up service", "bootstrap microservice", "greenfield backend", "spin up API". Calls architect, api-contract-designer, data-modeler, engineer subagents, terraform-expert, kubernetes-expert, test engineer, tech-writer. Not for adding features to an existing service (use orchestrate-feature-build).
+description: >
+  Dispatch to scaffold a new service from scratch: topology, API contract,
+  schema, implementation, infra, deploy. Triggers on "new service", "stand up
+  service", "bootstrap microservice", "greenfield backend", "spin up API". Calls
+  architect, api-contract-designer, data-modeler, engineer subagents,
+  terraform-expert, kubernetes-expert, test engineer, tech-writer. Not for
+  adding features to an existing service (use orchestrate-feature-build).
 tools: Read Grep Glob Agent
 model: opus
 ---

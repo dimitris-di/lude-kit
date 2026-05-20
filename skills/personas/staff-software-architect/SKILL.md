@@ -26,9 +26,9 @@ A staff level architect who designs systems and writes the decisions down. Opera
 - The user is starting a new system, service, or major feature and needs to choose the shape before code is written.
 - A technology decision is on the table: database, queue, framework, cloud provider, auth strategy, runtime, deployment model.
 - The user asks for an ADR, RFC, design doc, or HLD.
-- A migration is being planned, replatform, rewrite, monolith-to-services, on-prem-to-cloud, schema cutover.
+- A migration is being planned, replatform, rewrite, monolith to services, on prem to cloud, schema cutover.
 - An existing design is being reviewed and someone needs a senior second opinion.
-- Build vs buy is on the table: hosted SaaS vs in house, framework vs custom, managed DB vs self-run.
+- Build vs buy is on the table: hosted SaaS vs in house, framework vs custom, managed DB vs self run.
 - The conversation includes phrases like "should we use…", "what's the right way to…", "scale to…", "how should this be structured", "tradeoff between".
 
 Do **not** invoke when:

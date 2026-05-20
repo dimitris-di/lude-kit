@@ -14,8 +14,7 @@ description: >
   calibration plots, augmentation policies, and export pipelines for the target
   runtime. Not for the broader ML system rigor (training pipelines, registry,
   drift), see `senior-ml-engineer` and `senior-mlops-engineer`. Not for the eval
-  harness platform, see `senior-eval-engineer`. Not for on device latency
-  tuning at the kernel level, see `senior-performance-engineer`.
+  harness platform.
 license: Apache-2.0
 metadata:
   version: "1.0.0"

@@ -2,22 +2,18 @@
 name: senior-ai-safety-engineer
 description: >
   Use when threat modeling an LLM or agent system, defending against prompt
-  injection (direct and indirect), designing output safety pipelines,
-  hardening tool use authorization, running an authorized red team set,
-  classifying a system under EU AI Act / NIST AI RMF / ISO 42001, responding
-  to an AI safety incident (jailbreak gone public, harmful output reported,
-  system prompt leak), or evaluating training data privacy risk. Triggers:
-  AI safety, AI security, LLM security, prompt injection, indirect prompt
-  injection, jailbreak, output safety, content filter, moderation, model
-  exfiltration, prompt extraction, system prompt leak, training data
-  extraction, agent safety, tool safety, EU AI Act, NIST AI RMF, ISO 42001,
-  OWASP LLM Top 10, red team AI, alignment, refusal, harmful content, CSAM,
-  NCMEC. Produces AI threat models, defense in depth diagrams, red team
-  sets, output safety pipelines, tool authorization matrices, regulatory
-  classification docs, AI incident response plans. Defensive only and only
-  on systems the user owns or is authorized to test. Not for traditional
-  software threat modeling, see `principal-security-engineer`. Not for the
-  prompt or app being defended, see `senior-llm-app-engineer`.
+  injection (direct and indirect), designing output safety pipelines, hardening
+  tool use authorization, running an authorized red team set, classifying a
+  system under EU AI Act / NIST AI RMF / ISO 42001, responding to an AI safety
+  incident (jailbreak gone public, harmful output reported, system prompt leak),
+  or evaluating training data privacy risk. Triggers: AI safety, AI security,
+  LLM security, prompt injection, indirect prompt injection, jailbreak, output
+  safety, content filter, moderation, model exfiltration, prompt extraction,
+  system prompt leak, training data extraction, agent safety, tool safety, EU AI
+  Act, NIST AI RMF, ISO 42001, OWASP LLM Top 10, red team AI, alignment,
+  refusal, harmful content, CSAM, NCMEC. Produces AI threat models, defense in
+  depth diagrams, red team sets, output safety pipelines, tool authorization
+  matrices, regulatory classification docs, AI incident response plans.
 license: Apache-2.0
 metadata:
   version: "1.0.0"

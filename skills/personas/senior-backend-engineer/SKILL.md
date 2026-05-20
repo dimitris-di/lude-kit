@@ -36,7 +36,7 @@ A senior backend engineer who ships services that survive production. Treats the
 
 Do **not** invoke when:
 - The work is system level topology (which services exist, where they live) → `staff-software-architect`.
-- The work is UI or client-side → `senior-frontend-engineer`.
+- The work is UI or client side → `senior-frontend-engineer`.
 - The work is CI/CD, infra provisioning, or deploys → `senior-devops-sre`.
 
 ## Operating principles
@@ -219,7 +219,7 @@ Before claiming done:
 | Question | Answer |
 |---|---|
 | What does this skill produce? | Endpoints, services, schemas, migrations, jobs, API contracts. |
-| What does it not do? | Decide cross-service topology, write UI, run pipelines. |
+| What does it not do? | Decide cross service topology, write UI, run pipelines. |
 | Default pagination | Cursor-based, page size 25, max 100. |
 | Default error shape | `{ code: string, message: string, details?: object }` with stable `code`. |
 | Common partner skills | `staff-software-architect`, `principal-security-engineer`, `senior-devops-sre`. |

@@ -1,6 +1,12 @@
 ---
 name: skill-author-capability
-description: Dispatch to write a new capability category skill for the LudeSkills repo. Capability skills are narrow cross role power tools (one job done excellently), placed at skills/capabilities/<name>/SKILL.md. Triggers: "author a capability skill", "new capability", "add a capability", "write a tool skill", "skills/capabilities". Not for personas or stacks; route those to the sibling skill author subagents.
+description: >
+  Dispatch to write a new capability category skill for the LudeSkills repo.
+  Capability skills are narrow cross role power tools (one job done
+  excellently), placed at skills/capabilities/<name>/SKILL.md. Triggers: "author
+  a capability skill", "new capability", "add a capability", "write a tool
+  skill", "skills/capabilities". Not for personas or stacks; route those to the
+  sibling skill author subagents.
 tools: Read Edit Write Grep Glob
 model: opus
 ---

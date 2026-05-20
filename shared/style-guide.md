@@ -2,7 +2,7 @@
 
 The bar for every skill in this repo. Read this before writing or editing one.
 
-A skill is a folder under one of the category dirs (`skills/personas/`, `skills/capabilities/`, `skills/stacks/`). The folder name **must equal** the `name:` field, lowercase kebab, no leading/trailing/consecutive hyphens, 1 to 64 chars. Inside lives one `SKILL.md`.
+A skill is a folder under one of the category dirs (`skills/personas/`, `skills/capabilities/`, `skills/stacks/`). The folder name **must equal** the `name:` field, lowercase kebab, no leading or trailing or consecutive hyphens, 1 to 64 chars. Inside lives one `SKILL.md`.
 
 ## The portable frontmatter
 
@@ -20,7 +20,7 @@ metadata:
 ---
 ```
 
-That is the entire required surface for both Claude Code and Codex. Do **not** add Claude-only or Codex-only keys to `SKILL.md`. If a skill needs platform specific config, put it in a sibling file (`agents/openai.yaml` for Codex, `agents/claude.yaml` for Claude). None of the persona skills in batch 1 should need either.
+That is the entire required surface for both Claude Code and Codex. Do **not** add Claude only or Codex only keys to `SKILL.md`. If a skill needs platform specific config, put it in a sibling file (`agents/openai.yaml` for Codex, `agents/claude.yaml` for Claude). None of the persona skills in batch 1 should need either.
 
 ## The description is the trigger
 
@@ -63,7 +63,7 @@ Canonical section order (every skill in this repo follows it so an orchestrator 
 - **No first person.** The skill is not a character with feelings; it is a role with a job.
 - **No reassurance, no apology.** Skip "Great question!" and "I'll do my best."
 - **No emojis** unless the deliverable template demands one (e.g., a changelog convention).
-- **Headings ATX-style** (`##`), not underline. Sentence case headings.
+- **Headings ATX style** (`##`), not underline. Sentence case headings.
 - **Code fences with language tags.** ` ```ts `, ` ```bash `, ` ```yaml `.
 
 ## Composability

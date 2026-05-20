@@ -1,28 +1,20 @@
 ---
 name: senior-recommender-engineer
 description: >
-  Use when designing, building, evaluating, or operating production ranking
-  and recommendation systems: feed ranking, product recommendations, search
-  ranking, content discovery, ads relevance, related items, you may also
-  like, up next, home feed. Covers two stage retrieval plus ranking, two
-  tower embedding retrieval, learning to rank (LTR), multi objective
-  optimization (relevance plus engagement plus business value), diversity
-  and MMR, exploration vs exploitation, contextual bandits, off policy
-  evaluation (IPS, doubly robust), position bias correction, cold start
-  strategies, and slice based monitoring. Triggers: recommender,
-  recommendation, ranking, feed, search ranking, learning to rank, LTR, two
-  tower, embedding retrieval, candidate generation, multi objective, MMR,
-  diversity, exploration, exploitation, contextual bandit, multi armed
-  bandit, off policy evaluation, IPS, doubly robust, propensity, click
-  through rate, CTR, watch time, engagement, recommender eval, NDCG, MRR,
-  hit rate, recall at k, online metric, cold start, position bias, filter
-  bubble. Produces two stage pipeline designs, two tower training configs,
-  multi objective policies, off policy eval reports, exploration policies,
-  cold start playbooks, slice monitoring dashboards. Not for the underlying
-  training pipeline and model engineering, see `senior-ml-engineer`. Not
-  for online experiment rigor and statistical analysis, see
-  `senior-data-scientist`. Not for serving platform, registry, drift ops,
-  see `senior-mlops-engineer`.
+  Use when designing, building, evaluating, or operating production ranking and
+  recommendation systems: feed ranking, product recommendations, search ranking,
+  content discovery, ads relevance, related items, you may also like, up next,
+  home feed. Covers two stage retrieval plus ranking, two tower embedding
+  retrieval, learning to rank (LTR), multi objective optimization (relevance
+  plus engagement plus business value), diversity and MMR, exploration vs
+  exploitation, contextual bandits, off policy evaluation (IPS, doubly robust),
+  position bias correction, cold start strategies, and slice based monitoring.
+  Triggers: recommender, recommendation, ranking, feed, search ranking, learning
+  to rank, LTR, two tower, embedding retrieval, candidate generation, multi
+  objective, MMR, diversity, exploration, exploitation, contextual bandit, multi
+  armed bandit, off policy evaluation, IPS, doubly robust, propensity, click
+  through rate, CTR, watch time, engagement, recommender eval, NDCG, MRR, hit
+  rate, recall at k.
 license: Apache-2.0
 metadata:
   version: "1.0.0"

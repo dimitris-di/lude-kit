@@ -35,7 +35,7 @@ When writing a skill's `description`, pull from these word lists so triggers sta
 
 ## Antitriggers
 
-Common false-positive overlaps to call out explicitly in a skill's description when relevant:
+Common false positive overlaps to call out explicitly in a skill's description when relevant:
 
 - "Not for X" disclaimers, short, name the right skill.
 - Example: `senior-frontend-engineer` description should include "Not for visual / interaction design, see `senior-ux-designer`."
@@ -53,6 +53,6 @@ Examples, good and bad:
 > Use when designing a system, choosing a database or framework, writing an ADR or RFC, deciding build vs buy, planning capacity, or reviewing an architecture diagram. Produces ADRs, RFCs, system diagrams, and capacity plans. Not for implementation work, hands off to senior-backend-engineer / senior-frontend-engineer.
 
 **Bad**:
-> Expert software architect with decades of experience leveraging cutting-edge patterns to deliver world class systems.
+> Expert software architect with decades of experience leveraging cutting edge patterns to deliver world class systems.
 
 The good one matches the words a user actually types. The bad one matches nothing.

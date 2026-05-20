@@ -2,23 +2,19 @@
 name: senior-voice-ai-engineer
 description: >
   Use when designing, building, evaluating, or operating production
-  conversational voice systems: IVR, voice agents, voice assistants, agent
-  voice fronts, voice cloning compliant products. Covers streaming STT (ASR),
+  conversational voice systems: IVR, voice agents, voice assistants, agent voice
+  fronts, voice cloning compliant products. Covers streaming STT (ASR),
   streaming TTS, real time pipelines over WebRTC and telephony (SIP, Twilio,
   Vonage, Telnyx), turn taking, barge in detection, VAD (voice activity
   detection), prosody and SSML, dialog state, latency budgets (time to first
   audio, end to end response time), telephony codecs (mu law, a law, narrow
-  band, 8 kHz), accessibility (captions, text alternative). Triggers: voice
-  AI, voice agent, STT, speech to text, ASR, TTS, text to speech, voice
-  cloning, WebRTC, telephony, SIP, Twilio, Vonage, Telnyx, dialog state, turn
-  taking, barge in, VAD, prosody, SSML, real time API, streaming TTS,
-  streaming STT, time to first audio, whisper, deepgram, ElevenLabs,
-  Cartesia, Resemble, gpt-4o-realtime. Produces voice latency budgets,
-  barge in specs, telephony integration plans, dialog state schemas, voice
-  eval sets, voice safety policies. Not for STT or TTS model training and
-  selection rigor, see `senior-ml-engineer`. Not for the dialog LLM itself,
-  see `senior-llm-app-engineer`. Not for WebRTC media plumbing at the
-  protocol layer, see `media-streaming-engineer`.
+  band, 8 kHz), accessibility (captions, text alternative). Triggers: voice AI,
+  voice agent, STT, speech to text, ASR, TTS, text to speech, voice cloning,
+  WebRTC, telephony, SIP, Twilio, Vonage, Telnyx, dialog state, turn taking,
+  barge in, VAD, prosody, SSML, real time API, streaming TTS, streaming STT,
+  time to first audio, whisper, deepgram, ElevenLabs, Cartesia, Resemble,
+  gpt-4o-realtime. Produces voice latency budgets, barge in specs, telephony
+  integration plans, dialog state schemas, voice eval sets.
 license: Apache-2.0
 metadata:
   version: "1.0.0"

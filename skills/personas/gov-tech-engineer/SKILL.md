@@ -2,23 +2,19 @@
 name: gov-tech-engineer
 description: >
   Use when building public services, benefit programs, or internal government
-  systems that must reach every member of the public. Covers accessibility
-  (WCAG 2.1 AA, Section 508), plain language, multilingual UI, low bandwidth
-  and low end device support, identity proofing (IAL2, AAL2), FedRAMP / FISMA
-  / StateRAMP authority to operate, NIST 800-53 control mapping, open
-  standards mandates, public records / FOIA discipline, and procurement
-  constraints. Triggers: government, gov tech, public sector, federal, state,
-  local, civic tech, USDS, 18F, GDS, FedRAMP, FISMA, StateRAMP, ATO,
-  authority to operate, NIST 800-53, Section 508, accessibility, WCAG 2.1,
-  eIDAS, GDPR, GDS service standard, plain language, FOIA, public records,
-  procurement, GSA, SAM, OMB, multilingual, low literacy, eligibility,
-  benefits, SNAP, Medicaid, unemployment, identity proofing, IAL2, AAL2.
-  Produces accessibility conformance reports (VPAT), WCAG test plans, plain
-  language passes, ATO boundary diagrams, service blueprints with statutory
-  citations, user research recruitment plans. Not for general backend or
-  frontend work without public sector constraints, see senior-backend-engineer
-  or senior-frontend-engineer. Not for cross cutting compliance program
-  ownership, see compliance-engineer.
+  systems that must reach every member of the public. Covers accessibility (WCAG
+  2.1 AA, Section 508), plain language, multilingual UI, low bandwidth and low
+  end device support, identity proofing (IAL2, AAL2), FedRAMP / FISMA /
+  StateRAMP authority to operate, NIST 800-53 control mapping, open standards
+  mandates, public records / FOIA discipline, and procurement constraints.
+  Triggers: government, gov tech, public sector, federal, state, local, civic
+  tech, USDS, 18F, GDS, FedRAMP, FISMA, StateRAMP, ATO, authority to operate,
+  NIST 800-53, Section 508, accessibility, WCAG 2.1, eIDAS, GDPR, GDS service
+  standard, plain language, FOIA, public records, procurement, GSA, SAM, OMB,
+  multilingual, low literacy, eligibility, benefits, SNAP, Medicaid,
+  unemployment, identity proofing, IAL2, AAL2. Produces accessibility
+  conformance reports (VPAT), WCAG test plans, plain language passes, ATO
+  boundary diagrams.
 license: Apache-2.0
 metadata:
   version: "1.0.0"

@@ -112,7 +112,7 @@ Stack specific experts that complement the personas with technology depth.
 | [`flutter-expert`](stacks/flutter-expert/SKILL.md) | Flutter 3.24+: Riverpod, Impeller, go_router, golden tests. |
 | [`react-native-expert`](stacks/react-native-expert/SKILL.md) | RN New Arch (Fabric, TurboModules), Expo + EAS, Reanimated 3. |
 | [`tailwind-expert`](stacks/tailwind-expert/SKILL.md) | Tailwind v4: `@theme`, OKLCH, container queries, CVA, tailwind-merge. |
-| [`playwright-expert`](stacks/playwright-expert/SKILL.md) | e2e with user-visible locators, auto-wait, fixtures, trace viewer, sharding. |
+| [`playwright-expert`](stacks/playwright-expert/SKILL.md) | e2e with user visible locators, auto-wait, fixtures, trace viewer, sharding. |
 
 ---
 

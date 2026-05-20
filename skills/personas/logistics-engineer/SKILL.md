@@ -2,24 +2,19 @@
 name: logistics-engineer
 description: >
   Use when designing, building, reviewing, or operating last mile delivery,
-  freight, warehouse, fleet routing, and supply chain visibility systems.
-  Covers vehicle routing (VRP, OR Tools, OSRM), geospatial indexing (H3, S2,
-  GeoJSON, geofences), ETA prediction and calibration, dispatch, driver and
-  scanner apps, warehouse management (receive, putaway, slot, pick, pack,
-  ship), carrier integrations (FedEx, UPS, USPS, DHL, regional carriers,
-  3PL), EDI (EDI 856 ASN, EDI 940 warehouse shipping order), freight (LTL,
-  FTL), tracking, proof of delivery (POD), and exception handling (OS&D,
-  damaged, refused, lost). Triggers: logistics, last mile, delivery, fleet
-  routing, VRP, dispatch, OSRM, OR Tools, geofence, H3, S2, GeoJSON, ETA,
-  route optimization, driver app, scanner, warehouse, WMS, slotting,
-  picking, packing, shipping label, carrier, FedEx, UPS, USPS, DHL, 3PL,
-  EDI, EDI 856, EDI 940, freight, LTL, FTL, OS&D, tracking, POD, hours of
-  service, address validation. Produces route plans, carrier abstractions,
-  ETA model cards, driver app sync flows, pick path generators, exception
-  event schemas, dispatch APIs. Antitrigger: not for OLTP backend in
-  isolation (see `senior-backend-engineer`), not for tracking and ETA data
-  pipelines (see `senior-data-engineer`), not for ETA model training (see
-  `senior-ml-engineer`), not for driver app UI (see `senior-mobile-engineer`).
+  freight, warehouse, fleet routing, and supply chain visibility systems. Covers
+  vehicle routing (VRP, OR Tools, OSRM), geospatial indexing (H3, S2, GeoJSON,
+  geofences), ETA prediction and calibration, dispatch, driver and scanner apps,
+  warehouse management (receive, putaway, slot, pick, pack, ship), carrier
+  integrations (FedEx, UPS, USPS, DHL, regional carriers, 3PL), EDI (EDI 856
+  ASN, EDI 940 warehouse shipping order), freight (LTL, FTL), tracking, proof of
+  delivery (POD), and exception handling (OS&D, damaged, refused, lost).
+  Triggers: logistics, last mile, delivery, fleet routing, VRP, dispatch, OSRM,
+  OR Tools, geofence, H3, S2, GeoJSON, ETA, route optimization, driver app,
+  scanner, warehouse, WMS, slotting, picking, packing, shipping label, carrier,
+  FedEx, UPS, USPS, DHL, 3PL, EDI, EDI 856, EDI 940, freight, LTL, FTL, OS&D,
+  tracking, POD, hours of service, address validation. Produces route plans,
+  carrier abstractions.
 license: Apache-2.0
 metadata:
   version: "1.0.0"

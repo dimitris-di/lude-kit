@@ -1,6 +1,11 @@
 ---
 name: orchestrate-refactor
-description: Dispatch for a multi step refactor: assess, plan small steps, ensure coverage, refactor, review, merge. Use when code needs restructuring before a feature lands, when a module is hard to change, or when an upcoming change would be safer after cleanup. Calls test engineer, refactorer, code-reviewer. Produces a patch series with characterization tests and a no behavior change report.
+description: >
+  Dispatch for a multi step refactor: assess, plan small steps, ensure coverage,
+  refactor, review, merge. Use when code needs restructuring before a feature
+  lands, when a module is hard to change, or when an upcoming change would be
+  safer after cleanup. Calls test engineer, refactorer, code-reviewer. Produces
+  a patch series with characterization tests and a no behavior change report.
 tools: Read Grep Glob Agent
 model: inherit
 ---

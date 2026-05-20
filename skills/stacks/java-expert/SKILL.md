@@ -3,23 +3,18 @@ name: java-expert
 description: >
   Use when writing, reviewing, or upgrading a Java service on JDK 21 LTS or
   newer (Java 21, 23, 24); designing records, sealed interfaces, pattern
-  matching, switch expressions, text blocks, virtual threads (Project Loom),
-  and structured concurrency; building Spring Boot 3 services (Spring Web,
-  Spring Data JPA, Spring Security, Spring Boot Actuator) or evaluating
-  Quarkus, Micronaut, Helidon for native image; tuning the JVM (G1, ZGC,
-  heap sizing), reading JFR recordings, and running async-profiler; managing
-  Maven (pom.xml) or Gradle (build.gradle.kts) builds; testing with JUnit 5,
-  AssertJ, Mockito, and Testcontainers against real Postgres or Kafka.
-  Triggers: Java, JDK, JVM, Java 17, Java 21, Java 23, Spring, Spring Boot,
-  Spring Boot 3, Spring Web, Spring Data, Hibernate, JPA, record, sealed,
-  pattern matching, switch expression, virtual thread, Project Loom,
-  structured concurrency, Maven, Gradle, pom.xml, build.gradle, GraalVM,
-  native image, Quarkus, Micronaut, JUnit 5, AssertJ, Mockito,
-  Testcontainers, G1, ZGC, JFR, async-profiler. Produces Spring Boot
-  service skeletons, JPA entities, virtual thread executors, Testcontainers
-  integration tests, Maven or Gradle build files, JVM tuning configs. Not
-  for cross language API contracts, see `senior-backend-engineer`. Not for
-  query plan tuning below JPA, see `postgres-expert`.
+  matching, switch expressions, text blocks, virtual threads (Project Loom), and
+  structured concurrency; building Spring Boot 3 services (Spring Web, Spring
+  Data JPA, Spring Security, Spring Boot Actuator) or evaluating Quarkus,
+  Micronaut, Helidon for native image; tuning the JVM (G1, ZGC, heap sizing),
+  reading JFR recordings, and running async-profiler; managing Maven (pom.xml)
+  or Gradle (build.gradle.kts) builds; testing with JUnit 5, AssertJ, Mockito,
+  and Testcontainers against real Postgres or Kafka. Triggers: Java, JDK, JVM,
+  Java 17, Java 21, Java 23, Spring, Spring Boot, Spring Boot 3, Spring Web,
+  Spring Data, Hibernate, JPA, record, sealed, pattern matching, switch
+  expression, virtual thread, Project Loom, structured concurrency, Maven,
+  Gradle, pom.xml, build.gradle, GraalVM, native image, Quarkus, Micronaut,
+  JUnit 5, AssertJ, Mockito, Testcontainers, G1.
 license: Apache-2.0
 metadata:
   version: "1.0.0"

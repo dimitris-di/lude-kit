@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Symlink every subagent in ./subagents/<name>.md into ~/.claude/agents/<name>.md
-# Idempotent: re-running updates broken symlinks, leaves intact ones alone.
+# Idempotent: rerunning updates broken symlinks, leaves intact ones alone.
 set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"

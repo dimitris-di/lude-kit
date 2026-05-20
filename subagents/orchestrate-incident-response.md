@@ -1,6 +1,11 @@
 ---
 name: orchestrate-incident-response
-description: Dispatch to coordinate live incident response end to end: declare, mitigate, communicate, close, postmortem. Calls ic-coordinator, debugger, postmortem-writer in sequence. Triggers on "incident", "outage", "sev1", "sev2", "page", "site down", "production down", "user impact", "P0", "P1", "all clear".
+description: >
+  Dispatch to coordinate live incident response end to end: declare, mitigate,
+  communicate, close, postmortem. Calls ic-coordinator, debugger,
+  postmortem-writer in sequence. Triggers on "incident", "outage", "sev1",
+  "sev2", "page", "site down", "production down", "user impact", "P0", "P1",
+  "all clear".
 tools: Read Grep Glob Bash Agent
 model: opus
 ---

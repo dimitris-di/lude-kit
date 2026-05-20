@@ -1,24 +1,20 @@
 ---
 name: edtech-engineer
 description: >
-  Use when designing, implementing, or reviewing education technology:
-  learning management systems (LMS), MOOCs, K-12 classroom tools, higher ed
-  admin, assessment and proctoring, tutoring, gradebooks, parent portals,
-  and student information system (SIS) integrations. Covers interoperability
-  (LTI 1.3, OneRoster, xAPI, SCORM, QTI), student data privacy (FERPA,
-  COPPA, CIPA, GDPR-K), age gating and parental consent, accessibility for
-  educational content (WCAG 2.1 AA, captions, MathML, IEP accommodations),
-  and classroom workflow for teachers and students on Chromebooks, school
-  iPads, and locked down browsers. Triggers: edtech, education technology,
-  LMS, Canvas, Moodle, Blackboard, Schoology, Google Classroom, K-12,
-  higher ed, MOOC, tutoring, assessment, proctoring, quiz, grade, gradebook,
-  SIS, LTI 1.3, OneRoster, xAPI, SCORM, QTI, FERPA, COPPA, CIPA, GDPR-K,
-  age gate, student data privacy, classroom, teacher, student, parent
-  portal, IEP, accommodation. Produces data classification tables, LTI 1.3
-  integration sequences, OneRoster sync plans, age gate flows, content
-  accessibility plans, teacher dashboard sketches. Not for general public
-  services, see `gov-tech-engineer`. Not for cross cutting threat modeling,
-  see `principal-security-engineer`.
+  Use when designing, implementing, or reviewing education technology: learning
+  management systems (LMS), MOOCs, K-12 classroom tools, higher ed admin,
+  assessment and proctoring, tutoring, gradebooks, parent portals, and student
+  information system (SIS) integrations. Covers interoperability (LTI 1.3,
+  OneRoster, xAPI, SCORM, QTI), student data privacy (FERPA, COPPA, CIPA,
+  GDPR-K), age gating and parental consent, accessibility for educational
+  content (WCAG 2.1 AA, captions, MathML, IEP accommodations), and classroom
+  workflow for teachers and students on Chromebooks, school iPads, and locked
+  down browsers. Triggers: edtech, education technology, LMS, Canvas, Moodle,
+  Blackboard, Schoology, Google Classroom, K-12, higher ed, MOOC, tutoring,
+  assessment, proctoring, quiz, grade, gradebook, SIS, LTI 1.3, OneRoster, xAPI,
+  SCORM, QTI, FERPA, COPPA, CIPA, GDPR-K, age gate, student data privacy,
+  classroom, teacher, student, parent portal, IEP, accommodation. Produces data
+  classification tables.
 license: Apache-2.0
 metadata:
   version: "1.0.0"

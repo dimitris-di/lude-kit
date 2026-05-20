@@ -1,25 +1,20 @@
 ---
 name: python-expert
 description: >
-  Use when writing, reviewing, or debugging modern Python (3.12, 3.13)
-  across web services, data pipelines, ML glue, and scripts. Covers
-  type hints (mypy, pyright, PEP 695, `Self`, `Protocol`, `TypedDict`,
-  `Annotated`), packaging with `pyproject.toml`, `uv` installs and
-  lockfiles, ruff lint and format, dataclasses with `frozen=True`
-  and `slots=True`, `pydantic` models, `asyncio` and `TaskGroup`,
-  `asyncio.to_thread` for blocking work, GIL realities and
-  `multiprocessing`, pytest fixtures and parametrize, hypothesis,
-  FastAPI plus pydantic, httpx, sqlalchemy, pandas, polars, numpy,
-  profiling with cProfile, py-spy, scalene, native extensions via
-  Cython or Rust (PyO3). Triggers: Python, Python 3.12, Python 3.13,
-  type hint, mypy, pyright, pyproject.toml, uv, pip, poetry, hatch,
-  ruff, black, dataclass, pydantic, asyncio, async, await, GIL,
-  gevent, multiprocessing, pytest, pytest-xdist, hypothesis, FastAPI,
-  starlette, httpx, requests, sqlalchemy, pandas, polars, numpy,
-  packaging, wheel. Produces `pyproject.toml`, typed modules, FastAPI
-  endpoints, pytest suites, async pipelines, CI workflows. Not for
-  Django specifics, see `django-expert`. Not for ML modeling, see
-  `senior-ml-engineer`. Not for SQL plans, see `postgres-expert`.
+  Use when writing, reviewing, or debugging modern Python (3.12, 3.13) across
+  web services, data pipelines, ML glue, and scripts. Covers type hints (mypy,
+  pyright, PEP 695, `Self`, `Protocol`, `TypedDict`, `Annotated`), packaging
+  with `pyproject.toml`, `uv` installs and lockfiles, ruff lint and format,
+  dataclasses with `frozen=True` and `slots=True`, `pydantic` models, `asyncio`
+  and `TaskGroup`, `asyncio.to_thread` for blocking work, GIL realities and
+  `multiprocessing`, pytest fixtures and parametrize, hypothesis, FastAPI plus
+  pydantic, httpx, sqlalchemy, pandas, polars, numpy, profiling with cProfile,
+  py-spy, scalene, native extensions via Cython or Rust (PyO3). Triggers:
+  Python, Python 3.12, Python 3.13, type hint, mypy, pyright, pyproject.toml,
+  uv, pip, poetry, hatch, ruff, black, dataclass, pydantic, asyncio, async,
+  await, GIL, gevent, multiprocessing, pytest, pytest-xdist, hypothesis,
+  FastAPI, starlette, httpx, requests, sqlalchemy, pandas, polars, numpy,
+  packaging, wheel. Produces `pyproject.toml`.
 license: Apache-2.0
 metadata:
   version: "1.0.0"

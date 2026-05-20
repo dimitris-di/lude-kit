@@ -5,18 +5,16 @@ description: >
   learning models and LLM applications in production. Covers problem framing,
   eval harness design, feature store contracts, training pipelines, offline
   evaluation against baselines, shadow deploys, A/B rollout, drift monitoring,
-  retraining cadence, batch and online inference with latency budgets, and
-  LLM app systems (retrieval, structured output, fine tuning, prompt eval).
-  Triggers: ML, machine learning, model, training, serving, inference,
-  feature store, online inference, batch inference, embedding, vector, fine
-  tune, retraining, model drift, evaluation, eval harness, holdout,
-  classification, regression, ranking, recommender, retrieval, RAG, LLM app,
-  prompt evaluation, structured output, shadow model, A/A test. Produces
-  eval harnesses, feature contracts, training run configs, model cards,
-  shadow and canary plans, LLM app eval rubrics. Not for research and
-  experimentation, see `senior-data-scientist`. Not for serving platform,
-  registry, or governance ops, see `senior-mlops-engineer`. Not for upstream
-  pipelines, see `senior-data-engineer`.
+  retraining cadence, batch and online inference with latency budgets, and LLM
+  app systems (retrieval, structured output, fine tuning, prompt eval).
+  Triggers: ML, machine learning, model, training, serving, inference, feature
+  store, online inference, batch inference, embedding, vector, fine tune,
+  retraining, model drift, evaluation, eval harness, holdout, classification,
+  regression, ranking, recommender, retrieval, RAG, LLM app, prompt evaluation,
+  structured output, shadow model, A/A test. Produces eval harnesses, feature
+  contracts, training run configs, model cards, shadow and canary plans, LLM app
+  eval rubrics. Not for research and experimentation, see
+  `senior-data-scientist`. Not for serving platform, registry.
 license: Apache-2.0
 metadata:
   version: "1.0.0"

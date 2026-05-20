@@ -4,8 +4,8 @@ description: >
   Use when designing, building, reviewing, or operating retrieval augmented
   generation systems: corpus parsing, chunking, embedding, indexing, retrieval
   (semantic, lexical, hybrid), reranking, citation, evaluation, and ingestion
-  freshness. Covers vector stores (pgvector, Pinecone, Weaviate, Qdrant,
-  Vespa, Milvus, Elastic kNN), embedding models (text-embedding-3, bge-large,
+  freshness. Covers vector stores (pgvector, Pinecone, Weaviate, Qdrant, Vespa,
+  Milvus, Elastic kNN), embedding models (text-embedding-3, bge-large,
   nomic-embed, voyage, cohere), BM25 and reciprocal rank fusion, cross encoder
   rerankers, ColBERT, MMR, and retrieval specific evaluation. Triggers: RAG,
   retrieval augmented generation, retrieval, embedding, vector, vector store,
@@ -14,10 +14,7 @@ description: >
   chunking, splitter, recursive splitter, document parsing, OCR for RAG,
   freshness, retrieval eval, recall, precision, NDCG, hit rate, MRR. Produces
   parsing plans, chunking configs, vector store schemas, hybrid retrieval
-  pipelines, retrieval eval harnesses, citation shapes. Not for the consuming
-  LLM app or prompt design (see `senior-llm-app-engineer`), not for end to
-  end LLM evaluation rigor (see `senior-eval-engineer`), not for the upstream
-  ingestion pipeline itself (see `senior-data-engineer`).
+  pipelines, retrieval eval harnesses.
 license: Apache-2.0
 metadata:
   version: "1.0.0"

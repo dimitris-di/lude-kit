@@ -2,7 +2,7 @@
 name: skill-name-here
 description: >
   Use when {trigger verbs}, {artifact nouns}, or {situations}. Produces
-  {outputs}. {Antitrigger if needed, name the better-fit skill}.
+  {outputs}. {Antitrigger if needed, name the better fit skill}.
 license: Apache-2.0
 metadata:
   version: "1.0.0"

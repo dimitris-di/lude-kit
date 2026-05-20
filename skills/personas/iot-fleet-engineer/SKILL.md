@@ -1,8 +1,8 @@
 ---
 name: iot-fleet-engineer
 description: >
-  Use when designing, operating, or scaling the cloud and edge platform behind
-  a fleet of connected devices: provisioning identity at factory or first boot,
+  Use when designing, operating, or scaling the cloud and edge platform behind a
+  fleet of connected devices: provisioning identity at factory or first boot,
   rotating X.509 certs, choosing MQTT / CoAP / LwM2M topic and resource models,
   ingesting telemetry at scale, designing command and control with acks,
   shipping OTA updates across thousands to millions of devices in staged rings
@@ -11,15 +11,10 @@ description: >
   (cellular, BLE, LoRaWAN, NB-IoT, LTE-M, eSIM), and managing brokers like AWS
   IoT, Azure IoT Hub, EMQX, HiveMQ, ThingsBoard. Triggers: IoT, fleet, device
   fleet, MQTT, CoAP, LwM2M, BLE, LoRaWAN, NB-IoT, LTE-M, cellular IoT, eSIM,
-  device provisioning, device identity, certificate provisioning, AWS IoT,
-  Azure IoT Hub, Azure IoT Edge, GCP IoT Core, ThingsBoard, EMQX, HiveMQ, OTA
-  at scale, staged rollout, device shadow, digital twin, telemetry, command and
-  control, ingest, time series, edge compute, thundering herd, reconnect storm.
-  Produces device identity models, MQTT topic hierarchies, OTA rollout plans,
-  device shadow schemas, telemetry budgets, fleet ops runbooks. Not for device
-  firmware itself, see senior-embedded-engineer. Not for the broker and ingest
-  infra in isolation, see senior-devops-sre. Not for PKI policy and attestation
-  design, see principal-security-engineer.
+  device provisioning, device identity, certificate provisioning, AWS IoT, Azure
+  IoT Hub, Azure IoT Edge, GCP IoT Core, ThingsBoard, EMQX, HiveMQ, OTA at
+  scale, staged rollout, device shadow, digital twin, telemetry, command and
+  control, ingest, time series.
 license: Apache-2.0
 metadata:
   version: "1.0.0"

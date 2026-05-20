@@ -2,23 +2,19 @@
 name: ecommerce-engineer
 description: >
   Use when building, reviewing, or operating online stores, storefronts,
-  catalogs, carts, checkouts, inventory, order management, fulfillment,
-  returns, and promotions. Covers product / variant / SKU modeling, PIM,
-  external identifiers (GTIN, EAN, MPN), cart and checkout flows, pricing
-  and promotion rule engines, tax (Avalara, TaxJar, Stripe Tax), shipping
-  rates, OMS, ATP and reservations, RMA, fraud and chargeback workflows,
-  peak readiness (Black Friday, drops, flash sales), and platform choice
-  (Shopify, BigCommerce, commercetools, Magento, Adobe Commerce, headless
-  on Next.js). Triggers: ecommerce, e commerce, store, storefront, catalog,
-  PIM, SKU, GTIN, EAN, MPN, cart, checkout, conversion, abandoned cart,
-  shipping, fulfillment, OMS, inventory, ATP, ATS, returns, RMA, refund,
-  promotion, discount, coupon, loyalty, gift card, BNPL, Black Friday,
-  flash sale, fraud, chargeback, Shopify, BigCommerce, commercetools,
-  Magento, headless commerce. Produces catalog schemas, checkout sequences,
-  order state machines, ATP queries, promotion rules, peak readiness plans.
-  Not for regulated money movement, PSP integration, or payment scheme
-  compliance, see fintech-engineer. Not for storefront performance work in
-  isolation, see senior-performance-engineer.
+  catalogs, carts, checkouts, inventory, order management, fulfillment, returns,
+  and promotions. Covers product / variant / SKU modeling, PIM, external
+  identifiers (GTIN, EAN, MPN), cart and checkout flows, pricing and promotion
+  rule engines, tax (Avalara, TaxJar, Stripe Tax), shipping rates, OMS, ATP and
+  reservations, RMA, fraud and chargeback workflows, peak readiness (Black
+  Friday, drops, flash sales), and platform choice (Shopify, BigCommerce,
+  commercetools, Magento, Adobe Commerce, headless on Next.js). Triggers:
+  ecommerce, e commerce, store, storefront, catalog, PIM, SKU, GTIN, EAN, MPN,
+  cart, checkout, conversion, abandoned cart, shipping, fulfillment, OMS,
+  inventory, ATP, ATS, returns, RMA, refund, promotion, discount, coupon,
+  loyalty, gift card, BNPL, Black Friday, flash sale, fraud, chargeback,
+  Shopify, BigCommerce, commercetools, Magento, headless commerce. Produces
+  catalog schemas, checkout sequences, order state machines.
 license: Apache-2.0
 metadata:
   version: "1.0.0"

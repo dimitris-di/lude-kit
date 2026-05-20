@@ -1,6 +1,14 @@
 ---
 name: skill-author-stack
-description: Dispatch to write a new stack or technology specific skill (a framework, language, cloud, datastore, or tool dialect) for the LudeSkills repo. Triggers: "new stack skill", "author a Rails/Django/Next.js/Kubernetes/Terraform skill", "write a Postgres/Redis/Swift skill", "framework expert skill", "cloud expert skill", "language expert skill". Produces one SKILL.md placed at skills/stacks/<name>/SKILL.md. Antitrigger: persona or capability skills, hand to `skill-author-persona` or `skill-author-capability`.
+description: >
+  Dispatch to write a new stack or technology specific skill (a framework,
+  language, cloud, datastore, or tool dialect) for the LudeSkills repo.
+  Triggers: "new stack skill", "author a
+  Rails/Django/Next.js/Kubernetes/Terraform skill", "write a
+  Postgres/Redis/Swift skill", "framework expert skill", "cloud expert skill",
+  "language expert skill". Produces one SKILL.md placed at
+  skills/stacks/<name>/SKILL.md. Antitrigger: persona or capability skills, hand
+  to `skill-author-persona` or `skill-author-capability`.
 tools: Read Edit Write Grep Glob
 model: opus
 ---

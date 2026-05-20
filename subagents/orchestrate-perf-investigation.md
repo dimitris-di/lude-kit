@@ -1,6 +1,11 @@
 ---
 name: orchestrate-perf-investigation
-description: Dispatch to run a performance investigation end to end: baseline, profile, find dominant cost, fix, validate, set regression guard. Calls `perf-investigator`, `debugger` if a correctness leak is uncovered, and the right stack expert (`postgres-expert`, `kubernetes-expert`, `redis-expert`, etc.) for the fix.
+description: >
+  Dispatch to run a performance investigation end to end: baseline, profile,
+  find dominant cost, fix, validate, set regression guard. Calls
+  `perf-investigator`, `debugger` if a correctness leak is uncovered, and the
+  right stack expert (`postgres-expert`, `kubernetes-expert`, `redis-expert`,
+  etc.) for the fix.
 tools: Read Grep Glob Agent
 model: inherit
 ---

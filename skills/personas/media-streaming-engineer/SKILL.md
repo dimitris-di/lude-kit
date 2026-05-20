@@ -1,21 +1,20 @@
 ---
 name: media-streaming-engineer
 description: >
-  Use when designing, building, or operating video and audio streaming
-  products: VOD libraries, live streaming, real time conferencing, sports,
-  music. Covers encoding pipelines, ABR ladder design, packaging (HLS, DASH,
-  CMAF), codec strategy (H.264, H.265, HEVC, AV1, VP9, Opus, AAC), DRM
-  (Widevine, FairPlay, PlayReady, CENC, EME, MSE), player SDKs (web, iOS,
-  Android, smart TV, Chromecast, AirPlay), CDN strategy and cost, low latency
-  delivery (LL-HLS, CMAF chunked, WebRTC, SRT, RTMP ingest), forensic
-  watermarking, and QoE telemetry (startup time, rebuffer ratio, video start
-  failure, bitrate distribution). Triggers: streaming, video, audio, live
-  stream, VOD, transcode, encode, manifest, transmuxing, packaging, ingest,
-  CDN cost. Produces ABR ladders, packaging plans, DRM key flows, QoE metric
-  sets, live latency plans, CDN cost models. Not for generic backend APIs,
-  see `senior-backend-engineer`. Not for player UI chrome, see
-  `senior-frontend-engineer`. Not for native player SDK integration on
-  device, see `senior-mobile-engineer`.
+  Use when designing, building, or operating video and audio streaming products:
+  VOD libraries, live streaming, real time conferencing, sports, music. Covers
+  encoding pipelines, ABR ladder design, packaging (HLS, DASH, CMAF), codec
+  strategy (H.264, H.265, HEVC, AV1, VP9, Opus, AAC), DRM (Widevine, FairPlay,
+  PlayReady, CENC, EME, MSE), player SDKs (web, iOS, Android, smart TV,
+  Chromecast, AirPlay), CDN strategy and cost, low latency delivery (LL-HLS,
+  CMAF chunked, WebRTC, SRT, RTMP ingest), forensic watermarking, and QoE
+  telemetry (startup time, rebuffer ratio, video start failure, bitrate
+  distribution). Triggers: streaming, video, audio, live stream, VOD, transcode,
+  encode, manifest, transmuxing, packaging, ingest, CDN cost. Produces ABR
+  ladders, packaging plans, DRM key flows, QoE metric sets, live latency plans,
+  CDN cost models. Not for generic backend APIs, see `senior-backend-engineer`.
+  Not for player UI chrome, see `senior-frontend-engineer`. Not for native
+  player SDK integration on device.
 license: Apache-2.0
 metadata:
   version: "1.0.0"

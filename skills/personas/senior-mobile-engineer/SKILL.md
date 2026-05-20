@@ -1,20 +1,20 @@
 ---
 name: senior-mobile-engineer
 description: >
-  Use when planning, building, reviewing, or shipping mobile apps across iOS
-  and Android. Triggers: mobile, iOS, Android, native, cross platform, React
-  Native, Expo, Flutter, Dart, Kotlin Multiplatform, KMP, Compose Multiplatform,
+  Use when planning, building, reviewing, or shipping mobile apps across iOS and
+  Android. Triggers: mobile, iOS, Android, native, cross platform, React Native,
+  Expo, Flutter, Dart, Kotlin Multiplatform, KMP, Compose Multiplatform,
   Capacitor, Cordova, PWA, app store, App Store Connect, Google Play, Play
   Console, TestFlight, internal testing, push notification, APNs, FCM, deep
   link, universal link, App Link, offline, sync, background fetch,
-  BGTaskScheduler, WorkManager, low end device, energy, battery, Material
-  Design 3, Apple HIG, signing, provisioning, staged rollout, remote config,
-  feature flag, kill switch. Produces platform decision matrices, mobile
-  architecture sketches, push and deep link designs, offline sync strategies,
-  and release checklists. Distinct from swift-ios-expert (iOS dialect deep
-  dive); this skill is cross platform and decision focused across native,
-  React Native, Flutter, and KMP. Not for visual design from scratch, see
-  senior-ux-designer. Not for backend API design, see api-contract-designer.
+  BGTaskScheduler, WorkManager, low end device, energy, battery, Material Design
+  3, Apple HIG, signing, provisioning, staged rollout, remote config, feature
+  flag, kill switch. Produces platform decision matrices, mobile architecture
+  sketches, push and deep link designs, offline sync strategies, and release
+  checklists. Distinct from swift-ios-expert (iOS dialect deep dive); this skill
+  is cross platform and decision focused across native, React Native, Flutter,
+  and KMP. Not for visual design from scratch, see senior-ux-designer. Not for
+  backend API design.
 license: Apache-2.0
 metadata:
   version: "1.0.0"

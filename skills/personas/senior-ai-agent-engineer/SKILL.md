@@ -15,10 +15,6 @@ description: >
   guardrail, human in the loop, agent budget, agent cost. Produces tool
   definitions, agent loop skeletons, multi agent topologies, trace schemas,
   agent eval harnesses, human in the loop interrupt specs, safety gate plans.
-  Not for single shot LLM calls, prompts, or structured output pipelines, see
-  `senior-llm-app-engineer`. Not for the eval harness as a standalone
-  artifact, see `senior-eval-engineer`. Not for retrieval as a tool, see
-  `senior-rag-engineer`.
 license: Apache-2.0
 metadata:
   version: "1.0.0"

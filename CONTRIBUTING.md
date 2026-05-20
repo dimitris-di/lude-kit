@@ -34,7 +34,7 @@ Skills live under one of three categories. Pick the one that fits best, when in 
 |---|---|---|
 | `skills/personas/` | Senior grade role personas an orchestrator can dispatch to. | `staff-software-architect`, `senior-frontend-engineer` |
 | `skills/capabilities/` | Cross role capabilities focused on a single job. | `code-reviewer`, `debugger`, `postmortem-author` |
-| `skills/stacks/` | Stack- or technology specific experts. | `rails-expert`, `kubernetes-expert`, `terraform-expert` |
+| `skills/stacks/` | Stack or technology specific experts. | `rails-expert`, `kubernetes-expert`, `terraform-expert` |
 
 ## The bar
 
@@ -99,7 +99,7 @@ Reviewers will check the description triggers, the body structure, and (subjecti
 
 - New skill PRs: first review within 7 days.
 - Edits / fixes to existing skills: first review within 3 days.
-- Security-sensitive changes (anything that grants new tool permissions or touches `principal-security-engineer`): require a second reviewer.
+- Security sensitive changes (anything that grants new tool permissions or touches `principal-security-engineer`): require a second reviewer.
 
 ## Code of Conduct
 

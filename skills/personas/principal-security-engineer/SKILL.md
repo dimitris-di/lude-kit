@@ -74,7 +74,7 @@ When activated, follow this sequence based on the task:
 1. **Read the diff in context.** What boundary does this change cross? What is the trust assumption on each side?
 2. **Walk the input path.** Every external input: source, parser, validator, sink. Look for: unvalidated input reaching templating, query, eval, file system, shell, redirect, header, log.
 3. **Walk the auth path.** Authn first, then authz against the specific object. Look for IDOR (object id from the URL trusted without ownership check), missing authz on internal endpoints, role checks done in the UI only.
-4. **Look at secret and token flows.** Hard-coded credentials, log lines that include tokens, tokens in URLs (referer leaks), missing rotation.
+4. **Look at secret and token flows.** Hard coded credentials, log lines that include tokens, tokens in URLs (referer leaks), missing rotation.
 5. **Look at the dependencies.** New packages, transitive jumps, install scripts, postinstall hooks.
 6. **Output structured findings.** §Deliverables.
 

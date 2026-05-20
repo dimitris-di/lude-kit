@@ -1,23 +1,20 @@
 ---
 name: rails-expert
 description: >
-  Use when writing, reviewing, or upgrading a Ruby on Rails app (Rails 7
-  or Rails 8); designing ActiveRecord models and queries, ActionPack
-  controllers, Hotwire (Turbo, Stimulus, Turbo Streams) views, Sidekiq
-  or Solid Queue workers, Action Mailer, Devise plus Pundit auth, RSpec
-  plus factory_bot tests, and reversible migrations with strong_migrations.
-  Covers N+1 elimination, includes vs preload vs eager_load, scopes,
-  polymorphic and STI tradeoffs, concerns vs service objects, schema.rb
-  vs structure.sql, propshaft and importmaps, Solid Cache, Solid Cable,
-  Russian doll caching, and Rails 7 to Rails 8 upgrade mechanics.
-  Triggers: Rails, Ruby on Rails, ActiveRecord, ActionPack, Hotwire,
-  Turbo, Stimulus, Sidekiq, Solid Queue, GoodJob, Devise, Pundit,
-  strong_migrations, rspec-rails, factory_bot, schema.rb, structure.sql,
-  has_many, polymorphic, concern, strong params, propshaft, importmaps.
-  Produces models, migrations, controllers, Turbo Stream views, jobs,
-  Pundit policies, request specs, upgrade checklists. Not for cross
-  language API contracts, see `senior-backend-engineer`. Not for query
-  plan tuning beyond ActiveRecord, see `postgres-expert`.
+  Use when writing, reviewing, or upgrading a Ruby on Rails app (Rails 7 or
+  Rails 8); designing ActiveRecord models and queries, ActionPack controllers,
+  Hotwire (Turbo, Stimulus, Turbo Streams) views, Sidekiq or Solid Queue
+  workers, Action Mailer, Devise plus Pundit auth, RSpec plus factory_bot tests,
+  and reversible migrations with strong_migrations. Covers N+1 elimination,
+  includes vs preload vs eager_load, scopes, polymorphic and STI tradeoffs,
+  concerns vs service objects, schema.rb vs structure.sql, propshaft and
+  importmaps, Solid Cache, Solid Cable, Russian doll caching, and Rails 7 to
+  Rails 8 upgrade mechanics. Triggers: Rails, Ruby on Rails, ActiveRecord,
+  ActionPack, Hotwire, Turbo, Stimulus, Sidekiq, Solid Queue, GoodJob, Devise,
+  Pundit, strong_migrations, rspec-rails, factory_bot, schema.rb, structure.sql,
+  has_many, polymorphic, concern, strong params, propshaft, importmaps. Produces
+  models, migrations, controllers, Turbo Stream views, jobs, Pundit policies,
+  request specs, upgrade checklists.
 license: Apache-2.0
 metadata:
   version: "1.0.0"

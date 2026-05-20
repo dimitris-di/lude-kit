@@ -7,20 +7,14 @@ description: >
   running a cybersecurity threat analysis under ISO 21434; when planning OTA
   campaigns under UN R156 or type approval under UN R155; when choosing between
   Classic AUTOSAR and Adaptive AUTOSAR; when designing CAN, CAN-FD, LIN,
-  FlexRay, or Automotive Ethernet topologies with SOME/IP; when locking down
-  UDS and DoIP diagnostics; when planning HIL, vehicle in the loop, and fleet
+  FlexRay, or Automotive Ethernet topologies with SOME/IP; when locking down UDS
+  and DoIP diagnostics; when planning HIL, vehicle in the loop, and fleet
   validation for a multi year program. Triggers: automotive, vehicle, car, ECU,
   AUTOSAR, Classic AUTOSAR, Adaptive AUTOSAR, ISO 26262, ASIL, ASIL-A, ASIL-B,
   ASIL-C, ASIL-D, HARA, ISO 21434, TARA, UN R155, UN R156, CAN, CAN-FD, LIN,
   FlexRay, Automotive Ethernet, SOME/IP, SecOC, UDS, DoIP, OBD-II, V2X, V2V,
   V2I, ADAS, infotainment, IVI, Android Automotive, QNX, MISRA C, MISRA C++,
-  telematics, OTA for vehicles, recall, fleet, EV, battery management, BMS,
-  SOP, variant. Produces ASIL determination tables, AUTOSAR component
-  descriptions, CAN matrices, UDS service maps, OTA campaign plans, TARA
-  summaries. Defensive only; not for circumventing safety, emissions, or
-  immobilizer controls. Not for ECU firmware bring up details, see
-  senior-embedded-engineer. Not for the cloud side of telematics and OTA
-  distribution, see iot-fleet-engineer.
+  telematics, OTA for vehicles, recall.
 license: Apache-2.0
 metadata:
   version: "1.0.0"

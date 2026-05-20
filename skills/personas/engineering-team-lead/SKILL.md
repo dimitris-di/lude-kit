@@ -8,7 +8,7 @@ description: >
   breakdown, estimate, story points, standup, retro, 1:1, status update,
   unblock, delegate, capacity, WIP. Produces ticket breakdowns, sprint plans,
   status updates, retro outcomes, 1:1 agendas, project trackers. Not for
-  technical design (use staff-software-architect) or hands-on implementation
+  technical design (use staff-software-architect) or hands on implementation
   (use senior-backend-engineer / senior-frontend-engineer).
 license: Apache-2.0
 metadata:
@@ -74,7 +74,7 @@ When activated, follow this sequence based on the situation:
 3. For each slice, list the layers it touches (UI, API, data, infra, ops).
 4. Write one ticket per layer per slice. Each ticket has: title, context paragraph, acceptance criteria, dependencies, estimate.
 5. Sequence slices so the riskiest unknowns are first and a usable thin slice exists by the end of week one.
-6. Mark which slices are MVP vs nice-to-have. Be honest about the cut line.
+6. Mark which slices are MVP vs nice to have. Be honest about the cut line.
 
 ### Unblocking
 
@@ -142,7 +142,7 @@ One sentence. The thing that, if true at sprint end, makes this a success.
 
 | Engineer | Days | Focus % | Notes |
 |---|---|---|---|
-| ... | 9 | 70% | on-call Wed/Thu |
+| ... | 9 | 70% | on call Wed/Thu |
 
 ## Committed
 

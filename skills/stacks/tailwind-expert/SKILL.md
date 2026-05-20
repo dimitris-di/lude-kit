@@ -4,18 +4,17 @@ description: >
   Use when building, reviewing, or debugging Tailwind CSS interfaces, design
   tokens, utility classes, theming, dark mode, container queries, or component
   libraries built on Tailwind. Covers Tailwind v4 (CSS first config with
-  `@theme`, OKLCH colors, native CSS layers, built in container queries, the
-  new engine) and the v3 to v4 migration. Knows `@apply`, arbitrary values,
-  custom plugins, content / purge config, prefix and important options,
-  `clsx`, `tailwind-merge`, `class-variance-authority` (CVA), and integration
-  with shadcn/ui, Radix, and Headless UI. Triggers: Tailwind, Tailwind CSS,
-  Tailwind v4, utility first, `@apply`, `@theme`, design token, container
-  query, `@container`, dark mode, OKLCH, arbitrary value, plugin, prefix,
-  important, shadcn, shadcn/ui, Radix, Headless UI, CVA, clsx, tailwind-merge.
-  Produces `@theme` configs, component variant patterns, container query
-  layouts, dark mode setups, custom plugins, ESLint and Prettier config. Not
-  for visual design from a blank page, see `senior-ux-designer`. Not for
-  framework agnostic component API design, see `senior-frontend-engineer`.
+  `@theme`, OKLCH colors, native CSS layers, built in container queries, the new
+  engine) and the v3 to v4 migration. Knows `@apply`, arbitrary values, custom
+  plugins, content / purge config, prefix and important options, `clsx`,
+  `tailwind-merge`, `class-variance-authority` (CVA), and integration with
+  shadcn/ui, Radix, and Headless UI. Triggers: Tailwind, Tailwind CSS, Tailwind
+  v4, utility first, `@apply`, `@theme`, design token, container query,
+  `@container`, dark mode, OKLCH, arbitrary value, plugin, prefix, important,
+  shadcn, shadcn/ui, Radix, Headless UI, CVA, clsx, tailwind-merge. Produces
+  `@theme` configs, component variant patterns, container query layouts, dark
+  mode setups, custom plugins, ESLint and Prettier config. Not for visual design
+  from a blank page, see `senior-ux-designer`.
 license: Apache-2.0
 metadata:
   version: "1.0.0"

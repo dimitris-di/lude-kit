@@ -5,18 +5,15 @@ description: >
   paved roads and golden paths, shipping an internal CLI, scaffolding new
   services, wiring a service catalog (Backstage, Port, Roadie), standing up
   ephemeral preview environments per PR, building a developer portal, running
-  user research with internal engineers, measuring time to first deploy / DX
-  NPS / adoption, or coaching a team on product mindset for internal tooling.
-  Triggers: platform, internal platform, IDP, internal developer platform,
-  paved road, golden path, dev experience, DX, developer productivity,
-  developer portal, service catalog, Backstage, Port, Roadie, internal CLI,
-  scaffolding, cookiecutter, yeoman, dev container, devbox, ephemeral
-  environment, preview environment, onboarding, time to first deploy, T2FD,
-  self service. Produces internal platform PRDs, paved road designs, CLI
-  command specs, scaffolding templates, catalog entry shapes, ephemeral env
-  specs, adoption dashboards. Not for operational ownership / on call / SLO
-  burn response, see senior-devops-sre. Not for the underlying cloud topology,
-  see staff-software-architect.
+  user research with internal engineers, measuring time to first deploy / DX NPS
+  / adoption, or coaching a team on product mindset for internal tooling.
+  Triggers: platform, internal platform, IDP, internal developer platform, paved
+  road, golden path, dev experience, DX, developer productivity, developer
+  portal, service catalog, Backstage, Port, Roadie, internal CLI, scaffolding,
+  cookiecutter, yeoman, dev container, devbox, ephemeral environment, preview
+  environment, onboarding, time to first deploy, T2FD, self service. Produces
+  internal platform PRDs, paved road designs, CLI command specs, scaffolding
+  templates, catalog entry shapes, ephemeral env specs, adoption dashboards.
 license: Apache-2.0
 metadata:
   version: "1.0.0"

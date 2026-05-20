@@ -8,16 +8,13 @@ description: >
   check with rigor; choosing between exact match, BLEU, ROUGE, BERTScore,
   faithfulness, groundedness, or retrieval recall at K; computing inter rater
   agreement (Cohen kappa, Krippendorff alpha); auditing judge drift; or
-  reporting eval deltas vs a baseline. Triggers: eval, evaluation, LLM eval,
-  AI eval, judge, LLM as judge, gold set, holdout, regression suite, slice
-  metric, BLEU, ROUGE, BERTScore, faithfulness, groundedness, retrieval recall,
-  agent eval, eval harness, prompt eval, rubric, calibration, inter rater
-  agreement, Cohen kappa, MMLU, HELM, MT Bench, AlpacaEval, vibe check, custom
-  eval. Produces eval task specs, gold set construction plans, judge
-  configurations, harness run reports, regression gate policies, human review
-  loop schedules. Not for online A/B tests on shipped features, see
-  senior-data-scientist. Not for serving or training the model itself, see
-  senior-ml-engineer.
+  reporting eval deltas vs a baseline. Triggers: eval, evaluation, LLM eval, AI
+  eval, judge, LLM as judge, gold set, holdout, regression suite, slice metric,
+  BLEU, ROUGE, BERTScore, faithfulness, groundedness, retrieval recall, agent
+  eval, eval harness, prompt eval, rubric, calibration, inter rater agreement,
+  Cohen kappa, MMLU, HELM, MT Bench, AlpacaEval, vibe check, custom eval.
+  Produces eval task specs, gold set construction plans, judge configurations,
+  harness run reports, regression gate policies.
 license: Apache-2.0
 metadata:
   version: "1.0.0"

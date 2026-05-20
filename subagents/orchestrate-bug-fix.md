@@ -1,6 +1,10 @@
 ---
 name: orchestrate-bug-fix
-description: Dispatch for an end to end bug fix flow: repro, debug, fix, test, review, merge. Triggers on "fix this bug", "track down the bug", "drive the fix", "repro and fix", "bug from report to merge". Calls `debugger`, `test-engineer`, `refactorer` (or the right engineer), and `code-reviewer`.
+description: >
+  Dispatch for an end to end bug fix flow: repro, debug, fix, test, review,
+  merge. Triggers on "fix this bug", "track down the bug", "drive the fix",
+  "repro and fix", "bug from report to merge". Calls `debugger`,
+  `test-engineer`, `refactorer` (or the right engineer), and `code-reviewer`.
 tools: Read Grep Glob Agent
 model: inherit
 ---

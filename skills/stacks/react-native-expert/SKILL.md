@@ -1,22 +1,20 @@
 ---
 name: react-native-expert
 description: >
-  Use when building, reviewing, debugging, or shipping React Native apps to
-  the App Store and Play Store. Covers the New Architecture (Fabric renderer,
+  Use when building, reviewing, debugging, or shipping React Native apps to the
+  App Store and Play Store. Covers the New Architecture (Fabric renderer,
   TurboModules, JSI, codegen), Expo and EAS workflows, Expo Router and React
   Navigation, state with Zustand, Jotai, Redux Toolkit and Tanstack Query,
-  Reanimated 3 worklets, Skia rendering, FlashList, Hermes engine,
-  platform specific code (`.ios.tsx`, `.android.tsx`), native modules in
-  Swift and Kotlin, autolinking, iOS pods, Android Gradle, Maestro and
-  Detox, EAS Build, EAS Submit, and EAS Update. Triggers: React Native, RN,
-  Expo, EAS, Expo Router, Metro, Hermes, New Architecture, Fabric,
-  TurboModule, JSI, codegen, React Navigation, Reanimated, Skia, Zustand,
-  Jotai, Tanstack Query, native module, autolinking, Maestro, Detox,
-  Flipper, EAS Update, `app.json`. Produces RN app skeletons, navigation
-  graphs, state and data layers, animation worklets, native module specs,
-  and EAS pipelines. Not for native-vs-RN-vs-Flutter platform choice, see
-  `senior-mobile-engineer`. Not for deep iOS-only native work, see
-  `swift-ios-expert`.
+  Reanimated 3 worklets, Skia rendering, FlashList, Hermes engine, platform
+  specific code (`.ios.tsx`, `.android.tsx`), native modules in Swift and
+  Kotlin, autolinking, iOS pods, Android Gradle, Maestro and Detox, EAS Build,
+  EAS Submit, and EAS Update. Triggers: React Native, RN, Expo, EAS, Expo
+  Router, Metro, Hermes, New Architecture, Fabric, TurboModule, JSI, codegen,
+  React Navigation, Reanimated, Skia, Zustand, Jotai, Tanstack Query, native
+  module, autolinking, Maestro, Detox, Flipper, EAS Update, `app.json`. Produces
+  RN app skeletons, navigation graphs, state and data layers, animation
+  worklets, native module specs, and EAS pipelines. Not for
+  native-vs-RN-vs-Flutter platform choice, see `senior-mobile-engineer`.
 license: Apache-2.0
 metadata:
   version: "1.0.0"

@@ -1,8 +1,8 @@
 ---
 name: golang-expert
 description: >
-  Use when writing, reviewing, or upgrading a Go (Golang) service anchored to
-  Go 1.22+ (generics, range over int, log/slog, http.ServeMux method routing).
+  Use when writing, reviewing, or upgrading a Go (Golang) service anchored to Go
+  1.22+ (generics, range over int, log/slog, http.ServeMux method routing).
   Covers idiomatic error wrapping with fmt.Errorf and errors.Is / errors.As,
   context.Context propagation, goroutine ownership, channels vs mutexes,
   errgroup and semaphore patterns, structured logging with log/slog, net/http
@@ -11,12 +11,10 @@ description: >
   Golang, go.mod, go.sum, goroutine, channel, context.Context, ctx, slog,
   errors.Is, errors.As, defer, panic, recover, sync, mutex, RWMutex, atomic,
   generics, type parameter, interface, struct, embedding, GOMAXPROCS, race
-  detector, pprof, gRPC Go, net/http, database/sql, sqlx, pgx, sqlc, gorm,
-  gin, chi, echo, fiber. Produces Go services, HTTP handlers, worker pools,
-  error wrapping templates, slog setup, table driven tests, golangci-lint
-  config, project layouts. Not for cross language API contracts, see
-  `senior-backend-engineer`. Not for Postgres plan tuning below the driver,
-  see `postgres-expert`.
+  detector, pprof, gRPC Go, net/http, database/sql, sqlx, pgx, sqlc, gorm, gin,
+  chi, echo, fiber. Produces Go services, HTTP handlers, worker pools, error
+  wrapping templates, slog setup, table driven tests, golangci-lint config,
+  project layouts.
 license: Apache-2.0
 metadata:
   version: "1.0.0"

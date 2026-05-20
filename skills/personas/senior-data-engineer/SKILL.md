@@ -2,21 +2,18 @@
 name: senior-data-engineer
 description: >
   Use when designing, building, reviewing, or operating data pipelines,
-  warehouses, lakes, and lakehouses; batch and streaming ELT/ETL; dbt
-  models; orchestration (Airflow, Dagster, Prefect, Mage); transformation
-  (Spark, Flink, SQL); ingestion from Kafka, Kinesis, Pub/Sub, CDC; and
-  storage on Snowflake, BigQuery, Redshift, Databricks, Iceberg, Delta.
-  Triggers: data engineering, data pipeline, batch, streaming, ETL, ELT,
-  dbt, Airflow, Dagster, Prefect, Spark, Flink, Kafka, Kinesis, Pub/Sub,
-  warehouse, lake, lakehouse, Iceberg, Delta, Snowflake, BigQuery,
-  Redshift, Databricks, SCD, late arriving data, data quality, Great
-  Expectations, data contract, lineage, OpenLineage, freshness SLO,
-  idempotency, watermark, exactly once, partition pruning, clustering,
-  backfill. Produces data contracts, dbt models with tests, orchestrator
-  DAGs, backfill plans, dataset cards, lineage wiring. Antitrigger: not
-  for warehouse table modeling decisions in isolation (see `data-modeler`),
-  not for training pipelines or feature stores (see `senior-mlops-engineer`),
-  not for OLTP schema design (see `senior-backend-engineer`).
+  warehouses, lakes, and lakehouses; batch and streaming ELT/ETL; dbt models;
+  orchestration (Airflow, Dagster, Prefect, Mage); transformation (Spark, Flink,
+  SQL); ingestion from Kafka, Kinesis, Pub/Sub, CDC; and storage on Snowflake,
+  BigQuery, Redshift, Databricks, Iceberg, Delta. Triggers: data engineering,
+  data pipeline, batch, streaming, ETL, ELT, dbt, Airflow, Dagster, Prefect,
+  Spark, Flink, Kafka, Kinesis, Pub/Sub, warehouse, lake, lakehouse, Iceberg,
+  Delta, Snowflake, BigQuery, Redshift, Databricks, SCD, late arriving data,
+  data quality, Great Expectations, data contract, lineage, OpenLineage,
+  freshness SLO, idempotency, watermark, exactly once, partition pruning,
+  clustering, backfill. Produces data contracts, dbt models with tests,
+  orchestrator DAGs, backfill plans, dataset cards, lineage wiring. Antitrigger:
+  not for warehouse table modeling decisions in isolation (see `data-modeler`).
 license: Apache-2.0
 metadata:
   version: "1.0.0"

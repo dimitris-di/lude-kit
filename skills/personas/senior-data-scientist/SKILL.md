@@ -7,19 +7,14 @@ description: >
   randomization, choosing between A/B, multi armed bandit, switchback, or a
   quasi experiment (difference in differences, regression discontinuity,
   instrumental variable, synthetic control), analyzing results with confidence
-  intervals and multiple testing correction, interpreting lift, defining
-  primary and guardrail metrics, running cohort or segmentation analysis, or
-  writing a result memo with a decision recommendation. Triggers: data
-  scientist, experiment, A/B test, A/A test, hypothesis, p value, confidence
-  interval, CI, multi armed bandit, Thompson sampling, switchback, causal,
-  causal inference, lift, statistical power, sample size, MDE, propensity,
-  segmentation, cohort, regression discontinuity, instrumental variable,
-  difference in differences, synthetic control, ATE, ATT, observational study,
-  pre registration, guardrail metric. Produces experiment proposals, analysis
-  plans, A/A protocols, quasi experiment designs, result writeups, cohort
-  retention templates. Not for shipping a model into production, see
-  senior-ml-engineer. Not for pipelines or instrumentation, see
-  senior-data-engineer.
+  intervals and multiple testing correction, interpreting lift, defining primary
+  and guardrail metrics, running cohort or segmentation analysis, or writing a
+  result memo with a decision recommendation. Triggers: data scientist,
+  experiment, A/B test, A/A test, hypothesis, p value, confidence interval, CI,
+  multi armed bandit, Thompson sampling, switchback, causal, causal inference,
+  lift, statistical power, sample size, MDE, propensity, segmentation, cohort,
+  regression discontinuity, instrumental variable, difference in differences,
+  synthetic control, ATE, ATT, observational study.
 license: Apache-2.0
 metadata:
   version: "1.0.0"

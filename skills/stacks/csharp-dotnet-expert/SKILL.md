@@ -1,25 +1,20 @@
 ---
 name: csharp-dotnet-expert
 description: >
-  Use when writing, reviewing, or upgrading a C# / .NET application on
-  .NET 8 or .NET 9 (with awareness of the .NET 10 LTS release on the
-  horizon). Covers ASP.NET Core minimal APIs and MVC, Entity Framework
-  Core 9, dependency injection, `IOptions<T>` configuration, structured
-  logging with `ILogger<T>` and Serilog, OpenTelemetry, Polly resilience,
-  MediatR, FluentValidation, xUnit plus WebApplicationFactory plus
-  Testcontainers, source generators, Native AOT, modern C# (records,
-  primary constructors, pattern matching, file-scoped namespaces,
-  collection expressions, `IAsyncEnumerable`, channels, `Span<T>`).
-  Triggers: C#, csharp, .NET, dotnet, .NET 8, .NET 9, ASP.NET Core,
-  minimal API, record, primary constructor, pattern match, EF Core,
-  Entity Framework, NuGet, Serilog, OpenTelemetry, AOT, native AOT,
-  Blazor, MAUI, xUnit, NUnit, Moq, Polly, MediatR, source generator,
-  `IAsyncEnumerable`, channels, `Span`, `Memory`. Produces minimal API
-  endpoints, EF Core DbContexts, migrations, hosted services, Serilog
-  plus OpenTelemetry wiring, xUnit integration tests, central package
-  management. Not for cross language API contracts, see
-  `senior-backend-engineer`. Not for cloud infrastructure, see
-  `aws-expert` or `gcp-expert`.
+  Use when writing, reviewing, or upgrading a C# / .NET application on .NET 8 or
+  .NET 9 (with awareness of the .NET 10 LTS release on the horizon). Covers
+  ASP.NET Core minimal APIs and MVC, Entity Framework Core 9, dependency
+  injection, `IOptions<T>` configuration, structured logging with `ILogger<T>`
+  and Serilog, OpenTelemetry, Polly resilience, MediatR, FluentValidation, xUnit
+  plus WebApplicationFactory plus Testcontainers, source generators, Native AOT,
+  modern C# (records, primary constructors, pattern matching, file-scoped
+  namespaces, collection expressions, `IAsyncEnumerable`, channels, `Span<T>`).
+  Triggers: C#, csharp, .NET, dotnet, .NET 8, .NET 9, ASP.NET Core, minimal API,
+  record, primary constructor, pattern match, EF Core, Entity Framework, NuGet,
+  Serilog, OpenTelemetry, AOT, native AOT, Blazor, MAUI, xUnit, NUnit, Moq,
+  Polly, MediatR, source generator, `IAsyncEnumerable`, channels, `Span`,
+  `Memory`. Produces minimal API endpoints, EF Core DbContexts, migrations,
+  hosted services.
 license: Apache-2.0
 metadata:
   version: "1.0.0"

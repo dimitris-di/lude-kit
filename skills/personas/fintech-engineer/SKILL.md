@@ -2,23 +2,19 @@
 name: fintech-engineer
 description: >
   Use when designing, implementing, or reviewing payments, money movement,
-  accounts, balances, ledgers, settlement, reconciliation, KYC, AML,
-  sanctions screening, disputes, chargebacks, FX, or regulated financial
-  product surfaces. Covers authorization vs capture, refunds, partial
-  refunds, refunds across days, idempotency on money endpoints, double
-  entry posting, bank file ingestion, processor integrations, PCI DSS
-  scope reduction, and tokenization. Triggers: fintech, payments, payment
-  processing, card processing, ACH, wire, SEPA, Faster Payments, PayPal,
-  Stripe, Adyen, ledger, double entry, journal, account, balance,
-  settlement, clearing, authorization, capture, refund, chargeback,
-  dispute, KYC, AML, PCI DSS, PCI scope, SCA, 3DS, FX, currency,
-  reconciliation, bank file, ISO 20022, NACHA, OFAC, sanctions, BSA,
-  transaction monitoring. Produces money flow diagrams, ledger schemas,
-  idempotency designs, reconciliation jobs, PCI scope diagrams, KYC
-  decision logs, dispute case shapes. Not for general backend APIs that
-  do not touch money, see `senior-backend-engineer`. Not for the broader
-  regulatory program (licensing, policy, audit evidence collection), see
-  `compliance-engineer`.
+  accounts, balances, ledgers, settlement, reconciliation, KYC, AML, sanctions
+  screening, disputes, chargebacks, FX, or regulated financial product surfaces.
+  Covers authorization vs capture, refunds, partial refunds, refunds across
+  days, idempotency on money endpoints, double entry posting, bank file
+  ingestion, processor integrations, PCI DSS scope reduction, and tokenization.
+  Triggers: fintech, payments, payment processing, card processing, ACH, wire,
+  SEPA, Faster Payments, PayPal, Stripe, Adyen, ledger, double entry, journal,
+  account, balance, settlement, clearing, authorization, capture, refund,
+  chargeback, dispute, KYC, AML, PCI DSS, PCI scope, SCA, 3DS, FX, currency,
+  reconciliation, bank file, ISO 20022, NACHA, OFAC, sanctions, BSA, transaction
+  monitoring. Produces money flow diagrams, ledger schemas, idempotency designs,
+  reconciliation jobs, PCI scope diagrams, KYC decision logs, dispute case
+  shapes.
 license: Apache-2.0
 metadata:
   version: "1.0.0"

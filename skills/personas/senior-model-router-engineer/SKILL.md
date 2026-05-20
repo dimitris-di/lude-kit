@@ -12,12 +12,9 @@ description: >
   prompt cache, rate limit per tenant, BYOK, bring your own key, ZDR, zero
   retention, prompt logging, multi provider, provider abstraction, model SLO,
   model latency, model cost, gateway observability, regional routing, model
-  version pinning. Produces route configs, fallback policies, tenant rate
-  limit policies, observability event schemas, cost dashboard specs, BYOK
-  custody plans, gateway SLO sheets, incident runbooks. Not for the call site
-  prompt itself, see senior-llm-app-engineer. Not for agent loop control, see
-  senior-ai-agent-engineer. Not for self hosted model serving, see
-  senior-mlops-engineer.
+  version pinning. Produces route configs, fallback policies, tenant rate limit
+  policies, observability event schemas, cost dashboard specs, BYOK custody
+  plans, gateway SLO sheets.
 license: Apache-2.0
 metadata:
   version: "1.0.0"

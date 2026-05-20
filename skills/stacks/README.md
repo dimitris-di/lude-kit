@@ -28,7 +28,7 @@ A stack skill knows the idioms, traps, and best practices of one technology, its
 - [`flutter-expert`](flutter-expert/SKILL.md), Flutter 3.24+: Riverpod, Impeller, go_router, golden tests.
 - [`react-native-expert`](react-native-expert/SKILL.md), RN New Arch (Fabric, TurboModules), Expo + EAS, Reanimated 3.
 - [`tailwind-expert`](tailwind-expert/SKILL.md), Tailwind v4: `@theme`, OKLCH, container queries, CVA, tailwind-merge.
-- [`playwright-expert`](playwright-expert/SKILL.md), e2e with user-visible locators, auto-wait, fixtures, trace viewer.
+- [`playwright-expert`](playwright-expert/SKILL.md), e2e with user visible locators, auto-wait, fixtures, trace viewer.
 
 See the [open roadmap issues](https://github.com/dimitris-di/LudeSkills/issues?q=is%3Aissue+label%3Anew-skill) for proposals beyond batch 7.
 
