@@ -61,6 +61,9 @@ cd lude-kit
 
 # OpenAI Codex skills (~/.agents/skills/)
 ./install/install-codex.sh
+
+# OpenAI Codex subagents as skills (~/.agents/skills/)
+./install/install-codex-subagents.sh
 ```
 
 The scripts symlink, so future `git pull`s update your installed skills and subagents without reinstalling.
@@ -71,6 +74,7 @@ Custom install location:
 CLAUDE_SKILLS_DIR=/path/to/claude/skills ./install/install-claude.sh
 CLAUDE_AGENTS_DIR=/path/to/claude/agents ./install/install-claude-agents.sh
 CODEX_SKILLS_DIR=/path/to/agents/skills  ./install/install-codex.sh
+CODEX_SKILLS_DIR=/path/to/agents/skills  ./install/install-codex-subagents.sh
 ```
 
 That's it. Start a conversation and the matchers pull the right skill when its triggers fire. Spawn named subagents with `Agent(subagent_type: "architect", ...)` and similar.
@@ -131,6 +135,8 @@ Lude Kit ships 30 curated subagents in [`subagents/`](subagents/), grouped three
 `skill-author-persona`, `skill-author-capability`, `skill-author-stack`, `skill-reviewer`, `skill-trigger-tightener`, `skill-deduplicator`, `skill-handoff-auditor`, `skill-freshness-checker`, `skill-catalog-updater`, `skill-eval-runner`.
 
 Install them with `./install/install-claude-agents.sh`. After installation, dispatch with `Agent(subagent_type: "architect", prompt: "design the billing service")` and the subagent spawns with the right tools, model, and skill pre loaded.
+
+Codex has no native subagent primitive equivalent to Claude Code's named dispatchable types. Each subagent is functionally a skill (description + system prompt), so `./install/install-codex-subagents.sh` wraps every subagent as a Codex skill folder under `~/.agents/skills/<name>/SKILL.md`. They auto activate via description matching on the Codex side instead of explicit dispatch.
 
 ## How a skill works
 
