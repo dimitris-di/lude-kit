@@ -1,6 +1,6 @@
 # Roadmap
 
-This is the working roadmap for Lude Kit. It covers what shipped, what is planned through the 1.0 public release at 100 skills, and where the project could go after that.
+This is the working roadmap for Lude Kit. It covers what shipped, what is planned through the 1.0 milestone at 100 skills, and where the project could go after that. The repo is already public on GitHub at https://github.com/dimitris-di/lude-kit under `Apache-2.0`.
 
 The roadmap is a living document. Priorities shift with community signal and with the platforms (Claude Code, Codex) themselves. See [How priorities change](#how-priorities-change) at the bottom.
 
@@ -14,9 +14,9 @@ The roadmap is a living document. Priorities shift with community signal and wit
 | Capabilities | 10 |
 | Stacks | 20 |
 | Subagents shipped | 30 |
-| Status | Private alpha |
-| Public OSS release target | At 100 skills (after batch 10) |
-| License on release | `Apache-2.0` |
+| Status | Public alpha, 70 of 100 skills, already open sourced under `Apache-2.0`. Pushing to one hundred. |
+| 1.0 milestone | At 100 skills (after batch 10) |
+| License | `Apache-2.0` |
 
 The 30 subagents split into 10 specialists (named entry points around the highest leverage skills), 10 orchestrators (multi skill flows like feature build, incident response, migration, launch), and 10 library maintenance agents (skill author, reviewer, deduplicator, trigger tightener, catalog updater, eval runner, and similar).
 
@@ -92,13 +92,13 @@ Batch 10 is not 10 new skills. It is the gate to 1.0.
 | Trigger eval | A curated prompt set is run against the catalog. Each prompt has expected and forbidden activations. Misfires are fixed at the description layer, not in the body. |
 | Handoff audit | Every `Handoffs` section is verified against the actual catalog. No dead references. |
 | Catalog regen | `skills/README.md` and `subagents/README.md` regenerated from frontmatter. |
-| Public release prep | Docs site (see below), examples gallery, contribution flow, issue templates, badges, security policy, CoC. |
+| Hardening pass for 1.0 | Cross skill polish, trigger eval, docs site (see below), examples site, marketing badges, contribution flow, issue templates, security policy, CoC. |
 
-After batch 10 the repo flips from private alpha to public `Apache-2.0`.
+The release is no longer the gating event. Quality is. Batch 10 ships when the catalog reads as one library, not as ten batches stapled together.
 
 ## Beyond 100
 
-Post 1.0 directions worth considering. None of these are committed; they are the candidate set for what comes after the public release.
+Post 1.0 directions worth considering. None of these are committed; they are the candidate set for what comes after the 1.0 milestone lands.
 
 ### Codex first class support
 

@@ -9,7 +9,7 @@
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 [![Skills](https://img.shields.io/badge/skills-70-brightgreen.svg)](skills/README.md)
 [![Spec](https://img.shields.io/badge/spec-Agent%20Skills-purple.svg)](https://agentskills.io/specification)
-[![Status](https://img.shields.io/badge/status-private%20alpha-orange.svg)](#status)
+[![Status](https://img.shields.io/badge/status-public%20alpha-brightgreen.svg)](#status)
 
 </div>
 
@@ -45,7 +45,7 @@ Lude Kit is that bench. Seventy senior practitioners, each focused on one role o
 
 ## Status
 
-**Private alpha.** Seventy of a planned one hundred skills landed. The library will be open sourced under Apache-2.0 once batch 10 ships and the bar holds across the full catalog.
+**Public alpha.** Open sourced under Apache-2.0. Seventy of a planned one hundred skills landed; bar holds across the full catalog. Track the road to one hundred in [ROADMAP.md](ROADMAP.md).
 
 ## Quickstart
 
@@ -201,13 +201,13 @@ Each skill knows which skill to hand off to next. The library is a graph, not a 
 | 7 | Language and framework stacks (Go, Rust, Python, TS, Java, .NET, Flutter, RN, Tailwind, Playwright) | ✅ shipped |
 | 8 | More capabilities (a11y, i18n, feature flags, chaos, FinOps, modernization, releases, on call, DX, docs) | planned |
 | 9 | AI infra (vector db, GPU infra, serving) + more verticals | planned |
-| 10 | Hardening pass: cross skill review, polish, public release prep | planned |
+| 10 | Hardening pass: cross skill review, polish, 1.0 release prep | planned |
 
-**Target: 100 skills, then public release.** Want to shape what comes next? Open a [new-skill issue](.github/ISSUE_TEMPLATE/new-skill.yml).
+**Target: 100 skills, then 1.0.** Want to shape what comes next? Open a [new-skill issue](.github/ISSUE_TEMPLATE/new-skill.yml).
 
 ## Contributing
 
-PRs welcome once the repo is public. The bar is high and the process is opinionated. Read [`CONTRIBUTING.md`](CONTRIBUTING.md) before opening one.
+PRs welcome. The bar is high and the process is opinionated. Read [`CONTRIBUTING.md`](CONTRIBUTING.md) before opening one.
 
 Quick links:
 
@@ -238,7 +238,7 @@ Every skill in this repo is hand written, reviewed against the style guide, and 
 
 ## Who's behind this
 
-Built and maintained by **Dimitris Dimitriou** ([@dimitris-di](https://github.com/dimitris-di)). Questions, ideas, or pushback: open a [Discussion](https://github.com/dimitris-di/lude-kit/discussions) (once the repo is public) or reach out at **demetrisd25@gmail.com**.
+Built and maintained by **Dimitris Dimitriou** ([@dimitris-di](https://github.com/dimitris-di)). Questions, ideas, or pushback: open a [Discussion](https://github.com/dimitris-di/lude-kit/discussions) or reach out at **demetrisd25@gmail.com**.
 
 ## Acknowledgments
 

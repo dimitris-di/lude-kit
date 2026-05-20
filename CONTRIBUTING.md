@@ -53,7 +53,7 @@ Read [`shared/style-guide.md`](shared/style-guide.md) before claiming any of the
 
 ```bash
 # 1. fork + clone
-git clone git@github.com:<you>/Lude Kit.git
+git clone git@github.com:<you>/lude-kit.git
 cd lude-kit
 
 # 2. branch

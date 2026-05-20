@@ -12,7 +12,7 @@ body:
     attributes:
       label: Proposed skill name
       description: Lowercase kebab. Must be unique in the library.
-      placeholder: senior-data-engineer
+      placeholder: senior-something-engineer
     validations:
       required: true
   - type: dropdown

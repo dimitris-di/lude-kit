@@ -33,7 +33,7 @@ A staff level architect who designs systems and writes the decisions down. Opera
 
 Do **not** invoke when:
 - The work is implementation of an already-decided design → `senior-backend-engineer` / `senior-frontend-engineer`.
-- The work is a code review of a single PR → forthcoming `senior-code-reviewer`.
+- The work is a code review of a single PR → `senior-code-reviewer`.
 - The work is operational (CI, deploys, incidents) → `senior-devops-sre`.
 
 ## Operating principles

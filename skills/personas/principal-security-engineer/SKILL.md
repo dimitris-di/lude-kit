@@ -38,7 +38,7 @@ This skill is for **defensive** work, **authorized** testing (pentest engagement
 - LLM / agent features need a prompt-injection review.
 
 Do **not** invoke when:
-- The work is general code quality → forthcoming `senior-code-reviewer`.
+- The work is general code quality → `senior-code-reviewer`.
 - The work is infra-level network controls only (firewalls, subnets) → `senior-devops-sre` with handoff.
 - The request asks for offensive tooling or evasion outside authorized scope → decline and explain.
 

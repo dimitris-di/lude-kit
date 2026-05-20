@@ -2,17 +2,30 @@
 
 All notable changes to Lude Kit are documented here.
 
-The format follows [Keep a Changelog](https://keepachangelog.com/) and the project follows [Semantic Versioning](https://semver.org/). The library is in private alpha, so releases are date stamped rather than version numbered until the catalog stabilizes at 100 skills and the repo goes public.
+The format follows [Keep a Changelog](https://keepachangelog.com/) and the project follows [Semantic Versioning](https://semver.org/). Releases are date stamped rather than version numbered until the catalog stabilizes at 100 skills.
 
 ## Unreleased
 
+_Nothing yet._
+
+## 2026-05-21 Public release
+
+**Repository**
+- Renamed from `LudeSkills` to `lude-kit` on GitHub. Old URL redirects.
+- Flipped to public visibility under Apache-2.0.
+- Added repo topics: claude-code, claude-skills, openai-codex, agent-skills, ai-agents, llm, multi-agent, subagents, prompt-engineering, developer-tools.
+
 **Added**
-- 30 curated subagents under `subagents/`, grouped as 10 specialists (`architect`, `code-reviewer`, `security-reviewer`, `debugger`, `refactorer`, `perf-investigator`, `test-engineer`, `tech-writer`, `ic-coordinator`, `postmortem-writer`), 10 orchestrators (`orchestrate-feature-build`, `orchestrate-incident-response`, `orchestrate-migration`, `orchestrate-launch`, `orchestrate-security-review`, `orchestrate-perf-investigation`, `orchestrate-refactor`, `orchestrate-ai-feature`, `orchestrate-new-service`, `orchestrate-bug-fix`), and 10 library maintenance agents (`skill-author-persona`, `skill-author-capability`, `skill-author-stack`, `skill-reviewer`, `skill-trigger-tightener`, `skill-deduplicator`, `skill-handoff-auditor`, `skill-freshness-checker`, `skill-catalog-updater`, `skill-eval-runner`).
-- `install/install-claude-agents.sh` to symlink subagents into `~/.claude/agents/`.
+- `CHANGELOG.md`, `ROADMAP.md`, `FAQ.md`, `EXAMPLES.md`, `SKILL_LINT.md`.
+- `scripts/validate-skills.py` plus `.github/workflows/validate-skills.yml` for CI validation.
+- 30 dispatchable subagents under `subagents/`, grouped as 10 specialists (`architect`, `code-reviewer`, `security-reviewer`, `debugger`, `refactorer`, `perf-investigator`, `test-engineer`, `tech-writer`, `ic-coordinator`, `postmortem-writer`), 10 orchestrators (`orchestrate-feature-build`, `orchestrate-incident-response`, `orchestrate-migration`, `orchestrate-launch`, `orchestrate-security-review`, `orchestrate-perf-investigation`, `orchestrate-refactor`, `orchestrate-ai-feature`, `orchestrate-new-service`, `orchestrate-bug-fix`), and 10 library maintenance agents (`skill-author-persona`, `skill-author-capability`, `skill-author-stack`, `skill-reviewer`, `skill-trigger-tightener`, `skill-deduplicator`, `skill-handoff-auditor`, `skill-freshness-checker`, `skill-catalog-updater`, `skill-eval-runner`).
+- `install/install-claude-agents.sh` for installing subagents into `~/.claude/agents/`.
 
 **Changed**
-- README rewritten as an OSS landing page with a 30 second pitch, catalog tables, multi agent composition example, and a roadmap through batch 10.
-- Release prep prose sweep for stray em-dashes and compound hyphens.
+- Project wide prose hyphen sweep: every English word compound hyphen removed. Identifiers, license names, and tech tokens preserved.
+- All 70 skill descriptions trimmed to within the 1024 char spec cap.
+- 9 subagent descriptions converted to YAML folded blocks to fix parse failures.
+- README rewritten as an open source landing page with Quickstart, Subagents section, Docs section, and validation note.
 
 ## Batch history
 

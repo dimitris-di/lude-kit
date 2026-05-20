@@ -39,7 +39,7 @@ Common false positive overlaps to call out explicitly in a skill's description w
 
 - "Not for X" disclaimers, short, name the right skill.
 - Example: `senior-frontend-engineer` description should include "Not for visual / interaction design, see `senior-ux-designer`."
-- Example: `principal-security-engineer` description should include "Not for general code review, see `senior-code-reviewer` (forthcoming)."
+- Example: `principal-security-engineer` description should include "Not for general code review, see `senior-code-reviewer`."
 
 ## House style for descriptions
 

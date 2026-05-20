@@ -1,12 +1,12 @@
 # FAQ
 
-Answers to the questions a new visitor or contributor is most likely to ask. If something is missing, open a [Discussion](https://github.com/dimitris-di/lude-kit/discussions) once the repo is public, or email **demetrisd25@gmail.com**.
+Answers to the questions a new visitor or contributor is most likely to ask. If something is missing, open a [Discussion](https://github.com/dimitris-di/lude-kit/discussions) on the repo, or email **demetrisd25@gmail.com**.
 
 ## What is this?
 
 ### What is Lude Kit?
 
-Lude Kit is a curated library of senior grade Agent Skills for Claude Code and OpenAI Codex. Every skill encodes one role or one job at the bar of a senior practitioner, with a precise `description` that activates it only when the user's intent matches. The library currently ships seventy skills across personas, capabilities, and stack experts, with one hundred as the target before public release. Install once and the right specialist shows up automatically when triggers fire in a real prompt. See the [README](README.md) for the pitch and the full catalog at [`skills/README.md`](skills/README.md).
+Lude Kit is a curated library of senior grade Agent Skills for Claude Code and OpenAI Codex. Every skill encodes one role or one job at the bar of a senior practitioner, with a precise `description` that activates it only when the user's intent matches. The library is public under `Apache-2.0` and currently ships seventy of one hundred skills across personas, capabilities, and stack experts; the remaining thirty are tracked in [`ROADMAP.md`](ROADMAP.md). Install once and the right specialist shows up automatically when triggers fire in a real prompt. See the [README](README.md) for the pitch and the full catalog at [`skills/README.md`](skills/README.md).
 
 ### What is an Agent Skill?
 
@@ -110,9 +110,9 @@ No. Every skill is hand authored, reviewed against [`shared/style-guide.md`](sha
 
 ## Roadmap and community
 
-### When will this be public?
+### Is this public?
 
-Once batch 10 ships and the bar holds across the full one hundred skill catalog. Seventy of one hundred have landed; batches 8, 9, 10 are planned. See the `Roadmap` table in the [README](README.md).
+Yes. The repo is live at [github.com/dimitris-di/lude-kit](https://github.com/dimitris-di/lude-kit) under `Apache-2.0`. Seventy of one hundred skills have shipped; the remaining thirty are tracked in [`ROADMAP.md`](ROADMAP.md).
 
 ### How can I help reach 100 skills?
 
@@ -120,7 +120,7 @@ Open a `new-skill` issue against the roadmap, claim a slot, and submit a PR that
 
 ### Is there a Discord / community space?
 
-Not yet. Once the repo is public, GitHub Discussions on the repo is the canonical space. A Discord may follow if there is enough sustained activity to justify it.
+[GitHub Discussions](https://github.com/dimitris-di/lude-kit/discussions) on the repo is the canonical space and is open now. A Discord may follow if there is enough sustained activity to justify it.
 
 ### How do I report a bug?
 
