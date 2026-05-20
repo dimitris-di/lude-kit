@@ -7,7 +7,7 @@
 *Drop in a whole engineering org. Dispatch the right specialist when you need them.*
 
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
-[![Skills](https://img.shields.io/badge/skills-20-brightgreen.svg)](skills/README.md)
+[![Skills](https://img.shields.io/badge/skills-30-brightgreen.svg)](skills/README.md)
 [![Spec](https://img.shields.io/badge/spec-Agent%20Skills-purple.svg)](https://agentskills.io/specification)
 [![Status](https://img.shields.io/badge/status-private%20alpha-orange.svg)](#status)
 
@@ -80,7 +80,7 @@ Try it out:
 |---|---|---|
 | [`personas/`](skills/personas/) | 10 | Senior grade role personas an orchestrator can dispatch to. |
 | [`capabilities/`](skills/capabilities/) | 10 | Cross role capabilities focused on a single job. |
-| [`stacks/`](skills/stacks/) | 0 | Stack specific experts (Rails, Kubernetes, Postgres, …). *Planned: batch 3.* |
+| [`stacks/`](skills/stacks/) | 10 | Stack specific experts (Rails, Django, Next.js, K8s, Terraform, Postgres, Redis, AWS, GCP, iOS). |
 
 Full catalog with descriptions and links: **[`skills/README.md`](skills/README.md)**.
 
@@ -113,6 +113,21 @@ Ten cross role capabilities a persona can reach for when the job is narrow:
 - **[`migration-planner`](skills/capabilities/migration-planner/SKILL.md)**, expand / dual write / shadow read / cutover / contract phasing.
 - **[`dependency-auditor`](skills/capabilities/dependency-auditor/SKILL.md)**, supply chain and CVE review.
 - **[`postmortem-author`](skills/capabilities/postmortem-author/SKILL.md)**, blameless postmortems with tracked action items.
+
+### Batch 3 (shipped): stack experts
+
+Ten technology specific experts that complement the personas with deep dialect knowledge:
+
+- **[`rails-expert`](skills/stacks/rails-expert/SKILL.md)**, Rails 7/8 idioms; ActiveRecord, Hotwire, Sidekiq / Solid Queue.
+- **[`django-expert`](skills/stacks/django-expert/SKILL.md)**, Django 5 ORM, DRF, signals discipline, async, Celery.
+- **[`nextjs-expert`](skills/stacks/nextjs-expert/SKILL.md)**, App Router, RSC, Server Actions, Cache Components, Fluid Compute.
+- **[`kubernetes-expert`](skills/stacks/kubernetes-expert/SKILL.md)**, manifests, probes, PDB, RBAC, NetworkPolicy, GitOps.
+- **[`terraform-expert`](skills/stacks/terraform-expert/SKILL.md)**, modules, state, providers, drift, OIDC for CI.
+- **[`postgres-expert`](skills/stacks/postgres-expert/SKILL.md)**, EXPLAIN ANALYZE, indexing, autovacuum, partitioning, replication.
+- **[`redis-expert`](skills/stacks/redis-expert/SKILL.md)**, data structures, persistence, eviction, Cluster, hot keys.
+- **[`aws-expert`](skills/stacks/aws-expert/SKILL.md)**, IAM, VPC, service selection, Organizations, OIDC, cost footguns.
+- **[`gcp-expert`](skills/stacks/gcp-expert/SKILL.md)**, projects, Workload Identity Federation, VPC Service Controls, Cloud Run.
+- **[`swift-ios-expert`](skills/stacks/swift-ios-expert/SKILL.md)**, SwiftUI, Swift Concurrency, SwiftData, App Store submission.
 
 ## How it works
 
@@ -169,7 +184,7 @@ User: "We want to add team SSO to the dashboard."
 |---|---|---|
 | 1 | SDLC personas (architect → writer) | ✅ shipped |
 | 2 | Capability skills (review, debug, refactor, perf, postmortem, …) | ✅ shipped |
-| 3 | Stack experts (Rails, Django, Next.js, K8s, Postgres, Terraform, …) | planned |
+| 3 | Stack experts (Rails, Django, Next.js, K8s, Postgres, Terraform, …) | ✅ shipped |
 | 4 | Specialty roles (data engineer, ML engineer, mobile, embedded) | planned |
 | 5 | Industry verticals (fintech, healthcare, gov, edu) | planned |
 

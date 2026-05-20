@@ -44,7 +44,18 @@ Cross role capabilities focused on a single job. Personas reach for these the wa
 
 Stack specific experts that complement the personas with technology depth.
 
-*Empty for now. Planned for batch 3, see [§Roadmap](../README.md#roadmap).*
+| Skill | Job in one line |
+|---|---|
+| [`rails-expert`](stacks/rails-expert/SKILL.md) | Rails 7/8 idioms: ActiveRecord, Hotwire, Sidekiq/Solid Queue, strong_migrations, RSpec. |
+| [`django-expert`](stacks/django-expert/SKILL.md) | Django 5: ORM, DRF, signals discipline, async views, Celery, migrations. |
+| [`nextjs-expert`](stacks/nextjs-expert/SKILL.md) | App Router, RSC, Server Actions, Cache Components, Fluid Compute. |
+| [`kubernetes-expert`](stacks/kubernetes-expert/SKILL.md) | Manifests, probes, PDB, RBAC, NetworkPolicy, GitOps, day two ops. |
+| [`terraform-expert`](stacks/terraform-expert/SKILL.md) | Modules, state, providers, drift detection, OIDC for CI. |
+| [`postgres-expert`](stacks/postgres-expert/SKILL.md) | EXPLAIN ANALYZE, indexing, autovacuum, partitioning, logical replication. |
+| [`redis-expert`](stacks/redis-expert/SKILL.md) | Data structures, persistence, eviction, Cluster, hot keys, latency. |
+| [`aws-expert`](stacks/aws-expert/SKILL.md) | IAM, VPC, service selection, Organizations, OIDC, cost footguns. |
+| [`gcp-expert`](stacks/gcp-expert/SKILL.md) | Projects, Workload Identity Federation, VPC Service Controls, Cloud Run, BigQuery. |
+| [`swift-ios-expert`](stacks/swift-ios-expert/SKILL.md) | SwiftUI, Swift Concurrency, SwiftData, BGTaskScheduler, App Store submission. |
 
 ---
 
