@@ -7,7 +7,7 @@
 *Drop in a whole engineering org. Dispatch the right specialist when you need them.*
 
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
-[![Skills](https://img.shields.io/badge/skills-40-brightgreen.svg)](skills/README.md)
+[![Skills](https://img.shields.io/badge/skills-50-brightgreen.svg)](skills/README.md)
 [![Spec](https://img.shields.io/badge/spec-Agent%20Skills-purple.svg)](https://agentskills.io/specification)
 [![Status](https://img.shields.io/badge/status-private%20alpha-orange.svg)](#status)
 
@@ -78,7 +78,7 @@ Try it out:
 
 | Category | Count | What it contains |
 |---|---|---|
-| [`personas/`](skills/personas/) | 20 | Senior grade role personas an orchestrator can dispatch to. |
+| [`personas/`](skills/personas/) | 30 | Senior grade role personas an orchestrator can dispatch to. |
 | [`capabilities/`](skills/capabilities/) | 10 | Cross role capabilities focused on a single job. |
 | [`stacks/`](skills/stacks/) | 10 | Stack specific experts (Rails, Django, Next.js, K8s, Terraform, Postgres, Redis, AWS, GCP, iOS). |
 
@@ -144,6 +144,21 @@ Ten domain specialist personas that complement the SDLC team with deep practice 
 - **[`senior-platform-engineer`](skills/personas/senior-platform-engineer/SKILL.md)**, internal developer platforms; paved roads, golden paths.
 - **[`senior-developer-advocate`](skills/personas/senior-developer-advocate/SKILL.md)**, DevRel; sample apps, tutorials, community signal.
 
+### Batch 5 (shipped): industry vertical personas
+
+Ten domain personas for the most common regulated and operationally distinct verticals:
+
+- **[`fintech-engineer`](skills/personas/fintech-engineer/SKILL.md)**, payments, ledgers; PCI DSS, KYC/AML, reconciliation.
+- **[`healthcare-engineer`](skills/personas/healthcare-engineer/SKILL.md)**, EHR, FHIR, HL7; HIPAA, clinical safety.
+- **[`gov-tech-engineer`](skills/personas/gov-tech-engineer/SKILL.md)**, public services; accessibility, plain language, FedRAMP.
+- **[`edtech-engineer`](skills/personas/edtech-engineer/SKILL.md)**, LMS, LTI 1.3, OneRoster; FERPA, COPPA.
+- **[`ecommerce-engineer`](skills/personas/ecommerce-engineer/SKILL.md)**, catalog, cart, checkout, inventory, peak readiness.
+- **[`media-streaming-engineer`](skills/personas/media-streaming-engineer/SKILL.md)**, HLS/DASH, ABR, DRM, QoE, CDN cost.
+- **[`iot-fleet-engineer`](skills/personas/iot-fleet-engineer/SKILL.md)**, fleet identity, MQTT, OTA at scale, telemetry.
+- **[`automotive-engineer`](skills/personas/automotive-engineer/SKILL.md)**, AUTOSAR, ISO 26262/21434, UDS, UN R156 OTA.
+- **[`compliance-engineer`](skills/personas/compliance-engineer/SKILL.md)**, SOC 2, ISO 27001, PCI, HIPAA, GDPR programs.
+- **[`logistics-engineer`](skills/personas/logistics-engineer/SKILL.md)**, last mile, VRP routing, ETA, WMS, carrier integration.
+
 ## How it works
 
 Each skill is a folder containing a single `SKILL.md` with YAML frontmatter and a Markdown body. The frontmatter holds the metadata that matchers use to decide when to activate the skill; the body holds the brief that loads only on activation. This is **progressive disclosure**, your context window stays cheap until the skill is actually needed.
@@ -201,7 +216,7 @@ User: "We want to add team SSO to the dashboard."
 | 2 | Capability skills (review, debug, refactor, perf, postmortem, …) | ✅ shipped |
 | 3 | Stack experts (Rails, Django, Next.js, K8s, Postgres, Terraform, …) | ✅ shipped |
 | 4 | Specialty roles (data, ML, MLOps, mobile, embedded, game, blockchain, platform, devrel) | ✅ shipped |
-| 5 | Industry verticals (fintech, healthcare, gov, edu) | planned |
+| 5 | Industry verticals (fintech, healthcare, gov, edtech, ecommerce, streaming, IoT, automotive, compliance, logistics) | ✅ shipped |
 
 Target: **100 skills** before the public open source release. Want to shape what comes next? Open a [new-skill issue](.github/ISSUE_TEMPLATE/new-skill.yml).
 

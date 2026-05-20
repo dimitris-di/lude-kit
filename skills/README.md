@@ -40,6 +40,21 @@ Senior grade role personas an orchestrator can dispatch to. Treat them like the 
 | [`senior-platform-engineer`](personas/senior-platform-engineer/SKILL.md) | Internal developer platforms; paved roads, golden paths, service catalogs. |
 | [`senior-developer-advocate`](personas/senior-developer-advocate/SKILL.md) | DevRel, sample apps, tutorials, talks, community signal to product. |
 
+### Industry vertical personas (batch 5)
+
+| Skill | Job in one line |
+|---|---|
+| [`fintech-engineer`](personas/fintech-engineer/SKILL.md) | Payments, ledgers, money movement; PCI DSS, KYC/AML, reconciliation. |
+| [`healthcare-engineer`](personas/healthcare-engineer/SKILL.md) | EHR, FHIR, HL7, PHI under HIPAA; interoperability, clinical safety. |
+| [`gov-tech-engineer`](personas/gov-tech-engineer/SKILL.md) | Public services; accessibility, plain language, FedRAMP, FOIA reality. |
+| [`edtech-engineer`](personas/edtech-engineer/SKILL.md) | LMS, LTI 1.3, OneRoster; FERPA, COPPA, classroom workflow. |
+| [`ecommerce-engineer`](personas/ecommerce-engineer/SKILL.md) | Catalog, cart, checkout, inventory, fulfillment, returns, peak readiness. |
+| [`media-streaming-engineer`](personas/media-streaming-engineer/SKILL.md) | Video/audio streaming; HLS/DASH, ABR, DRM, QoE, CDN cost. |
+| [`iot-fleet-engineer`](personas/iot-fleet-engineer/SKILL.md) | Device fleet platform; MQTT, identity, OTA at scale, telemetry. |
+| [`automotive-engineer`](personas/automotive-engineer/SKILL.md) | ECU, AUTOSAR, ISO 26262/21434, UDS, OTA under UN R156. |
+| [`compliance-engineer`](personas/compliance-engineer/SKILL.md) | SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR; control mapping, evidence automation. |
+| [`logistics-engineer`](personas/logistics-engineer/SKILL.md) | Last mile, routing (VRP), ETA, WMS, carrier integration, exceptions. |
+
 ## Capabilities
 
 Cross role capabilities focused on a single job. Personas reach for these the way a person reaches for a power tool.
