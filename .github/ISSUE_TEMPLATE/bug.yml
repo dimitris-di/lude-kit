@@ -1,0 +1,32 @@
+name: Bug report
+description: Something in this repo doesn't work — install script, broken link, misformatted skill.
+title: "[bug] <short summary>"
+labels: ["bug", "triage"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction steps
+      placeholder: |
+        1. git clone ...
+        2. ./install/install-claude.sh
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Environment
+      placeholder: macOS 14 / Claude Code 1.x / Codex …

@@ -1,0 +1,54 @@
+name: New skill proposal
+description: Propose a new skill before you write it.
+title: "[new skill] <name-here>"
+labels: ["new-skill", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for proposing a skill. Please confirm the fit before writing — it saves both of us time.
+  - type: input
+    id: name
+    attributes:
+      label: Proposed skill name
+      description: Lowercase-kebab. Must be unique in the library.
+      placeholder: senior-data-engineer
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - personas
+        - capabilities
+        - stacks
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description draft (the trigger description, not marketing)
+      description: One sentence with the trigger phrases users would actually type. Front-load verbs and nouns.
+      placeholder: "Use when designing data pipelines, modeling warehouse schemas, choosing between batch and streaming..."
+    validations:
+      required: true
+  - type: textarea
+    id: deliverables
+    attributes:
+      label: What does this skill produce?
+      description: Concrete artifacts. Templates, plans, reviews, etc.
+    validations:
+      required: true
+  - type: textarea
+    id: overlap
+    attributes:
+      label: Overlap with existing skills
+      description: Is there meaningful overlap with anything in `skills/`? If yes, name them and explain the difference. If no, say "none".
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: Anti-patterns this skill prevents, handoffs to other skills, etc.

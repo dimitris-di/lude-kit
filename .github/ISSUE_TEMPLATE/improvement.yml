@@ -1,0 +1,38 @@
+name: Skill improvement
+description: Propose a change to an existing skill.
+title: "[improvement] <skill-name>: <short summary>"
+labels: ["improvement", "triage"]
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Skill name
+      description: The folder name under skills/.
+      placeholder: senior-frontend-engineer
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind of change
+      options:
+        - Trigger / description tightening
+        - New section / content
+        - Outdated content
+        - Workflow correction
+        - Deliverable template fix
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What's wrong or could be better
+      description: Be concrete. Quote the line, paste the prompt that should have triggered the skill, etc.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Optional but appreciated. A patch or before/after sketch.

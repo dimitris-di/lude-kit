@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security report
+    url: https://github.com/dimitris-di/LudeSkills/security/advisories/new
+    about: Report a security vulnerability privately. See SECURITY.md.
+  - name: Discussion / question
+    url: https://github.com/dimitris-di/LudeSkills/discussions
+    about: Ask a question, propose an idea, or chat with maintainers.

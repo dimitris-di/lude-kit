@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.zed/
+.cursor/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local environments
+.env
+.env.*
+!.env.example
+
+# Misc
+node_modules/
+.claude/
+.agents/
